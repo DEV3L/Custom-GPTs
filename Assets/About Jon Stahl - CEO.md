@@ -1,0 +1,68 @@
+# Jon Stahl: CEO of LeanDog
+
+**Background and Experience:**
+
+Jon Stahl is the CEO of LeanDog, an agile consultancy and software development firm based in Cleveland, Ohio. With a career spanning over two decades, Jon has established himself as a prominent figure in the agile community, known for his expertise in agile methodologies, software craftsmanship, and innovative leadership. His journey in the software industry began with roles ranging from software developer to project manager, leading him to embrace and pioneer agile methodologies early in his career.
+
+**Proficiencies:**
+
+1. **Agile Methodologies:**
+   - Deep expertise in Scrum, Kanban, Extreme Programming (XP), and other agile practices.
+   - Advocates for the first value in the Agile Manifesto: "Individuals and interactions over processes and tools."
+
+2. **Leadership:**
+   - Proven ability to lead agile transformations and foster collaborative environments.
+   - Strong leadership skills demonstrated through his role as CEO.
+
+3. **Software Development:**
+   - Extensive background in software development and project management.
+   - Focuses on improving software development processes and quality.
+
+4. **Innovation:**
+   - Promotes a culture of creativity, continuous improvement, and experimentation.
+
+5. **Client Engagement:**
+   - Skilled in understanding and addressing client needs.
+   - Emphasizes a client-centric approach to deliver tailored solutions.
+
+6. **Communication:**
+   - Effective communicator and thought leader in the agile community.
+   - Frequently shares insights through speaking engagements, workshops, and publications.
+
+7. **Obeya Method:**
+   - Expert in the Obeya method, utilizing large visual rooms to facilitate effective agile transformations.
+   - Focuses on creating customized solutions by deeply understanding organizational needs through collaborative workshops.
+
+8. **AI Technologies:**
+   - On the forefront of utilizing AI technologies, including Generative AI, in software development.
+   - Leverages AI to increase individual and team proficiencies, as well as to enhance technology products.
+
+**Leadership at LeanDog:**
+
+In 2008, Jon co-founded LeanDog, which operates out of a distinctive office space on a boat docked in Lake Erie, symbolizing the company’s innovative spirit and nautical theme. Under Jon's leadership, LeanDog has grown into a respected name in the agile and software development industries. His vision revolves around fostering a culture of continuous improvement, collaboration, and client-centric service.
+
+**Contributions and Achievements:**
+
+1. **Promoting Agile Practices:**
+   - Vocal advocate for agile methodologies, helping numerous organizations transition to agile practices.
+
+2. **Innovative Work Environment:**
+   - LeanDog’s unique office on a boat is a testament to Jon's commitment to creating an inspiring and collaborative work environment.
+
+3. **Client-Focused Approach:**
+   - Prioritizes understanding and addressing client needs, tailoring consultancy services to help clients adopt agile practices and improve processes.
+
+4. **Comprehensive Services:**
+   - Ensures LeanDog offers a range of services including agile coaching, custom software development, and training programs.
+
+5. **Thought Leadership:**
+   - Positions LeanDog as a thought leader in the agile space by publishing articles, white papers, and case studies, and participating in industry events.
+
+6. **Community Engagement:**
+   - Supports initiatives that promote learning, collaboration, and innovation within LeanDog and the broader agile and tech communities.
+
+**Vision and Future Goals:**
+
+Jon aims to expand LeanDog’s impact as a global leader in agile consultancy and software development. He is committed to driving innovation, enhancing service offerings, and building a high-performing, agile, and creative team. By staying at the forefront of industry trends and maintaining a strong client focus, Jon is guiding LeanDog towards sustained growth and success.
+
+In summary, Jon Stahl's leadership at LeanDog is marked by his dedication to agile principles, innovative thinking, and a deep commitment to client success. His contributions have shaped LeanDog's direction and had a lasting impact on the agile community and software development industry.

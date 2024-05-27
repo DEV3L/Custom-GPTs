@@ -1,0 +1,270 @@
+### Agile Services
+
+**Start Your Agile Journey**
+
+**How We Build Cultures and Products That Inspire and Delight:**
+
+**On the Boat with You**
+
+**Agile Transformations**
+
+Unlock the hidden potential of your team and organization. Deliver value faster, delight your customers, and be more responsive to change. That’s what happens when your organization embraces agility.
+
+Like planning for your next voyage—take stock of where you are now, envision the arrival, equip the crew, and prepare for the journey ahead.
+
+Discover how you can thrive with agile:
+
+**Agile Transformations**
+
+**Chart a New Course, and Unlock the Potential of Your Team and Organization**
+
+**Start Your Agile Journey**
+
+**Agile Implementation for Sustained Success**
+- **Like planning for your next voyage:** Take stock of where you are, envision the destination, equip the crew, and prepare for the journey ahead.
+- **Achieve greater team efficiency and effectiveness.**
+- **Reduce defects and improve outcomes.**
+- **Run more efficient meetings.**
+- **Improve communication and transparency.**
+- **Deliver customer value faster.**
+- **Let your employees—and your business—thrive.**
+
+**The LeanDog Approach:**
+There is no one-size-fits-all agility. There is no such thing as “agile in a box.” Effective transformations begin with an assessment of where your organization is today, where you want to go, and how you’ll get there.
+
+**Schedule Time to Learn More**
+
+1. **Assemble Your Crew.**
+   - To identify what needs to happen, we must first understand your people, processes, technologies, and project portfolio.
+   - To do this, we first assemble the crew. Who will lead this journey, championing the approach internally?
+   - Transformation leaders are employees from across the organization who pursue courageous conversations to remove roadblocks, take risks, and attempt new approaches to old problems.
+   - These individuals make up the Change Agent Team.
+
+2. **Equip Your Crew.**
+   - Now that you have your Change Agent Team, it's time to train them in the skills they will need to succeed, including lean, agile, design thinking, DevOps, and more.
+   - To do this, the team completes a LeanDog-led Agile Explained course. Over two half-days, our expert trainers walk through the agile fundamentals, establishing a baseline of agile methodologies and terminology.
+
+3. **All Hands on Deck.**
+   - To create your organization’s roadmap, we must first establish where it is today. We use an Obeya, or Big Visual Room, to do this.
+   - An Obeya comprises several large information radiators spread throughout a room. Led by LeanDog agile experts, the change agent team populates the boards.
+   - It gets everything out in the open so you can visualize how your organization gets work done, and transparency begins to break down barriers that often prevent employees from collaborating and sharing information.
+   - The interactive Obeya session establishes your organization’s current state.
+
+4. **Chart Your Course.**
+   - After three days immersed with your organization’s change agents, LeanDog collaborates with you to create a final summary document, or transformation plan, including:
+     - Where we are today.
+     - Where we want to be.
+     - How we’ll get there.
+     - What we need to achieve it.
+   - Why this process? Because every organization is different.
+   - Highly prescriptive agile framework installations fail if a clear understanding of the user is not established.
+
+5. **Set Sail.**
+   - In this journey, we’re not just your agile guide; we’re in it with you.
+   - At this point, with the personalized transformation plan and Obeya established, agile deployment begins.
+   - What remains the same for all clients is an emphasis on the agile methodologies throughout implementation. We will:
+     - Prioritize people over processes.
+     - Instill servant leadership practices.
+     - Implement adaptive processes over predictive ones.
+     - Create a culture of continuous improvement and lifelong learning.
+     - Empower employees to help craft their culture.
+     - Create a backlog of coaching, training, and educational opportunities.
+     - Use agile practices to iterate through your transformation plan.
+     - Get all information out in the open and create a culture of transparency.
+   - Our agile coaches are along for the journey, providing regular instruction and direction as you transform your culture.
+
+6. **Adjust Your Sails.**
+   - Agile transformation implies that there is a fixed endpoint when you will arrive. But the agile journey is one of continuous improvement.
+   - Agile transformations require cultural and structural changes, which take time and attention. Because our engagement model is tailored to our clients, building upon the agile foundation set during the planning and initial implementation phase, the method for scaling agile is determined accordingly.
+
+**Ready to Thrive with Agile?**
+Start the conversation with our team of experts. We can unlock your hidden potential.
+
+**Schedule Time to Learn More**
+"LeanDog showed us you really can make changes in your organization, you just have to be willing to consider them."
+
+Joe Marton
+Client Services Director, Dwellworks
+
+We've led transformations at top companies.
+
+### Agile Training
+
+**Develop Your Team**
+
+Let our agile experts skillfully guide your team through agile fundamentals or advanced techniques. From strategy to value delivery, LeanDog offers a catalog of classes built to align and enable your team to weather any storm.
+
+On this page, you will find our live, instructor-led courses.
+
+If you are interested in self-service online training, then visit the LeanDog Academy.
+
+**Available Courses:**
+
+**Intelligent Engineering with AI**
+(.Net, Java)
+
+This course takes students from the fundamentals of software craftsmanship and Test Driven Development to being confident users of AI tools like GitHub Copilot and ChatGPT to improve every part of software engineering. Learn to read, write, test, and document code better with AI assistance. Perhaps just as important, students will learn the strengths and weaknesses of current AI technologies so they know when to use them and when not to!
+
+Learn More →
+
+**Agile Explained for Executives**
+
+Become a more effective agile leader armed with an effective, lasting, top-down cultural transition plan. In this course, you’ll learn methods and techniques to balance autonomy and control while adapting to achieve business, customer, and people delight. The end result? A team that adopts and maintains agile practices.
+
+Learn More →
+
+**Remote Agile Explained**
+
+All the material from our Agile Explained training delivered over Zoom.
+
+- Video modules pre-recorded by our best coaches (with a combined total of 119 years experience!)
+- Interactive Q&A both in chat during modules and over video during Q&A sections.
+
+Learn More →
+
+**Agile Explained**
+
+Tackle the basics of agile and learn how your management style changes with the conversion to agile methodologies. Using the LeanDog Agile Discussion Guide as a blueprint, you'll discover how to leverage over 30 practices and principles to increase your team's productivity, communication, collaboration, and effectiveness.
+
+Learn More →
+
+**User Story Writing**
+
+Deliver customer value consistently by turning instructive user stories into actionable story cards. In this course, you’ll learn the basics of writing stories in place of “requirements” and discuss progressive work elaboration. We’ll cover best practices for breaking up large projects into smaller pieces, and you’ll leave capable of writing stories from the user’s perspective.
+
+Learn More →
+
+**Story Mapping & Release Planning**
+
+This 1-day course explores concepts for planning and releasing a project or program, as well as the process for tracking progress. You’ll learn to identify holes in the project backlog, keep teams on the same page, and plan holistic releases that deliver continuous value.
+
+Learn More →
+
+**Product Definition & Design**
+
+This 1-day workshop teaches product managers and delivery teams to collaboratively define and validate products designed for target markets and end users. You’ll learn to work as a team to frame products, select design targets, and refine a minimal viable product (MVP).
+
+Learn More →
+
+**Acceptance Test-Driven Development (ATDD)**
+
+As your business changes, your software must keep up. Acceptance Test Driven Development (ATDD) builds quality into your software, giving you the confidence to introduce dramatic change to your code base without negatively impacting other aspects of your application. This practice also fosters communication between your business and development units, bringing new features to production sooner.
+
+Learn More →
+
+**Test Driven Development (TDD)**
+(.Net, Java, Python, Ruby)
+
+This course covers the fundamentals of Test Driven Development. Learn to perform this discipline in the real world; first with simple exercises and later by migrating to advanced techniques for building testing applications using stubs and mocks. You’ll also discover the benefits of pair-programming practices and address issues working with legacy code.
+
+Learn More →
+
+**Agile From The Top Down Seminar**
+
+We believe that leaders must practice what they preach. If they want teams to be transparent and lean, they need to practice themselves and lead by example. We have found this easy to do in complicated systems like application development, but how do leaders of social systems incorporate Lean principles? This seminar covers proven techniques that amplify learning, uncover waste, improve standard work, limit work-in-progress, increase accountability, and accelerate decision-making.
+
+Learn More →
+
+**Kanban Explained Webinar**
+
+Kanban, while not a new or complex concept, is often misunderstood by those who don't practice it. This rapid-fire session uncovers how development teams can best leverage the practice of Kanban to increase transparency, shorten cycle times, remove bottlenecks, and maintain a clearer focus on high-value priorities throughout the product development lifecycle.
+
+Learn More →
+
+**Open Workspace Design Webinar**
+
+In this one-hour webinar, we’ll cover a number of important factors that come into play when considering switching to an open workspace environment. We’ll start by understanding the importance and value of having a collaborative open workspace. We’ll also cover topics such as the importance of incorporating private breakout areas, assimilating functional tools that help leverage success within the space, and how to proactively sustain the benefits of an open workspace. Finally
+
+**Open Workspace Design Webinar**
+
+In this one-hour webinar, we’ll cover a number of important factors that come into play when considering switching to an open workspace environment. We’ll start by understanding the importance and value of having a collaborative open workspace. We’ll also cover topics such as the importance of incorporating private breakout areas, assimilating functional tools that help leverage success within the space, and how to proactively sustain the benefits of an open workspace. Finally, we’ll discuss some real-world examples of other companies who have made the switch to an open space concept; both successfully and unsuccessfully.
+
+Learn More →
+
+**Open Workspace Design Workshop**
+
+Designing an open and collaborative workspace can be one of the most challenging tasks to execute during a lean-agile transformation. To be successful, your team must consider diverse personality needs, requests from various roles, different kinds and sizes of teams, and the facilities and stakeholders who will need to be involved in the process. We’ll cover the advantages and pitfalls of the many alternatives available for organizations transitioning to an open workspace. Furniture options, walls, rooms, privacy, music, food, and much more all factor into creating your team’s unique space to promote collaboration and productivity. We’ll also cover real-world examples from other companies who have made the switch; both successfully and unsuccessfully.
+
+Learn More →
+
+**DevOps Explained**
+
+This is a 1-day interactive focused overview on DevOps organizational culture and technology. You will learn what DevOps is, is not, as well as values and tools that support a transition to a DevOps organization.
+
+Learn More →
+
+**Test Driven Development for C or C++**
+
+This training course helps you build knowledge, understanding, and skill in the engineering practices needed to build great code. You learn how to build flexible and modular software with very few defects, software that can have a long useful life. We teach you how to prevent defects and how to keep code clean over years of evolving needs.
+
+Learn More →
+
+**Test Driven Development for Embedded C or Embedded C++**
+
+This training course helps you build knowledge, understanding, and skill in the engineering practices needed to build great code. You learn how to build flexible and modular software with very few defects, software that can have a long useful life. We teach you how to prevent defects and how to keep code clean over years of evolving needs.
+
+Learn More →
+
+**Team Kanban Practitioner Certification**
+
+The Team Kanban Practitioner class teaches the basics of the Kanban Method and serves as the entry-level and starting point to an “alternative path to agility.” It covers the elements of a task-level Kanban System for a single team or individual.
+
+Experience the Kanban Method in an informal and interactive workshop setting. Leave with practical hands-on experience with the Kanban Method.
+
+Learn More →
+
+**Kanban System Design Certification**
+
+Participants will learn how to design a complete Kanban system and initiate change with Kanban. You will learn the key concepts of flow, pull, and collaborative improvement. This course utilizes interactive exercises organized in small groups, games, classroom teaching, and discussion to engage participants and solidify practical learning.
+
+Learn More →
+
+**Kanban Management Professional Certification**
+
+This class focuses on the daily operation and ongoing improvement of a Kanban system. You will consider what type of Kanban initiative is most appropriate for your organization and how to manage and evolve it over time. Learn how to improve agility and have greater predictability. The class also covers recommended meetings, roles, metrics, and setting policy.
+
+Learn More →
+
+**Certified Scrum Developer (CSD)**
+
+The Certified Scrum Developer® (CSD) coursework is a combination of a three-day CSD technical skills course and two days of the study of Scrum. Choose either (a) a two-day Certified ScrumMaster® course, OR (b) a one-day technical Scrum elective course and a one-day introduction to Scrum course.
+
+Learn More →
+
+**Certified Scrum Master (CSM)**
+
+As a Certified ScrumMaster® (CSM®), you’ll help the Scrum Team perform at their highest level. CSMs also protect the team from both internal and external distractions. Through the certification process, you will learn the Scrum framework and gain an understanding of team roles, events, and artifacts.
+
+Learn More →
+
+**Certified Scrum Product Owner (CSPO)**
+
+If you’re someone who is comfortable with the “business side” of projects, you are probably the right person to aspire to achieve a Certified Scrum Product Owner® (CSPO®) certification. While the Certified ScrumMaster® (CSM®) helps the Scrum Team work together to learn and implement Scrum, as a CSPO, you create the product vision, order the Product Backlog, and make sure the best possible job is done to delight the customer. Attend an in-person, 16-hour course taught by a Certified Scrum Trainer® (CST®). After successfully completing the course, you will be asked to accept the CSPO License Agreement and complete your Scrum Alliance membership profile.
+
+Learn More →
+
+**Agile Capacity as a Service**
+
+**Scale Your Team**
+
+Experienced developers available to assist your team.
+
+**Schedule Time to Learn More**
+
+Add to your crew with distributed delivery. We work every day to help organizations build their internal capabilities, but sometimes delivery at scale calls for some outside help. Our experienced developers are ready to turn your vision into working software and modern architecture. Pilot an application or scale an existing endeavor with our established, agile professionals.
+
+Distributed delivery helps you add scalable development capacity without the overhead of sifting through applicants and adding full-time employees.
+
+What do organizations do when their outsourced development teams fail to deliver? Whether it be a problem of poor code quality or solutions that don’t delight the customer, it’s an all-too-common story. That’s why we decided to provide premium distributed delivery services to our clients.
+
+Work exclusively with experienced, agile developers. LeanDog developers are agile by nature—screened by our coaches and ready to work hands-on with your teams.
+
+Our teams are comprised of mid- and upper-level developers, each fluent and experienced in agile methodologies, test-first engineering practices, modern programming languages, and cutting-edge technology stacks.
+
+Forego the learning curve of amateur support and build your best outsourced delivery team leveraging LeanDog’s talent network.
+
+**Schedule Time to Learn More**
+
+“You don't have to think that there are limitations. Anything you can think of, they can do. They understood it, and they heard me every step of the way."
+
+Development, InventHelp
