@@ -7,24 +7,30 @@ Julias Shaw serves as the Chief Technology Officer (CTO) at LeanDog, an agile co
 **Proficiencies:**
 
 1. **Agile Methodologies:**
+
    - Extensive experience in implementing and coaching various agile practices including Scrum, Kanban, and Extreme Programming (XP).
    - A strong advocate for the Agile Manifesto, particularly the value of "Individuals and interactions over processes and tools."
 
 2. **Software Development:**
+
    - Hands-on experience in software development, with a focus on improving processes and delivering high-quality products.
    - Knowledgeable in techniques like Test-Driven Development (TDD), Acceptance Test-Driven Development (ATDD), Continuous Integration (CI), and Pair Programming.
 
 3. **Technical and Process Coaching:**
+
    - Over 21 years of experience as a technical and process coach, helping teams and organizations adopt and refine agile practices to boost productivity, communication, and collaboration.
 
 4. **Leadership:**
+
    - Proven ability to lead and mentor technical teams, fostering a culture of continuous improvement and innovation.
    - Expertise in change management and leading agile transformations to enhance organizational agility.
 
 5. **AI and Agile Methodologies:**
+
    - Exploring the intersection of AI and agile methodologies to drive innovation and improve team efficiencies.
 
 6. **Obeya Method:**
+
    - Expert in the Obeya method, which involves using large visual rooms to facilitate effective agile transformations and tailor solutions to the specific needs of organizations.
 
 7. **Behavioral Engineering:**
@@ -35,6 +41,7 @@ Julias Shaw serves as the Chief Technology Officer (CTO) at LeanDog, an agile co
 At LeanDog, Julias Shaw plays a pivotal role in driving the company's mission and growth. His responsibilities include:
 
 1. **Agile Coaching and Implementation:**
+
    - Leads LeanDog's efforts in coaching teams and organizations on agile practices. His deep understanding of agile methodologies allows him to tailor solutions that fit the unique needs of each client.
    - Emphasizes the importance of the first value in the Agile Manifesto: "Individuals and interactions over processes and tools." This human-centric approach is evident in his coaching style and the transformations he oversees.
 

@@ -1,6 +1,7 @@
 Certainly! Here is the cleaned-up content from the LeanDog blog posts you provided.
 
 ### The Three Flow Metrics (Plus One)
+
 **by Kevin Sivic, on Apr 14, 2021**
 
 Understanding team performance in agile environments involves three core metrics: Throughput, Work In Progress (WIP), and Cycle Time, defined by Little's Law.
@@ -22,6 +23,7 @@ Future posts will explore the use of these metrics to manage and improve workflo
 ---
 
 ### The #1 Mistake Most Companies Make In Their Digital Transformation
+
 **by Julias Shaw, on Jun 25, 2020**
 
 **Video Transcript**
@@ -35,6 +37,7 @@ LeanDog applies this principle by starting every agile transformation with an Ob
 ---
 
 ### Kanban Essentials: What It Is and What It Can Do For You
+
 **by Todd Cotton, on Apr 1, 2020**
 
 **Kanban Overview**
@@ -44,12 +47,14 @@ Kanban, meaning "signboard" in Japanese, is a method for visualizing workflow to
 **Visualization of Kanban**  
 A Kanban board uses columns to represent stages of development, with work items moving across columns as they progress.
 
-**Benefits of Kanban**  
+**Benefits of Kanban**
+
 - **Flexibility:** Easily adjust priorities.
 - **Transparency:** Clear visualization of project status and team capacity.
 - **Efficiency:** Helps identify and eliminate bottlenecks and waste.
 
 **Three Rules of Effective Kanban Implementation**
+
 1. **Make Work Visible:** Use columns and story cards to track work stages.
 2. **Apply Limits:** Set realistic WIP limits to maintain focus.
 3. **Use Pull-Based Thinking:** Teams pull in work as capacity allows, avoiding overload.
@@ -59,6 +64,7 @@ Kanban is ideal for teams with versatile skills and smaller-scale projects with 
 ---
 
 ### How to Write the Best User Stories with Story Cards
+
 **by Todd Cotton, on Mar 17, 2020**
 
 **User Stories and Story Cards**
@@ -66,6 +72,7 @@ Kanban is ideal for teams with versatile skills and smaller-scale projects with 
 User stories are short descriptions of a function needed by the customer, written in the format: “As a [who], I want [what] so that [why].”
 
 **Five Elements of Effective Story Cards**
+
 1. Title or phrase.
 2. Value statement.
 3. Basic requirements.
@@ -73,6 +80,7 @@ User stories are short descriptions of a function needed by the customer, writte
 5. Acceptance criteria.
 
 **INVEST Rule for User Stories**
+
 - **Independent:** Can be completed independently.
 - **Negotiable:** Simple description, details filled through conversation.
 - **Valuable:** Provides value to the customer.
@@ -81,6 +89,7 @@ User stories are short descriptions of a function needed by the customer, writte
 - **Testable:** Can be tested for completion.
 
 **Three C’s for Turning Story Cards into Work**
+
 1. **Card:** Write out the story card.
 2. **Conversation:** Discuss details with the team.
 3. **Confirmation:** Define acceptance tests.
@@ -90,6 +99,7 @@ Avoid common mistakes like lack of value, excessive detail, and lack of psycholo
 ---
 
 ### Back to Basics: What is Scrum for Agile?
+
 **by Todd Cotton, on Feb 24, 2020**
 
 **Scrum Overview**
@@ -97,11 +107,13 @@ Avoid common mistakes like lack of value, excessive detail, and lack of psycholo
 Scrum is an iterative process for teams to collaborate and deliver working products frequently.
 
 **Three Roles in a Scrum Team**
+
 1. **Product Owner:** Manages the product backlog and prioritizes work.
 2. **Scrum Master:** Facilitates the scrum process and coaches the team.
 3. **Development Team:** Includes all members working on the project.
 
 **Scrum Artifacts**
+
 - **Working Agreement:** Defines team operations and rules.
 - **Definition of Ready:** Criteria needed to start a task.
 - **Definition of Done:** Criteria needed to complete a task.
@@ -110,6 +122,7 @@ Scrum is an iterative process for teams to collaborate and deliver working produ
 - **Roadmap:** Long-term plan for upcoming work.
 
 **Scrum Ceremonies**
+
 - **Backlog Refinement:** Prioritizing tasks.
 - **Sprint Planning:** Defining tasks for the sprint.
 - **Daily Standup:** Quick daily meeting for updates.
@@ -121,6 +134,7 @@ Scrum is effective for teams that believe in agile principles and want to delive
 ---
 
 ### How to Estimate Agile Stories: Introducing Relative Sizing
+
 **by Todd Cotton, on Feb 10, 2020**
 
 **Estimating in Agile**
@@ -142,6 +156,7 @@ Over time, teams use these estimates to understand their work pace and improve p
 ---
 
 ### How to Make an Effective Information Radiator
+
 **by Todd Cotton, on Jan 2, 2020**
 
 **Information Radiators**
@@ -149,6 +164,7 @@ Over time, teams use these estimates to understand their work pace and improve p
 Large visual charts that display key information and show the health of a team.
 
 **Qualities of Effective Information Radiators**
+
 1. Customized by the team.
 2. Display only the most important information.
 3. Simple and easy to understand.
@@ -158,6 +174,7 @@ Large visual charts that display key information and show the health of a team.
 7. Fully visible, whether handmade or digital.
 
 **Common Types of Information Radiators**
+
 - Backlog boards
 - Work-in-progress boards
 - Calendars
@@ -169,6 +186,7 @@ Information radiators help teams collaborate, stay transparent, and remain accou
 ---
 
 ### Single-Page Web App Development, Part 1: Setting the Stage
+
 **by Dan Parks, on Dec 11, 2018**
 
 **Project Context**
@@ -176,6 +194,7 @@ Information radiators help teams collaborate, stay transparent, and remain accou
 A client required a modern single-page application (SPA) with a smooth workflow and transitory data, best suited for JavaScript development.
 
 **Selected Tools**
+
 - **JavaScript:** Core language for web execution.
 - **React:** For dynamic UI components.
 - **Redux:** To manage application state.
@@ -190,6 +209,7 @@ Further posts will detail implementation strategies, avoiding messy parts of Jav
 ---
 
 ### The Second Way of DevOps: Feedback
+
 **by Eric Hankinson, on Nov 19, 2018**
 
 **Feedback in DevOps**
@@ -197,6 +217,7 @@ Further posts will detail implementation strategies, avoiding messy parts of Jav
 Feedback is crucial in improving software systems and overall performance.
 
 **Increasing Safety in Complex Systems**
+
 - **See problems as they occur:** Test design and operations assumptions.
 - **Swarm and solve problems:** Collaborate to diagnose and fix issues.
 - **Spread new knowledge:** Share knowledge to prevent siloed information.
@@ -213,6 +234,7 @@ Prioritize non-functional requirements (e.g., stability, testability) and design
 ---
 
 ### The First Way of DevOps: Flow
+
 **by Eric Hankinson, on Nov 1, 2018**
 
 **Flow in DevOps**
@@ -220,6 +242,7 @@ Prioritize non-functional requirements (e.g., stability, testability) and design
 Focus on optimizing the entire system's performance, not just individual parts.
 
 **Interferences with Flow**
+
 - **Visibility:** Make work visible through boards and visual rooms.
 - **Dynamic WIP:** Limit work in progress to maintain efficiency.
 - **Long Development Cycles:** Shorten cycles with iterative requirements gathering and automated testing.
@@ -231,9 +254,11 @@ Eliminate waste like partially done work and task switching. Use TDD/BDD/ATDD te
 ---
 
 ### A Toolbox for Distributed Agile Teams
+
 **by Bill Holmes, on Oct 29, 2018**
 
 **Essential Tools for Distributed Teams**
+
 - **Sococo:** Virtual office for a sense of place and communication.
 - **iObeya:** Collaborative whiteboard for ideation and visualization.
 - **Spacetime:** Manage time zone differences and coordination.
@@ -245,6 +270,7 @@ Eliminate waste like partially done work and task switching. Use TDD/BDD/ATDD te
 These tools enhance communication, collaboration, and
 
 ### The Three Flow Metrics (Plus One)
+
 **by Kevin Sivic, on Apr 14, 2021**
 
 **Throughput**  
@@ -264,6 +290,7 @@ Future posts will delve into using these metrics for workflow management and imp
 ---
 
 ### The #1 Mistake Most Companies Make In Their Digital Transformation
+
 **by Julias Shaw, on Jun 25, 2020**
 
 Julias Shaw, CTO of LeanDog, uses a personal story about buying a suit to illustrate the importance of customized solutions over standardized approaches in digital transformation. He compares buying an expensive off-the-rack Armani suit, which felt less comfortable, to a custom-tailored suit in Hong Kong that fit perfectly and was much cheaper.
@@ -273,6 +300,7 @@ LeanDog begins every transformation with an Obeya workshop to tailor processes s
 ---
 
 ### Kanban Essentials: What It Is and What It Can Do For You
+
 **by Todd Cotton, on Apr 1, 2020**
 
 **Kanban Overview**
@@ -283,11 +311,13 @@ Kanban, meaning "signboard" in Japanese, is a visual workflow management method 
 A Kanban board visualizes work stages, with work items moving through columns representing different stages.
 
 **Benefits of Kanban**
+
 - **Flexibility:** Quickly adjust priorities.
 - **Transparency:** Clear visualization of project status and team capacity.
 - **Efficiency:** Identify and eliminate bottlenecks and waste.
 
 **Three Rules for Effective Kanban**
+
 1. **Make Work Visible:** Use columns and story cards to track work.
 2. **Apply Limits:** Set realistic WIP limits to maintain focus.
 3. **Use Pull-Based Thinking:** Teams pull work as capacity allows, avoiding overload.
@@ -297,6 +327,7 @@ Kanban suits teams with versatile skills and smaller-scale projects with quicker
 ---
 
 ### How to Write the Best User Stories with Story Cards
+
 **by Todd Cotton, on Mar 17, 2020**
 
 **User Stories and Story Cards**
@@ -304,6 +335,7 @@ Kanban suits teams with versatile skills and smaller-scale projects with quicker
 User stories are concise descriptions of a function needed by the customer, following the format: “As a [who], I want [what] so that [why].”
 
 **Five Elements of Effective Story Cards**
+
 1. Title or phrase.
 2. Value statement.
 3. Basic requirements.
@@ -311,6 +343,7 @@ User stories are concise descriptions of a function needed by the customer, foll
 5. Acceptance criteria.
 
 **INVEST Rule for User Stories**
+
 - **Independent:** Stories can be completed independently.
 - **Negotiable:** Stories are concise and flexible.
 - **Valuable:** Stories provide customer value.
@@ -319,6 +352,7 @@ User stories are concise descriptions of a function needed by the customer, foll
 - **Testable:** Stories can be tested for completion.
 
 **Three C’s for Turning Story Cards into Work**
+
 1. **Card:** Write out the story card.
 2. **Conversation:** Discuss details with the team.
 3. **Confirmation:** Define acceptance tests.
@@ -328,6 +362,7 @@ Avoid common mistakes like lack of value, excessive detail, and lack of psycholo
 ---
 
 ### Back to Basics: What is Scrum for Agile?
+
 **by Todd Cotton, on Feb 24, 2020**
 
 **Scrum Overview**
@@ -335,11 +370,13 @@ Avoid common mistakes like lack of value, excessive detail, and lack of psycholo
 Scrum is an iterative process for collaborative product development.
 
 **Three Roles in a Scrum Team**
+
 1. **Product Owner:** Manages the product backlog and prioritizes work.
 2. **Scrum Master:** Facilitates the scrum process and coaches the team.
 3. **Development Team:** Executes tasks to deliver value.
 
 **Scrum Artifacts**
+
 - **Working Agreement:** Defines team operations and rules.
 - **Definition of Ready:** Criteria needed to start a task.
 - **Definition of Done:** Criteria needed to complete a task.
@@ -348,6 +385,7 @@ Scrum is an iterative process for collaborative product development.
 - **Roadmap:** Long-term plan for upcoming work.
 
 **Scrum Ceremonies**
+
 - **Backlog Refinement:** Prioritizing tasks.
 - **Sprint Planning:** Defining tasks for the sprint.
 - **Daily Standup:** Quick daily meeting for updates.
@@ -359,6 +397,7 @@ Scrum helps teams continuously deliver business value by adhering to agile princ
 ---
 
 ### How to Estimate Agile Stories: Introducing Relative Sizing
+
 **by Todd Cotton, on Feb 10, 2020**
 
 **Estimating in Agile**
@@ -380,6 +419,7 @@ Over time, teams use these estimates to understand their work pace and improve p
 ---
 
 ### How to Make an Effective Information Radiator
+
 **by Todd Cotton, on Jan 2, 2020**
 
 **Information Radiators**
@@ -387,6 +427,7 @@ Over time, teams use these estimates to understand their work pace and improve p
 Large visual charts that display key information and show the health of a team.
 
 **Qualities of Effective Information Radiators**
+
 1. Customized by the team.
 2. Display only the most important information.
 3. Simple and easy to understand.
@@ -396,6 +437,7 @@ Large visual charts that display key information and show the health of a team.
 7. Fully visible, whether handmade or digital.
 
 **Common Types of Information Radiators**
+
 - Backlog boards
 - Work-in-progress boards
 - Calendars
@@ -407,6 +449,7 @@ Information radiators help teams collaborate, stay transparent, and remain accou
 ---
 
 ### Single-Page Web App Development, Part 1: Setting the Stage
+
 **by Dan Parks, on Dec 11, 2018**
 
 **Project Context**
@@ -414,6 +457,7 @@ Information radiators help teams collaborate, stay transparent, and remain accou
 A client required a modern single-page application (SPA) with a smooth workflow and transitory data, best suited for JavaScript development.
 
 **Selected Tools**
+
 - **JavaScript:** Core language for web execution.
 - **React:** For dynamic UI components.
 - **Redux:** To manage application state.
@@ -428,6 +472,7 @@ Further posts will detail implementation strategies, avoiding messy parts of Jav
 ---
 
 ### The Second Way of DevOps: Feedback
+
 **by Eric Hankinson, on Nov 19, 2018**
 
 **Feedback in DevOps**
@@ -435,6 +480,7 @@ Further posts will detail implementation strategies, avoiding messy parts of Jav
 Feedback is crucial in improving software systems and overall performance.
 
 **Increasing Safety in Complex Systems**
+
 - **See problems as they occur:** Test design and operations assumptions.
 - **Swarm and solve problems:** Collaborate to diagnose and fix issues.
 - **Spread new knowledge:** Share knowledge to prevent siloed information.
@@ -451,6 +497,7 @@ Prioritize non-functional requirements (e.g., stability, testability) and design
 ---
 
 ### The First Way of DevOps: Flow
+
 **by Eric Hankinson, on Nov 1, 2018**
 
 **Flow in DevOps**
@@ -458,6 +505,7 @@ Prioritize non-functional requirements (e.g., stability, testability) and design
 Focus on optimizing the entire system's performance, not just individual parts.
 
 **Interferences with Flow**
+
 - **Visibility:** Make work visible through boards and visual rooms.
 - **Dynamic WIP:** Limit work in progress to maintain efficiency.
 - **Long Development Cycles:** Shorten cycles with iterative requirements gathering and automated testing.
@@ -469,51 +517,61 @@ Eliminate waste like partially done work and task switching. Use TDD/BDD/ATDD te
 ---
 
 ## A Toolbox for Distributed Agile Teams
+
 **by Bill Holmes, on Oct 29, 2018**
 
 The success of any distributed team is directly tied to their ability to communicate effectively. Luckily, we are currently in the golden age of communication tools. There is no shortage of communication tools available today; in fact, the problem lies in overchoice. Solutions review site G2 Crowd is currently tracking over 120 video conferencing packages alone. Here, we aim to call out a set of tools that have been proven to work well together, enabling cohesive distributed team communication.
 
 ### A Place to Work
+
 **Sococo** provides distributed workers a visual representation of their virtual office. An avatar and its location in your virtual office represent your current status. Rooms provide shared video, voice, chat, and hosted content. The greatest benefit Sococo provides is a sense of place. Seeing your coworkers moving around the office while interacting just as if they were all in the same building is a constant reminder that you’re not alone.
 
-*Use cases:* An always-on sense of place, Standups, Watercooler meetings
+_Use cases:_ An always-on sense of place, Standups, Watercooler meetings
 
 ### Virtual Whiteboard
+
 **iObeya** checks all the boxes for collaborative whiteboards. Virtual sticky notes, storyboards, mind maps, flow charts—if you can imagine it, you can visualize it.
 
-*Use cases:* Ideation, Visualization
+_Use cases:_ Ideation, Visualization
 
 ### What Time Is It
+
 **Spacetime** mitigates time zone headaches by integrating with Slack and providing automation related to coordinating work across time zones.
 
-*Use cases:* Great for any team with members across time zones
+_Use cases:_ Great for any team with members across time zones
 
 ### Working Together
+
 **Zoom** is the go-to for high fidelity video conferences and pairing. Its screen sharing and remote control capabilities make it a fantastic pairing solution, enabling non-verbal communication through body language and expressions.
 
-*Use cases:* Scheduled meetings, Pairing
+_Use cases:_ Scheduled meetings, Pairing
 
 ### The Hub
+
 **Slack** is a fantastic persistent asynchronous chat tool with channels for topic segregation and tight integration with other tools (e.g., “/zoom Let's talk about the new proposal” to start a Zoom meeting).
 
-*Use cases:* Casual team chat, Disconnected conversations
+_Use cases:_ Casual team chat, Disconnected conversations
 
 ### Who’s Doing What
+
 **Trello** is a collaborative project management tool that provides a customizable board for tracking work. Its ease of use translates into team members being willing to use it.
 
-*Use cases:* Day-to-day project management
+_Use cases:_ Day-to-day project management
 
 ### UX Design & Prototyping
+
 **UXPin** allows designers to create high fidelity designs and clickable prototypes. It ensures seamless handoff between design and development by providing developers with all necessary information.
 
-*Use cases:* Collaborative designs, Clickable prototypes
+_Use cases:_ Collaborative designs, Clickable prototypes
 
 ### Wrap-up
+
 Participating on distributed teams doesn’t have to be painful. There are many great tools to enhance the collaborative experience of working remotely.
 
 ---
 
 ## DevOps Family Values & The Three Ways
+
 **by Eric Hankinson, on Oct 23, 2018**
 
 **Understanding Lead Time and Process Time**
@@ -524,6 +582,7 @@ Large organizations often face extended deployment lead times due to complex pro
 
 **Strategies for Improvement**
 To streamline these processes, organizations should aim for:
+
 - Fast, constant feedback
 - Small, atomic code changes
 - Automated testing
@@ -533,12 +592,14 @@ Shorter lead times increase confidence, reduce risks, and ensure faster feedback
 
 **Initial Metrics for DevOps**
 To identify and address pain points in the DevOps journey, consider measuring:
+
 - Lead Times: Total time from request to deployment
 - Process Times: Time to complete development or fixes
 - Percent Complete and Accurate: Quality of work items at each step
 
 **The Three Ways in DevOps**
 Outlined in "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win," these principles guide successful DevOps practices:
+
 1. **Flow:** Ensure a fast and smooth flow of work from development to operations to customers.
 2. **Feedback:** Provide fast, continuous feedback at all stages to drive improvements.
 3. **Continuous Learning & Experimentation:** Foster a culture of ongoing learning, sharing knowledge, and experimentation.
@@ -546,6 +607,7 @@ Outlined in "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Bus
 ---
 
 ## An Introduction to DevOps
+
 **by Eric Hankinson, on Oct 16, 2018**
 
 **Origins of DevOps**
@@ -568,6 +630,7 @@ DevOps builds on agile values, promoting collaboration, shared responsibility, a
 
 **Implementing DevOps**
 To successfully implement DevOps:
+
 - Assess and streamline deployment processes.
 - Automate repetitive tasks.
 - Use Continuous Integration and Continuous Delivery to manage code and infrastructure.

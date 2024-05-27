@@ -21,6 +21,7 @@ Discover how you can thrive with agile:
 **Start Your Agile Journey**
 
 **Agile Implementation for Sustained Success**
+
 - **Like planning for your next voyage:** Take stock of where you are, envision the destination, equip the crew, and prepare for the journey ahead.
 - **Achieve greater team efficiency and effectiveness.**
 - **Reduce defects and improve outcomes.**
@@ -35,22 +36,26 @@ There is no one-size-fits-all agility. There is no such thing as “agile in a b
 **Schedule Time to Learn More**
 
 1. **Assemble Your Crew.**
+
    - To identify what needs to happen, we must first understand your people, processes, technologies, and project portfolio.
    - To do this, we first assemble the crew. Who will lead this journey, championing the approach internally?
    - Transformation leaders are employees from across the organization who pursue courageous conversations to remove roadblocks, take risks, and attempt new approaches to old problems.
    - These individuals make up the Change Agent Team.
 
 2. **Equip Your Crew.**
+
    - Now that you have your Change Agent Team, it's time to train them in the skills they will need to succeed, including lean, agile, design thinking, DevOps, and more.
    - To do this, the team completes a LeanDog-led Agile Explained course. Over two half-days, our expert trainers walk through the agile fundamentals, establishing a baseline of agile methodologies and terminology.
 
 3. **All Hands on Deck.**
+
    - To create your organization’s roadmap, we must first establish where it is today. We use an Obeya, or Big Visual Room, to do this.
    - An Obeya comprises several large information radiators spread throughout a room. Led by LeanDog agile experts, the change agent team populates the boards.
    - It gets everything out in the open so you can visualize how your organization gets work done, and transparency begins to break down barriers that often prevent employees from collaborating and sharing information.
    - The interactive Obeya session establishes your organization’s current state.
 
 4. **Chart Your Course.**
+
    - After three days immersed with your organization’s change agents, LeanDog collaborates with you to create a final summary document, or transformation plan, including:
      - Where we are today.
      - Where we want to be.
@@ -60,6 +65,7 @@ There is no one-size-fits-all agility. There is no such thing as “agile in a b
    - Highly prescriptive agile framework installations fail if a clear understanding of the user is not established.
 
 5. **Set Sail.**
+
    - In this journey, we’re not just your agile guide; we’re in it with you.
    - At this point, with the personalized transformation plan and Obeya established, agile deployment begins.
    - What remains the same for all clients is an emphasis on the agile methodologies throughout implementation. We will:

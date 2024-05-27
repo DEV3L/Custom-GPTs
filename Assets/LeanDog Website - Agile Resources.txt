@@ -49,7 +49,7 @@ Consider specific circumstances to figure out what might be the best fit for eac
 - Select the processes and approaches best suited to help your organization, based on the problems and challenges being highlighted.
 
 **Kanban**
-In the 1950s, Taiichi Ohno began using Kanban in Toyota’s primary machine shop. Kanban is a visual scheduling system that helps a team determine what to produce, when to produce it, and how much to produce. 
+In the 1950s, Taiichi Ohno began using Kanban in Toyota’s primary machine shop. Kanban is a visual scheduling system that helps a team determine what to produce, when to produce it, and how much to produce.
 
 To implement Kanban:
 
