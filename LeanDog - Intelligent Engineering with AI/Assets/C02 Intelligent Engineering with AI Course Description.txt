@@ -1,0 +1,53 @@
+# Intelligent Engineering with AI (.NET)
+
+## Class Description
+
+This 2-day course covers the fundamentals of using AI alongside traditional Test Driven Development (TDD) with an emphasis on learning the skills and techniques necessary to create high-quality code faster in the real world. Participants will begin with simple exercises and migrate to advanced techniques for building applications designed for testing, using stubs and mocks. Participants will also learn the benefits of paired programming practices. Additionally, the course will address the issues associated with working in legacy code.
+
+## Topics Covered
+
+- Using AI coding assistants such as GitHub Copilot
+- Using Large Language Models (LLMs) such as ChatGPT
+- Utilizing AI tools for writing and generating code
+- Documenting code with AI assistance
+- AI-driven testing: automating test generation and execution
+- Using AI for code refactoring and optimization
+- Paired programming with AI: enhancing collaboration and productivity
+- The Red, Green, Refactor pattern
+- Using Mocks, Stubs, Fakes, Doubles, and other testing patterns
+- Building code that is testable
+- How to refactor existing code to make it testable
+
+## Learning Outcomes
+
+Participants will be able to:
+- Appreciate the benefits of writing clean, maintainable code with AI assistance.
+- Use AI tools to understand and document code.
+- Identify the relationship between software quality and TDD.
+- Recognize that TDD promotes safe, rapid changes to existing code through immediate feedback.
+- Understand the appropriate time to use mocks and stubs.
+- Identify good and bad testing patterns.
+- Identify code smells for identifying non-testable code using AI to spot problems you may have missed.
+
+Participants will become familiar with:
+- Using AI CoPilots and Large Language Models.
+- Writing tests first.
+- Multiple paired testing techniques, including pairing with humans and pairing with AI.
+- How to modify software design using a test-first approach.
+
+## Target Audience
+
+We recommend this course for attendees with a technical background, including but not limited to the following:
+- Engineers / Developers
+- Quality Assurance Automation (Technical)
+
+## Schedule (Days 1 & 2)
+
+- **8:30am - 9:00am**: Breakfast
+- **9:00am - 12:00pm**: Class Time
+- **12:00pm - 1:30pm**: Lunch
+- **1:30pm - 4:30pm**: Class Time
+
+**Pricing**: $1,600 / Attendee
+
+**Note**: The specific tools used are subject to change. The world of AI moves FAST and your training will include the most up-to-date tools and usages available.
