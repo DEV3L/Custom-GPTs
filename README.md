@@ -1,8 +1,8 @@
-# LeanDog - GPT
+# Custom-GPTs
 
 ## Overview
 
-Welcome to the LeanDog - GPT repository. This project aims to integrate AI tools, such as ChatGPT and GitHub Copilot, into software engineering practices to enhance productivity, innovation, and code quality. The repository contains resources, guidelines, and tools to support the development and implementation of AI-driven solutions in agile environments.
+Welcome to the Custom-GPTs repository. This project aims to integrate AI tools, such as ChatGPT and GitHub Copilot, into software engineering practices to enhance productivity, innovation, and code quality. The repository contains resources, guidelines, and tools to support the development and implementation of AI-driven solutions in agile environments.
 
 ## Repository Structure
 
