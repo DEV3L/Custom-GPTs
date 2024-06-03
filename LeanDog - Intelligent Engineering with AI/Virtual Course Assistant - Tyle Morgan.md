@@ -2,7 +2,7 @@
 
 ## Tyler Morgan
 
-![Tyler Morgan](<Assets/Tyler Morgan.png>)
+![Tyler Morgan](<Assets/Images/Tyler Morgan.png>)
 
 ## Short Bio
 
