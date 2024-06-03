@@ -14,6 +14,11 @@ This directory contains resources and documents related to the role of Emily Par
 
 This directory provides materials and documents for the "Intelligent Engineering with AI" course. It covers the integration of AI tools, such as ChatGPT and GitHub Copilot, into software engineering practices. The content is designed to teach the fundamentals of AI-driven development, Test Driven Development (TDD), and agile methodologies, aiming to improve code quality and productivity in real-world scenarios.
 
+
+### Mosquito Bros Ohio - Business Advisor
+
+This directory contains resources and documents related to the business strategy, marketing, and operational practices of Mosquito Bros Ohio. It includes guidelines, tools, and strategies for enhancing business development, eco-friendly practices, marketing efforts, community engagement, and operational efficiency.
+
 ## Purpose
 
 The primary purpose of this repository is to provide a structured and accessible collection of resources that support the development and implementation of AI-driven solutions in software engineering. These resources are intended to:
