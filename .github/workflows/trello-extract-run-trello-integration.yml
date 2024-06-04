@@ -1,0 +1,42 @@
+name: Run Trello Integration
+
+on:
+  workflow_dispatch:
+    inputs:
+      trello_board_name:
+        description: "Name of the Trello board"
+        required: true
+        default: "Intelligent Engineering with AI (.NET)"
+
+jobs:
+  run-trello-integration:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+      - name: Install dependencies
+        run: |
+          cd "LeanDog - Intelligent Engineering with AI/Project/trello-extract"
+          python -m pip install hatch
+          hatch env create
+      - name: Unit tests
+        run: |
+          cd "LeanDog - Intelligent Engineering with AI/Project/trello-extract"
+          hatch run test
+      - name: Run Trello Integration
+        env:
+          TRELLO_API_KEY: ${{ secrets.TRELLO_API_KEY }}
+          TRELLO_API_TOKEN: ${{ secrets.TRELLO_API_TOKEN }}
+          TRELLO_BOARD_NAME: ${{ github.event.inputs.trello_board_name }}
+        run: |
+          cd "LeanDog - Intelligent Engineering with AI/Project/trello-extract"
+          hatch run trello
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: trello-markdown-text
+          path: LeanDog - Intelligent Engineering with AI/Project/trello-extract/bin/${{ github.event.inputs.trello_board_name }} Trello.txt

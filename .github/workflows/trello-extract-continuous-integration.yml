@@ -1,0 +1,25 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: ["**"]
+
+jobs:
+  tests:
+    name: "Trello Extract Tests"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+      - name: Install dependencies
+        run: |
+          cd "LeanDog - Intelligent Engineering with AI/Project/trello-extract"
+          python -m pip install hatch
+          hatch env create
+      - name: Unit tests
+        run: |
+          cd "LeanDog - Intelligent Engineering with AI/Project/trello-extract"
+          hatch run test
