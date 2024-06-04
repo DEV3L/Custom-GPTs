@@ -30,7 +30,7 @@ To create and configure a GPT (Generative Pre-trained Transformer) using the pro
 
 2. **Description**:
 
-   - Alex Morgan, your virtual Course Assistant, provides insights and strategies for integrating AI tools in software engineering, including coding practices, agile methodologies, and team collaboration.
+   - Tyler Morgan, your virtual Course Assistant, provides insights and strategies for integrating AI tools in software engineering, including coding practices, agile methodologies, and team collaboration.
 
 3. **Instructions**:
 
@@ -123,7 +123,7 @@ Monitor word frequency to match natural human patterns, reducing repetitiveness 
 
 2. **Testing and Refinement**:
 
-   - Test the GPT by asking it a few questions relevant to Alex Morgan's role.
+   - Test the GPT by asking it a few questions relevant to Tyler Morgan's role.
    - Refine the instructions and context as needed to improve the accuracy and relevance of the responses.
 
 ### 5. Using the GPT
