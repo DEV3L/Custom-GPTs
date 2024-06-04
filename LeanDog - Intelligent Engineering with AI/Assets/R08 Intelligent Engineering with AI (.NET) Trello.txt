@@ -9,16 +9,131 @@ Should we create a new repo for this course?
 Questions
 
 ## Comments
-   
+
 I certainly think we should. We could start by forking the tdd for .net repo since I think that’s the foundation of the material.
 
 ## Title
 
-Post Class Follow-up
+Post Class Summary on LinkedIn
 
 ## List Name
 
-Backlog
+Icebox
+
+## Labels
+
+- Marketing
+- Post Class Follow-up
+
+## Description
+
+**As a** course instructor (Jeff/Julias),
+**I want** to post a follow-up message on LinkedIn summarizing the class,
+**so that** participants and potential future attendees can see the value of the class and engage with the content.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Post Class Summary on LinkedIn
+  Given the class has concluded
+  When I draft a LinkedIn post summarizing the key highlights and takeaways from the class
+  And I include quotes or testimonials from participants
+  And I include a call-to-action for future classes or related content
+  And I use appropriate hashtags and tag relevant people or organizations
+  Then the LinkedIn post should be published and visible to our network.
+```
+
+## Title
+
+Send Follow-Up Email to Participants
+
+## List Name
+
+Icebox
+
+## Labels
+
+- Post Class Follow-up
+- Marketing
+
+## Description
+
+**As a** course instructor,
+**I want** to send a follow-up email to all class participants,
+**so that** I can thank them for attending, gather feedback, and provide additional resources.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Send Follow-Up Email to Participants
+  Given the class has concluded
+  When I draft a follow-up email thanking participants for attending
+  And I include a survey link to gather feedback
+  And I provide links to additional resources or recordings from the class
+  Then the email should be sent to all registered participants.
+```
+
+## Title
+
+Gather and Analyze Participant Feedback
+
+## List Name
+
+Icebox
+
+## Labels
+
+- Marketing
+- Post Class Follow-up
+
+## Description
+
+**As a** course instructor,
+**I want** to gather and analyze feedback from participants,
+**so that** I can identify areas of improvement and enhance future classes.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Gather and Analyze Feedback
+  Given the follow-up email has been sent
+  When participants submit their feedback through the provided survey link
+  And I collect all feedback responses
+  And I analyze the feedback to identify common themes and areas for improvement
+  Then I should create a summary report of the findings and plan actionable improvements for future classes.
+```
+
+## Title
+
+Update Course Materials Based on Feedback
+
+## List Name
+
+Icebox
+
+## Labels
+
+- Marketing
+- Post Class Follow-up
+
+## Description
+
+**As a** course instructor,
+**I want** to update the course materials based on participant feedback,
+**so that** future classes are improved and address any issues or suggestions raised.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Update Course Materials
+  Given I have analyzed the participant feedback
+  When I identify specific areas of the course materials that need improvement
+  And I make the necessary updates to the slides, exercises, and resources
+  And I review the updated materials for accuracy and completeness
+  Then the updated course materials should be ready for the next class session.
+```
+
+These user stories and acceptance criteria provide a structured approach to conducting a comprehensive post-class follow-up.
 
 ## Title
 
@@ -27,6 +142,243 @@ Review and Update Syllabus
 ## List Name
 
 Epics
+
+## Labels
+
+- Course Content
+- Setup
+
+## Title
+
+Marketing Backlog
+
+## List Name
+
+Epics
+
+## Labels
+
+- Marketing
+- Marketing Backlog
+
+## Title
+
+Post Class Follow-up
+
+## List Name
+
+Epics
+
+## Labels
+
+- Marketing
+- Post Class Follow-up
+
+## Title
+
+Determine Social Media Plan
+
+## List Name
+
+Backlog
+
+## Labels
+
+- Marketing
+- Marketing Backlog
+
+## Description
+
+**As a** marketing strategist,
+**I want** to determine a social media plan for promoting the class,
+**so that** we can effectively reach our target audience and maximize registrations.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Create a Social Media Plan
+  Given we need to promote the class on social media
+  When I outline the key messages, target audience, and platforms to be used
+  And I create a content calendar with scheduled posts
+  Then the social media plan should be documented and ready for execution.
+```
+
+## Title
+
+Post Class on LinkedIn
+
+## List Name
+
+Backlog
+
+## Labels
+
+- Marketing
+- Marketing Backlog
+
+## Description
+
+**As a** marketing team member (Jeff/Julias),
+**I want** to post information about the upcoming class on LinkedIn,
+**so that** we can increase awareness and attract potential participants.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Post Class Information on LinkedIn
+  Given I have the details of the upcoming class
+  When I create a LinkedIn post with all relevant information
+  And I include key details such as the class description, date, time, and registration link
+  And I use appropriate hashtags and tag relevant people or organizations
+  Then the LinkedIn post should be published and visible to our network.
+```
+
+## Title
+
+Determine Adwords Plan
+
+## List Name
+
+Backlog
+
+## Labels
+
+- Marketing
+- Marketing Backlog
+
+## Description
+
+**As a** marketing strategist,
+**I want** to determine an Adwords plan for promoting the class,
+**so that** we can reach potential participants through targeted ads and increase registrations.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Create an Adwords Plan
+  Given we need to promote the class through online ads
+  When I identify the target audience, keywords, and budget for the campaign
+  And I create ad copy and design visuals for the ads
+  Then the Adwords plan should be documented and ready for implementation.
+```
+
+These user stories and acceptance criteria should help guide the tasks and ensure they are completed efficiently and effectively.
+
+## Title
+
+Decide Who is Giving Out Free Seats
+
+## List Name
+
+Backlog
+
+## Labels
+
+- Marketing
+- Marketing Backlog
+
+## Description
+
+**As a** team lead (Jon, Jeff, Amy),
+**I want** to decide who will be responsible for giving out free seats for the class,
+**so that** we can streamline the process and ensure all free seats are allocated efficiently.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Allocate Responsibility for Free Seats
+  Given we have a limited number of free seats for the class
+  When we discuss and decide who among Jon, Jeff, and Amy will be responsible
+  And we document the decision clearly
+  Then the responsible person should be informed and ready to allocate the free seats.
+```
+
+## Title
+
+Send Personal Email to Free Seat Recipients (Jon)
+
+## List Name
+
+Backlog
+
+## Labels
+
+- Marketing
+- Marketing Backlog
+
+## Description
+
+**As a** marketing team member (Jon),
+**I want** to send personal emails to those receiving free seats,
+**so that** they feel valued and are informed about their participation in the class.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Send Personal Email to Free Seat Recipients
+  Given I have the list of recipients for free seats
+  When I draft a personal email including details about the class and how to register
+  And I send the email to each recipient
+  Then all recipients should receive a personalized email confirming their free seat.
+```
+
+## Title
+
+Send Personal Email to Free Seat Recipients (Amy)
+
+## List Name
+
+Backlog
+
+## Labels
+
+- Marketing
+- Marketing Backlog
+
+## Description
+
+**As a** marketing team member (Amy),
+**I want** to send personal emails to those receiving free seats,
+**so that** they feel valued and are informed about their participation in the class.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Send Personal Email to Free Seat Recipients
+  Given I have the list of recipients for free seats
+  When I draft a personal email including details about the class and how to register
+  And I send the email to each recipient
+  Then all recipients should receive a personalized email confirming their free seat.
+```
+
+## Title
+
+Send Personal Email to Free Seat Recipients (Jeff)
+
+## List Name
+
+Backlog
+
+## Labels
+
+- Marketing
+- Marketing Backlog
+
+## Description
+
+**As a** marketing team member (Jeff),
+**I want** to send personal emails to those receiving free seats,
+**so that** they feel valued and are informed about their participation in the class.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Send Personal Email to Free Seat Recipients
+  Given I have the list of recipients for free seats
+  When I draft a personal email including details about the class and how to register
+  And I send the email to each recipient
+  Then all recipients should receive a personalized email confirming their free seat.
+```
 
 # TODO
 
@@ -38,13 +390,162 @@ Review GitHub Class Content
 
 To Do
 
+## Labels
+
+- Course Content
+- Review and Update Syllabus
+
+## Description
+
+**As a** course developer,
+**I want** to review and update the GitHub repository for the "Intelligent Engineering with AI" course,
+**so that** the content is current, comprehensive, and includes the latest AI tools and techniques.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Review and Update GitHub Repository Content
+  Given I have access to the existing GitHub repository for the course
+  When I review the existing content for accuracy and relevance
+  And I identify outdated or missing information
+  And I update the repository to include the latest AI tools and techniques such as GitHub Copilot and ChatGPT
+  And I ensure the repository includes comprehensive setup instructions and examples
+  Then the repository should be reviewed by at least two team members for completeness and accuracy.
+```
+
+##### Supporting Information:
+
+- **Tasks Identified:**
+  - Include sections on using AI coding assistants such as GitHub Copilot and ChatGPT.
+  - Add documentation and examples for AI-driven testing and code generation.
+  - Ensure all code examples are tested and functional.
+  - Verify that the repository includes clear setup instructions for all required software and AI tools.
+- **Relevant Files and References:**
+  - Review existing course materials and update them with new AI content from sources like LeanDog's blog posts on AI integration and the existing TDD in C# course information.
+
 ## Title
 
-Marketing Backlog
+Create New Repository for the Course
 
 ## List Name
 
 To Do
+
+## Labels
+
+- Setup
+- Course Content
+
+## Description
+
+**As a** course developer,
+**I want** to create a new GitHub repository for the "Intelligent Engineering with AI" course,
+**so that** the course materials are organized and accessible to students and collaborators.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Create New GitHub Repository
+  Given I have access to GitHub
+  When I create a new repository for the "Intelligent Engineering with AI" course
+  And I name the repository appropriately
+  And I include a README file with an overview of the course
+  And I add initial course materials and documentation to the repository
+  Then the repository should be reviewed by at least two team members for completeness and accuracy.
+```
+
+##### Question to @juliasshaw3 :
+
+**Question:** Should the new repository for the "Intelligent Engineering with AI" course be created under the LeanDog organization? If so, should Justin be invited to the LeanDog GitHub organization to manage and contribute to the repository?
+
+## Title
+
+Course Addition Suggestion: Integrating the Custom GPT Assistant as a Virtual Pair Programming Partner
+
+## List Name
+
+To Do
+
+## Labels
+
+- Course Content
+
+## Description
+
+**Objective:**
+To enhance the C# course by integrating a more challenging coding kata (Roman Numeral Converter) and leveraging the custom GPT assistant as a virtual pair programming partner. This addition aims to teach students how to apply Test Driven Development (TDD) and CI/CD practices while utilizing AI tools to boost productivity and learning.
+
+###### Course Module: Roman Numeral Converter Project with GPT Assistant
+
+**Module Overview:**
+This module introduces a challenging yet manageable coding project: a Roman Numeral Converter. Students will implement this project using TDD and leverage the custom GPT assistant for guidance and support, simulating a pair programming environment.
+
+**Learning Objectives:**
+
+- Apply TDD to develop high-quality, maintainable code.
+- Utilize the custom GPT assistant for coding assistance, debugging, and learning best practices.
+- Implement CI/CD practices using GitHub Actions to automate testing and ensure continuous integration.
+- Use the GPT assistant for planning and brainstorming solutions.
+
+**Module Structure:**
+
+1. **Introduction to the Project:**
+   - **Overview:** Brief students on the Roman Numeral Converter project, explaining the conversion rules between Roman numerals and integers.
+   - **Objectives:** Highlight the key goals: converting integers to Roman numerals, handling edge cases, and ensuring robust error handling.
+2. **Setting Up the Project:**
+   - **Repository Setup:** Guide students to clone the provided repository or fork it. Ensure they understand the initial project structure.
+   - **Initial Code:** Provide starter code and initial test cases to get them started.
+3. **Leveraging the Custom GPT Assistant:**
+   - **Virtual Pair Programming:** Explain how to use the GPT assistant as a virtual pair programming partner.
+   - **Interactive Guidance:** Demonstrate how to ask the assistant questions about specific code issues, best practices, and conceptual explanations.
+   - **Planning and Brainstorming:** Utilize the GPT assistant to brainstorm approaches to the problem, outline steps, and plan the implementation.
+   - **Practical Examples:** Show examples of using the assistant for code generation, debugging, and writing tests.
+4. **Implementing TDD:**
+   - **Writing Tests First:** Emphasize the importance of writing tests before implementing functionality.
+   - **Running Tests:** Show how to run tests using the test runner in their IDE or via the command line.
+   - **Iterative Development:** Encourage students to implement code iteratively, using the assistant for continuous feedback and improvements.
+5. **Setting Up CI/CD:**
+   - **GitHub Actions Workflow:** Provide instructions on setting up a GitHub Actions workflow to automate testing.
+   - **Best Practices:** Encourage frequent, small commits and the use of pull requests for code review and continuous integration.
+   - **Sample Workflow File:** Share a sample `ci.yml` file and guide them through its setup.
+6. **Hands-On Project Work:**
+   - **Guided Implementation:** Facilitate sessions where students work on the project, using the GPT assistant for real-time support.
+   - **Peer Reviews:** Organize peer review sessions to encourage collaborative learning and feedback.
+7. **Reflection and Learning:**
+   - **Retrospective:** Conduct a retrospective session where students reflect on their experience using TDD, CI/CD, and the GPT assistant.
+   - **Feedback:** Gather feedback on the assistant's effectiveness and any challenges faced during the project.
+
+**Integration into the Course:**
+
+- **Alignment with Course Objectives:** This module aligns with the course's goal of teaching high-quality code development using TDD and modern AI tools.
+- **Enhanced Learning Outcomes:** Students will:
+  - Develop a deeper understanding of TDD and CI/CD practices.
+  - Gain practical experience in leveraging AI tools for software development.
+  - Improve their coding, debugging, and problem-solving skills through interactive guidance.
+  - Learn to use AI tools for planning and brainstorming.
+- **Real-World Application:** The project simulates a professional development environment, preparing students for industry practices and challenges.
+
+**Implementation Plan:**
+
+1. **Prepare Course Materials:**
+   - Create the GitHub repository with starter code and test cases.
+   - Develop detailed setup instructions and project guidelines.
+   - Prepare documentation on using the GPT assistant.
+2. **Conduct Training Sessions:**
+   - Host introductory sessions on TDD, CI/CD, and using the GPT assistant.
+   - Provide live demonstrations and interactive Q&A sessions.
+3. **Monitor and Support:**
+   - Offer continuous support throughout the module via forums or virtual office hours.
+   - Encourage students to share their experiences and learnings with peers.
+4. **Evaluate and Improve:**
+   - Collect feedback from students to assess the effectiveness of the module.
+   - Iterate on the module content and delivery based on feedback to enhance the learning experience.
+
+This module addition leverages the custom GPT assistant as a virtual pair programming partner, enhancing the C# course by providing practical, hands-on experience with TDD, CI/CD, and AI tools, including planning and brainstorming.
+
+## Comments
+
+@juliasshaw3  what do you think? Using our Custom GPT as a Course Assistant to work through Roman Numeral Calculator kata
 
 # DOING
 
@@ -55,6 +556,10 @@ Organize with Julias
 ## List Name
 
 Doing
+
+## Labels
+
+- Setup
 
 ## Description
 
@@ -116,6 +621,7 @@ Review
 ## Labels
 
 - Setup
+- Review and Update Syllabus
 
 ## Description
 
@@ -141,6 +647,7 @@ Done 🎉
 
 - Setup
 - Marketing
+- Marketing Backlog
 
 ## Description
 
@@ -174,6 +681,11 @@ Determine Class Dates
 
 Done 🎉
 
+## Labels
+
+- Marketing
+- Marketing Backlog
+
 ## Comments
 
 The dates we set are June 19-20, 9-5 EST.
@@ -189,6 +701,7 @@ Outputs
 ## Labels
 
 - Marketing
+- Marketing Backlog
 
 ## Description
 
@@ -619,3 +1132,39 @@ Amy Koran's contributions have been instrumental in reinforcing LeanDog's reputa
 Amy is known for her dedication to continuous improvement and her commitment to creating value for clients. She leverages her extensive background in business analysis and project management to identify opportunities for process enhancements and to implement effective solutions.
 
 In summary, Amy Koran's extensive experience and leadership at LeanDog have been vital in promoting agile practices and enhancing client satisfaction. Her role as CXO highlights her commitment to driving success and delivering exceptional experiences for LeanDog's clients.
+
+## Title
+
+Jeff Dunay
+
+## List Name
+
+Team
+
+## Labels
+
+- Team
+
+## Description
+
+### Jeff Dunay: Director of Talent at LeanDog
+
+**Background and Experience:**
+
+Jeff Dunay is the Director of Talent at LeanDog, an agile consultancy and software development firm based in Cleveland, Ohio. Jeff plays a crucial role in recruiting and developing the talent that drives LeanDog’s success. His expertise lies in identifying skilled professionals who align with LeanDog's mission and values, ensuring the company maintains its high standards in agile practices and software development.
+
+**Role at LeanDog:**
+
+As Director of Talent, Jeff is responsible for:
+
+- **Recruitment:** Overseeing the hiring process to bring in top talent that fits LeanDog’s culture.
+- **Talent Development:** Implementing strategies to nurture and grow the skills of LeanDog’s employees.
+- **Workforce Planning:** Ensuring that LeanDog has the right people in the right roles to meet its strategic objectives.
+
+**Contributions to LeanDog:**
+
+Jeff’s efforts in talent acquisition and management have been instrumental in building a strong, cohesive team at LeanDog. His work ensures that the company remains agile and innovative, capable of delivering high-quality services to its clients.
+
+**Professional Philosophy:**
+
+Jeff Dunay is dedicated to creating a work environment that fosters growth, collaboration, and continuous improvement. He believes in the power of a well-curated team to drive organizational success and is committed to maintaining LeanDog’s reputation as a leader in agile consultancy.
