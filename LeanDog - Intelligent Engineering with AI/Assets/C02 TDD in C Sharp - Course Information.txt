@@ -1,0 +1,1209 @@
+# TDD in C Sharp
+
+This is the class that the course is based upon.
+
+It needs to be updated to include the additional AI topics.
+
+## TDD in C Sharp - Summary
+
+### TDD TRAINING
+
+This 2-day course covers the fundamentals of Test Driven Development with an emphasis on learning the skills and techniques necessary to perform this discipline in the real world. Participants will begin with simple exercises and migrate to advanced techniques for building applications designed for testing, reducing the need for using stubs and mocks. Additionally, the course will address issues associated with working in legacy code.
+
+### TOPICS COVERED
+
+- XP, SOLID, DRY, YAGNI, ZOMBIES
+- Clean Code, Craftsmanship, Naming, Refactoring
+- The Red, Green, Refactor loop
+- Using Mocks, Stubs, Fakes, Doubles, and other testing patterns
+- Test Driven Development in C#
+
+### LEARNING OUTCOMES
+
+Participants will be able to:
+
+- Appreciate the benefit of writing clean, maintainable code
+- Identify the relationship between software quality and TDD
+- Recognize that TDD promotes safe, rapid changes to existing code through immediate feedback
+- Understand the appropriate time to use mocks and stubs
+- Identify good and bad testing patterns
+- Identify code smells for identifying non-testable code
+
+Participants will become familiar with:
+
+- Writing tests first
+- Multiple paired testing techniques
+- How to modify software design using a test-first approach
+
+### TARGET AUDIENCE
+
+We recommend this course for attendees with a technical background, including but not limited to the following:
+
+- Quality Assurance / Test Automation (Technical)
+- Engineers / Developers
+
+## TDD Participant Prerequisites
+
+We are very much looking forward to having you participate in TDD Training. A link to the meeting is provided in the course invitation email.
+
+This is a hands-on workshop covering TDD in C#. Please take note of the laptop system requirements and follow the setup instructions below prior to training. If you have any issues or questions regarding set-up, please reach out to Jeff Dunay at jeff.dunay@leandogsoftware.com.
+
+### Required Software
+
+- Git
+- .NET Core
+- VS Code
+- Premium Subscription to ChatGPT
+- GitHub Copilot
+
+### Required Access
+
+Your laptop must have the capabilities and proper configuration prior to attending. If you do not understand what any of this is, please contact your company’s tech support for help.
+
+- Be able to install software on your laptop (Local Admin in Windows, or Administrator in macOS)
+
+## TDD C# Participant Setup
+
+### Setup
+
+1. Go to the GitHub repository for the material used in the class: [https://github.com/leandog/tdd-c-sharp](https://github.com/leandog/tdd-c-sharp)
+2. Download the entire repository by cloning it locally with Git. If you don’t already have Git installed, no problem. Just download a ZIP version of the repository.
+3. Confirm required software is installed and available:
+   - Git
+   - .NET Core
+   - VS Code
+   - Premium Subscription to ChatGPT
+   - GitHub Copilot
+4. Celebrate! You are now ready for the class!
+
+## README: TDD-C-Sharp
+
+This is a hands-on workshop covering TDD in C Sharp.
+
+### Prerequisites
+
+- [Git](https://github.com/)
+- [.Net Core](https://dotnet.microsoft.com/en-us/download/)
+- [VS Code](https://code.visualstudio.com/)
+  - [LiveShare (Optional)](https://code.visualstudio.com/learn/collaboration/live-share)
+
+### Recommended Visual Studio Code Extensions
+
+- C#
+- .NET Core Test Explorer
+- Coverage Gutters
+- LiveShare
+
+### Visual Studio Code - Code Coverage
+
+1. Add Extension: .NET Core Test Explorer
+
+- `"dotnet-test-explorer.testProjectPath": "**/**Tests.csproj"`
+- `"dotnet-test-explorer.testArguments": "--collect:\"XPlat Code Coverage\""`
+
+2. Add Extension: Coverage Gutters
+
+- `"coverage-gutters.showLineCoverage": true`
+- `"coverage-gutters.coverageFileNames": ["coverage.cobertura.xml"]`
+
+### TDD TRAINING
+
+This 2-day course covers the fundamentals of Test Driven Development with an emphasis on learning the skills and techniques necessary to perform this discipline in the real world. Participants will begin with simple exercises and migrate to advanced techniques for building applications designed for testing, reducing the need for using stubs and mocks. Additionally, the course will address issues associated with working in legacy code.
+
+### TOPICS COVERED
+
+- XP, SOLID, DRY, YAGNI, ZOMBIES
+- Clean Code, Craftsmanship, Naming, Refactoring
+- The Red, Green, Refactor loop
+- Using Mocks, Stubs, Fakes, Doubles, and other testing patterns
+- Test Driven Development in C#
+
+### LEARNING OUTCOMES
+
+Participants will be able to...
+
+- Appreciate the benefit of writing clean, maintainable code
+- Identify the relationship between software quality and TDD
+- Recognize that TDD promotes safe, rapid changes to existing code through immediate feedback
+- Understand the appropriate time to use mocks and stubs
+- Identify good and bad testing patterns
+- Identify code smells for identifying non-testable code
+
+Participants will become familiar with:
+
+- Writing tests first
+- Multiple paired testing techniques
+- How to modify software design using a test-first approach
+
+### TARGET AUDIENCE
+
+- Quality Assurance / Test Automation (Technical)
+- Engineers / Developers
+
+## TDD in C# (Day One Course Contents)
+
+### Test Driven Development
+
+**Duration:** 8 hours – 1 hour lunch break (7 hours = 420 minutes)
+
+**Breaks:** 10-minute break every hour
+
+- Try to break on exercise to catch up anyone
+
+#### Justin Beall
+
+- 17 Years Software Engineering
+- CSM, A-CSD, CSPO, SA, PK I
+- Favorite language: Python
+
+---
+
+### INTRODUCTIONS
+
+**Duration:** 18m : 20m
+
+- Who are we?
+- Learning environment: feel free to ask questions.
+- What is everyone’s familiarity with the stack/software development?
+- Breakout rooms
+- Regular breaks – shoot for 10 till the hour, leaves room for questions and catch-up as necessary
+
+**Participant Introductions:**
+
+- Who are you?
+- What do you do?
+- What do you want to learn in class?
+- Tell me about your automation experience
+
+---
+
+### Understanding the Benefits of TDD
+
+**Duration:** 5m : 25m
+
+- Learning good testing practices
+- What code smells to look for
+- Level up your knowledge!
+
+#### Course Objectives
+
+- Summarize the value of TDD
+- Use TDD to solve Katas
+- Integrate TDD into daily work
+- Recognize the benefit of writing clean, maintainable code
+
+#### Working Agreements
+
+- **Start/End Time:** Respect your peers; don’t be late
+- **Be Present:** Participate, camera on when possible
+- **Own your learning:** Speak up if you don’t understand something
+- **Support Peers:** You aren’t done until the (virtual) person next to you is done
+- **Code:** (1) Make it work; (2) Make it better
+
+---
+
+### Why Are We Here?
+
+**Duration:** 5m : 35m
+
+- How is testing performed currently?
+- Why Test First, not Test After?
+- We are here to learn to write tests and use those tests to drive our design.
+
+**Discussion Points:**
+
+- War stories
+- Has anyone been on a project using TDD?
+- Has anyone worked on a legacy project?
+- Touch one thing over here, and something breaks over there
+
+---
+
+### What is Test Driven Development?
+
+**Definition:**
+
+- A programming discipline
+- High-feedback incremental coding technique
+- Write tests as specs, prior to code
+
+**Core of the Cycle:**
+
+- Write a test
+- Write the code to make the test pass
+
+**Test-driven development (TDD):**
+
+- A software development process that relies on the repetition of a very short development cycle:
+- Requirements are turned into very specific test cases, then the software is improved to pass the new tests, only. This is at the Unit Level (Classes and Methods in Code).
+
+**Discipline:**
+
+- TDD is a discipline with arbitrary behaviors driven by substantial motives.
+
+**Double Entry Bookkeeping:**
+
+- TDD is similar to double-entry bookkeeping, providing verification through repetition.
+
+#### Test First is NOT new
+
+- “A software system can best be designed if the testing is interlaced with the designing instead of being used after the design.” – Professor Alan J. Perlis, NATO SOFTWARE ENGINEERING CONFERENCE 1968
+- Rediscovered by Kent Beck
+
+---
+
+### The Three Laws of TDD
+
+**Duration:** 10m : 55m
+
+1. You are not allowed to write any production code unless it is to make a failing unit test pass.
+2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
+3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
+
+**Discussion:**
+
+- Test Driven Development as described by Uncle Bob Martin
+- Break down each of the laws and discuss what it means.
+- The goal is to decrease the interval between writing tests and production code to a matter of minutes.
+
+#### Doing TDD
+
+**Duration:** 5m : 60m
+
+- A skill that must be learned and practiced – expect initial awkwardness
+- Fast feedback & Green Tests = more dopamine!
+
+**New Skill:**
+
+- Initially, writing tests can be awkward.
+- Writing a test first forces you to think about the expected outcome of a very small step.
+- As you get into a rhythm, every time you make a new test pass – it starts building up excitement.
+
+---
+
+### BREAK
+
+**Duration:** 10m : 70m
+
+---
+
+### C# Overview
+
+**Duration:** 15m : 85m
+
+- Make sure everyone has their computer configured and runnable.
+- If we run into problems, pair up and resolve the problems at lunchtime.
+- Review C#.
+
+#### Getting Started
+
+- Make sure everyone can run the 00_c_sharp hello world project.
+
+---
+
+### Kata
+
+**Duration:** 10m : 85m
+
+**Definition:**
+
+- Kata is a Japanese word meaning "form," referring to a detailed choreographed pattern of martial arts movements.
+
+**Discussion:**
+
+- Does anyone here ever “practice” programming?
+- What other professions involve daily practice?
+- Is anyone aware of any programming practice sites? (e.g., Koans, Coding Dojo, Hacker Rank, Exercism.io)
+
+**Kata: Fizz Buzz**
+**Duration:** 30m : 115m
+
+- Problem Description: http://codingdojo.org/kata/FizzBuzz
+- Discuss the problem – give a hint about the modulo operator “%”
+
+**Review:**
+**Duration:** 10m : 125m
+
+- What went well?
+- What didn’t go well?
+- Look at some solutions
+- What if we wanted to use classes?
+- What if we wanted to use only a function?
+- What if we didn’t want to use any for loops?
+
+---
+
+### BREAK
+
+**Duration:** 10m : 135m
+
+---
+
+### TDD Steps
+
+**Duration:** 5m : 140m
+
+- Write test (red)
+- Write implementation (green)
+- Repeat...
+
+**Discussion:**
+
+- If it is this simple, then why is it so hard to do?
+- Why is test first different than test after?
+- Which one drives the design?
+
+**Fake it 'til you make it:**
+
+- Write the simplest possible thing to pass your current tests.
+- As you add tests, incrementally build the logic.
+
+---
+
+### TDD Guided by ZOMBIES
+
+**Duration:** 15m : 165m
+
+- Z – Zero
+- O – One
+- M – Many (or More complex)
+- B – Boundary Behaviors
+- I – Interface definition
+- E – Exercise Exceptional behavior
+- S – Simple Scenarios, Simple Solutions
+
+**Implementation:**
+
+- Go through each step with Fizz Buzz
+- Implement Fizz Buzz using ZOMBIES
+
+**Review:**
+**Duration:** 15m : 210m
+
+- Was that different than how anyone else implemented their Fizz Buzz solution?
+
+---
+
+### BREAK
+
+**Duration:** 10m : 220m (Lunch)
+
+---
+
+### TDD Outcomes
+
+**Duration:** 10m : 230m
+
+- Creates testable code by definition
+- Contributes to minimizing defects
+
+**Discussion:**
+
+- What would happen if we worked this way in production?
+- Has anyone been in a code base that was “difficult to test”?
+- Why would something be difficult to test?
+- How would this help us “minimize“ defects?
+
+### TDD Outcomes Continued
+
+**Duration:** 10m : 240m
+
+- TDD promotes better design
+- Creates comprehensive developer-level documentation
+- Development pacing
+- Tests are living specifications
+
+**Discussion:**
+
+- How does TDD promote better design?
+- Tests are code examples!
+- How many times has anyone here ever been 100% complete, but have testing left to do?
+- Is this really “done”?
+
+### SOLID: Principles of Object-Oriented Design
+
+**Duration:** 5m : 245m
+
+- S - Single-responsibility Principle
+- O - Open-closed Principle
+- L - Liskov Substitution Principle
+- I - Interface Segregation Principle
+- D - Dependency Inversion Principle
+
+#### Single-responsibility Principle
+
+**Duration:** 5m : 250m
+
+- A class should have one and only one reason to change, meaning that a class should have only one job.
+
+#### Open-Closed Principle
+
+**Duration:** 5m : 255m
+
+- Objects or entities should be open for extension but closed for modification.
+
+#### Liskov Substitution Principle
+
+**Duration:** 5m : 260m
+
+- Objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
+
+#### Interface Segregation Principle
+
+**Duration:** 5m : 265m
+
+- A client should never be forced to implement an interface that it doesn’t use, or clients shouldn’t be forced to depend on methods they do not use.
+
+#### Dependency Inversion Principle
+
+**Duration:** 5m : 265m
+
+- Entities must depend on abstractions, not on concretions. High-level modules should not depend on low-level modules but should depend on abstractions.
+
+### DRY Principle
+
+**Duration:** 5m : 270m
+
+- D - Don’t
+- R - Repeat
+- Y - Yourself
+
+#### YAGNI Principle
+
+**Duration:** 5m : 275m
+
+- Y - You
+- A - Ain’t
+- G - Gonna
+- N - Need
+- I - It
+
+**Discussion:**
+
+- Yagni is a way to refer to the XP practice of Simple Design
+- What is the cost of gold plating?
+- What benefit does this give us?
+
+---
+
+### BREAK
+
+**Duration:** 10m : 290m
+
+---
+
+### Kata: Roman Calculator
+
+**Duration:** 45m : 335m
+
+**Problem Description:**
+
+- “As a Roman Bookkeeper I want to add Roman numbers because doing it manually is too tedious.”
+- Example: “XIV” + “LX” = “LXXIV”
+
+#### Review
+
+**Duration:** 15m : 350m
+
+- Review class solutions
+- Discuss how unit tests helped
+- What if another character number type was added?
+
+---
+
+### Day 1 - Wrap Up
+
+**Retrospective / Reflect (if time)**
+
+## TDD in C# (Day Two Course Contents)
+
+#### Test Driven Development
+
+**Duration:** 8 hours – 1 hour lunch break (7 hours = 420 minutes)
+
+**Breaks:** 10-minute break every hour
+
+- Try to break on exercise to catch up anyone
+
+---
+
+### Day Two
+
+**Duration:** 10m : 10m
+
+#### Socialize
+
+**Duration:** 15m : 25m
+
+#### Recap
+
+- Utilize practice problems (aka Katas) to develop a baseline level of experience with TDD:
+  - Fizz Buzz
+  - Roman Calculator
+
+---
+
+### Three Laws of Test Driven Development
+
+1. You are not allowed to write any production code unless it is to make a failing unit test pass.
+2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
+3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
+
+---
+
+### Fake it till you make it
+
+---
+
+### ZOMBIES
+
+- Z - Zero
+- O - One
+- M - Many
+- B - Boundary Behavior
+- I - Interface Definition
+- E - Exercise Exception Behavior
+- S - Simple
+
+---
+
+### SOLID Principles
+
+- S - Single Responsibility Principle
+- O - Open/Closed Principle: Open for extension, closed for modification
+- L - Liskov Substitution Principle: shape.area :: rectangle.area : square.area : circle.area
+- I - Interface Segregation Principle
+- D - Dependency Inversion Principle
+
+---
+
+### DRY Principle
+
+- D - Don't
+- R - Repeat
+- Y - Yourself
+
+---
+
+### YAGNI Principle
+
+- Y - You
+- A - Ain't
+- G - Gonna
+- N - Need
+- I - It
+
+---
+
+### Course Objectives
+
+**Duration:** 5m : 30m
+
+- Summarize the value of TDD
+- Use TDD to solve Katas
+- Integrate TDD into daily work
+- Recognize the benefit of writing clean, maintainable code
+
+---
+
+### How are we doing?
+
+---
+
+### TDD Costs (Perceived)
+
+**Duration:** 5m : 35m
+
+- Takes twice as long
+- Maintain test and code
+- Reduced ability to quickly produce quick and dirty prototypes
+
+**Reality:**
+
+- Saves more time
+- Beats maintaining written detailed docs
+- Not if classes are designed correctly in the first place
+- Not wasted if classes are well-designed
+
+---
+
+### TDD Costs (Real)
+
+**Duration:** 5m : 40m
+
+- Initial learning curve
+- Continual learning: How do I test X?
+- Can promote overconfidence
+- Maintaining tests can be considerable work
+
+**Discussion:**
+
+- Greenfield projects and/or well-architected projects
+- Rough legacy systems
+- Difficult to test external devices and APIs
+
+---
+
+### Two Unit Tests, No Integration Tests
+
+**Duration:** 5m : 40m
+
+- TDD helps prevent errors in specification, but it often does not look at the integration of those specifications into the system as a whole.
+- There are no silver bullets.
+
+---
+
+### TDD Rewards
+
+**Duration:** 5m : 45m
+
+- Higher confidence levels: Continual feedback, ease of introducing new functionality, allows for refactoring with impunity
+- Continual progress: Add value every programming session, every few minutes, avoid going too astray
+
+**Discussion:**
+
+- What is the business value of “higher confidence levels”? Agility.
+- Anyone here ever been stuck on a bug for hours or days?
+
+---
+
+### Kata: Bowling
+
+**Duration:** 45m : 90m
+
+**Problem Description:**
+Create a program, which, given a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the total score for the game.
+
+More info on the rules at: [How to Score for Bowling](https://www.topendsports.com/sport/tenpin/scoring.htm)
+
+**Review:**
+**Duration:** 15m : 105m
+
+---
+
+### BREAK
+
+**Duration:** 10m : 115m
+
+---
+
+### TDD So Far...
+
+**Duration:** 5m : 120m
+
+- How does it help? Based upon what you’ve learned so far
+- Testing all the time
+- Design all the time: Build classes in isolation, consistently adapt to changing requirements
+
+---
+
+### Refactoring
+
+**Duration:** 5m : 125m
+
+**Definition:** Restructure (the source code of an application or piece of software) to improve operation without altering functionality
+
+**Discussion:**
+
+- Has anyone here misused, or heard someone else, the term “refactoring”?
+- Ensure all previous tests are still passing
+- Clean up the code without adding new functionality
+- Address readability, naming, remove duplication
+
+---
+
+### Refactoring
+
+**Duration:** 5m : 130m
+
+- Ensure code has optimal design always
+- Another way to do “agile” design
+- Deal with entropy all along the product lifecycle
+- Code transformations, not performance optimizations
+- Take small, safe steps
+- The third, critical leg of the TDD cycle
+
+---
+
+### Red, Green, Refactor
+
+**Duration:** 5m : 135m
+
+- We have been working on the Red-Green loop, but it feels like something is missing
+- How does Refactoring tie into TDD?
+- How do we do this in production code?
+
+---
+
+### Refactoring Fizz Buzz
+
+**Duration:** 5m : 145m
+
+- What if we wanted to make it so that multiples of seven go “Pop”?
+- Based upon our current implementation, having to add another command violates the open-closed principle…
+- How could we refactor our code such that this is possible?
+
+**Discussion:**
+
+- Is anyone here familiar with design patterns?
+- Which design patterns could we use such that we could refactor a FizzBuzz solution to allow for Pops?
+
+---
+
+### Abstract Factory and Command Patterns
+
+**Duration:** 20m : 170m
+
+- Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+- Command is a behavioral design pattern that turns a request into a stand-alone object that contains all information about the request.
+
+**Implementation:**
+
+- Start out with 100% code coverage: `yarn test:coverage`
+
+**Review:**
+**Duration:** 5m : 175m
+
+---
+
+### BREAK
+
+**Duration:** 10m : 185m
+
+---
+
+### Refactoring Drivers
+
+**Duration:** 7.5m : 195m
+
+**Discussion:**
+
+- Code Smells
+- Classic design principles: SOLID, DRY, YAGNI
+- Design Patterns (Gang of Four)
+
+---
+
+### Code Smells
+
+**Duration:** 2.5m : 197.5m
+
+- "Code smells are usually not bugs; they are not technically incorrect and do not prevent the program from functioning. Instead, they indicate weaknesses in design that may slow down development or increase the risk of bugs or failures in the future. Bad code smells can be an indicator of factors that contribute to technical debt."
+
+---
+
+### Recognize You Have a Problem
+
+**Duration:** 7.5m : 205m
+
+- Long Method smell (Fowler)
+- Not very expressive, contains duplication (Simple Design)
+- Contains guiding comments (Simple Style)
+- Breaks the Single Responsibility Principle (Martin)
+
+**Discussion:**
+
+- Why would each of these be a problem (aka a smell)?
+
+---
+
+### Application-level Smells
+
+**Duration:** 5m : 210m
+
+- Duplicated code: Identical or very similar code exists in more than one location.
+- Contrived complexity: Forced usage of over-complicated design patterns where simpler design would suffice.
+- Shotgun surgery: A single change needs to be applied to multiple classes at the same time.
+
+---
+
+### Class-level Smells
+
+**Duration:** 5m : 215m
+
+- Large class
+- Feature envy
+- Inappropriate intimacy
+- Excessive use of literals
+- Cyclomatic complexity
+
+---
+
+### Method-level Smells
+
+**Duration:** 5m : 220m
+
+- Too many parameters
+- Long method
+- Excessively long identifiers
+- Excessively short identifiers
+- Excessive return of data
+- Excessively long line of code
+
+---
+
+### Refactoring Tips
+
+**Duration:** 5m : 225m
+
+- Don’t refactor and change behavior simultaneously
+- Always run tests
+- If tests aren’t available, take only safe proven steps
+- Never skip the third leg of the TDD cycle
+- Refactoring is part of your development process
+
+---
+
+### Read by Refactoring
+
+**Duration:** 5m : 230m
+
+**Techniques:**
+
+- Rename
+- Inline
+- Extract Method
+- Introduce Local Variable
+- Introduce Parameter
+- Introduce Field
+
+---
+
+### Incremental Change
+
+**Duration:** 5m : 235m
+
+**Key Points:**
+
+- Look at something
+- Have an insight
+- Write it down (in code)
+- Check it in
+
+**Benefits:**
+
+- Rapid Development
+- Every time you read code, you improve it
+- Refactoring becomes ingrained in the culture
+- Greater agility
+
+---
+
+### Kata: Fizz Buzz
+
+**Duration:** 15m : 265m
+
+**Problem Description:**
+http://codingdojo.org/kata/FizzBuzz
+
+- Since we did this one earlier, it should go quicker – right?
+
+**Review:**
+**Duration:** 5m : 270m
+
+---
+
+### SUT – System Under Test
+
+**Duration:** 2.5m :
+
+267.5m
+
+- The thing we’re currently writing Unit Tests for
+- Can have 1 or more dependencies (Fowler calls them “collaborators”)
+
+**Discussion:**
+
+- When we say unit test, what are we testing?
+- Dependencies, Decoupled...
+
+---
+
+### Mocks and Fakes and Stubs, Oh My!
+
+**Duration:** 2.5m : 270m
+
+- Objects that simulate the behavior of real objects
+- This is how we decouple the “collaborators” from the SUT
+- Allows us to verify the behavior of the SUT
+
+**Mocks vs Stubs vs Fakes:**
+
+- Stubs: Minimalistic behavior
+- Mocks: “Smart” Stub
+- Fakes: Business behavior
+
+**Discussion:**
+
+- Mocks – How to use them
+- Mocks and Stubs are easily created with a mocking framework
+- Fakes are usually easier to code by hand
+
+---
+
+### Kata: Widget Mock
+
+**Duration:** 30m : 235m
+
+**Problem Description:**
+http://codingdojo.org/kata/FizzBuzz
+
+- Since we did this one earlier, it should go quicker – right?
+
+---
+
+### Software Design & TDD
+
+#### Software Development Activities
+
+**Discussion:**
+
+- Software development requires analysis, design, coding, testing, review, documentation, planning, deployment, etc.
+- Absence of any one of these is hacking
+- Waterfall attempts to serialize these
+- Agile Solution: Learn to do all activities all the time
+
+#### Upfront Design
+
+**Discussion:**
+
+- We still do it, mostly at planning meetings
+- Design insights often only occur when coding
+- UML Sketches
+- “Inception” level diagrams help solve the problem but don’t completely specify the code
+
+#### Design
+
+**Discussion:**
+
+- Design principles and patterns vs Simple design
+- BDUF (Big Design Up Front) vs Emergent design
+
+---
+
+### Simple Evolutionary Design
+
+#### Simple Design
+
+**Discussion:**
+
+- Runs all tests
+- No duplication
+- Expresses intent
+- Minimal number of classes & methods
+
+#### Simple Design: Expresses Intent
+
+**Discussion:**
+
+- Directly relates to maintenance costs
+- Core idea behind design patterns
+- Communicating ideas using common terms/solutions
+- Promotes single responsibility principle
+
+#### Simple Design: Minimal Number of Classes & Methods
+
+**Discussion:**
+
+- Prevents over design
+- You don’t build things into the system that aren’t needed
+- Stopgap measure: Sometimes methods and classes don’t pull their own weight
+
+---
+
+### It is Agile Software Design!
+
+**Discussion:**
+
+- “Just enough” up-front design
+- Constant test-first unit testing
+- Constant attention to design impacts
+- Ruthless refactoring
+- It’s only code! Malleable
+- Keep as clean as possible to ease addition of new features
+
+---
+
+### Documentation Artifacts
+
+**Discussion:**
+
+- Cost money!
+- Introduce into plan and estimate
+- Make executable where possible
+- Unit tests can supplant code specs, heredocs, design docs
+- Acceptance tests can supplant use cases, requirements docs
+
+---
+
+### OTHER CONSIDERATIONS
+
+#### How Big is a Test Method?
+
+**Discussion:**
+
+- Multiple asserts might be a code smell
+- Test functionality, not methods
+- Could suggest deficient design
+- Look to decouple behavior of classes under test
+- Underlying code may be linked
+- Look to combine into common assert method
+
+#### How Big is a Test Class?
+
+**Discussion:**
+
+- Generally one test class per production class
+- But you can create more than one if necessary...
+- Organize around common setup
+- Need for these multiple test “fixtures” might suggest the need for a redesign
+
+---
+
+### The 10 Minute Rule
+
+**Discussion:**
+
+- TDD promotes consistent pacing
+- Expect a green bar at least every 10 minutes
+- Otherwise, you kill the pace
+- Resist firing up the debugger on your code
+- Discard all new code since the last green bar
+- Start over, taking even smaller steps
+
+#### 10 Minute Rule Implications
+
+**Discussion:**
+
+- Tests must run fast
+- Rapid feedback is critical to TDD
+- Many TDD systems run thousands of tests in under 3 minutes
+
+---
+
+### If Your Tests Run Sloooooww
+
+**Discussion:**
+
+- Look at pervasive bad dependencies: Usually Database, File, or other external IO
+- Improve design: Corral Data Access code
+- Introduce mocking where needed
+- Concession: Run subsets of tests
+- Run at the largest possible scope
+- Isolate certain kinds of tests
+- Increases risk
+
+---
+
+### Testing Private Behavior
+
+**Discussion:**
+
+- Often suggests need for redesign
+- Private methods become public tested methods on another class
+- If absolutely necessary, relax access specifier
+
+#### Testing Private Data
+
+**Discussion:**
+
+- Verifying behavior requires inspecting state
+- Sometimes you wouldn’t normally expose this state
+- Relax access specifier
+- No worries - we have tests!
+
+---
+
+### LEGACY CODE & TDD
+
+#### It’s a Catch-22
+
+**Discussion:**
+
+- Existing systems do not have tests
+- We need tests in order to change code
+- In order to write tests, we often need to change code
+
+#### What is Legacy Code?
+
+**Discussion:**
+
+- Michael Feathers defines it as code without tests
+
+#### Introducing Unit Tests to Legacy Code
+
+**Discussion:**
+
+- Identify change points: Requires good understanding of system design
+- Find test points: Based on analysis of effects
+- Break dependencies using safe refactoring techniques
+- Write tests: Make changes and refactor
+
+---
+
+### Effects Analysis
+
+**Discussion:**
+
+- Identify method that will change
+- Examine its callers if it has a return value
+- Determine if it modifies any values
+- Examine methods that use those values
+- Examine super/subclasses, parameters, global variables, and static data modified in any of the identified methods
+
+---
+
+### Breaking Dependencies
+
+**Discussion:**
+
+- Two reasons to break dependencies when putting tests into place:
+  - To sense: When we can’t access computation results
+  - To separate: When we can’t get code to run in a test harness
+- Primary technique: Fake collaborators
+- Impersonate a collaborator of the class under test
+
+---
+
+### Kata: Gilded Rose
+
+**Duration:** 60m : 85m
+
+**Problem Description:**
+https://github.com/emilybache/GildedRose-Refactoring-Kata/
+
+- The basic gist of the kata is this: Here is a piece of crappy legacy code that works. The customer wishes you to implement and some constraints you need to adhere to.
+
+**Review:**
+**Duration:** 15m : 100m
+
+---
+
+### THE END
+
+**Duration:** 15m : 115m
+
+**Course Objectives:**
+
+- Summarize the value of TDD
+- Use TDD to solve Katas
+- Integrate TDD into daily work
+- Recognize the benefit of writing clean, maintainable code
+
+**Going Forward:**
+
+- Team determines policy going forward
+  - “All new code written using tests”
+  - “Code without tests must be inspected”
+- Concentrate on legacy code that is causing problems or is the most difficult to modify
+- Consider pairing: Helps ingrain techniques, ensures adherence
+
+**Final Thoughts:**
+
+- TDD is here to stay
+- A satisfying and enriching practice that can dramatically increase the quality of your application
+- Diligent adherence to practice is required to succeed
+- But the benefits are worth it
+
+**Retrospective?**
+**Duration:** 10m : 125m

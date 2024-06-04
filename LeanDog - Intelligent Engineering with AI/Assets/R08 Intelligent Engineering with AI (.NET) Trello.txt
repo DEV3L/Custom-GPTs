@@ -1,0 +1,621 @@
+# PLANNING
+
+## Title
+
+Should we create a new repo for this course?
+
+## List Name
+
+Questions
+
+## Comments
+   
+I certainly think we should. We could start by forking the tdd for .net repo since I think that’s the foundation of the material.
+
+## Title
+
+Post Class Follow-up
+
+## List Name
+
+Backlog
+
+## Title
+
+Review and Update Syllabus
+
+## List Name
+
+Epics
+
+# TODO
+
+## Title
+
+Review GitHub Class Content
+
+## List Name
+
+To Do
+
+## Title
+
+Marketing Backlog
+
+## List Name
+
+To Do
+
+# DOING
+
+## Title
+
+Organize with Julias
+
+## List Name
+
+Doing
+
+## Description
+
+To create a detailed Trello card for "Organize with Julias," we can follow these steps:
+
+##### Trello Card for "Organize with Julias"
+
+**Title:**
+Organize with Julias
+
+**Description:**
+Coordinate and schedule face-to-face time with Julias Shaw to discuss course details. Establish communication methods and create a team agreement. Confirm teaching schedule and topics for each instructor.
+
+**Checklist:**
+
+1. **Schedule Meeting with Julias**
+   - [ ] Find available dates and times for a face-to-face meeting.
+   - [ ] Send calendar invite to Julias.
+   - [ ] Confirm meeting details (virtual/platform).
+2. **Discuss Communication Methods**
+   - [ ] Decide on primary communication channels (e.g., Slack, email).
+   - [ ] Set expectations for response times and availability.
+3. **Create Team Agreement**
+   - [ ] Define roles and responsibilities.
+   - [ ] Establish ground rules for collaboration and decision-making.
+   - [ ] Agree on meeting frequency and formats (daily standups, weekly check-ins).
+4. **Teaching Schedule and Topics**
+   - [ ] Confirm who will be teaching each day.
+     - **Day 1:**
+       - Morning: [Instructor]
+       - Afternoon: [Instructor]
+     - **Day 2:**
+       - Morning: [Instructor]
+       - Afternoon: [Instructor]
+   - [ ] Clarify if Julias will be present for the entire course or specific sessions.
+   - [ ] Identify specific topics Julias wants to instruct.
+     - Examples:
+       - Overview of AI integration in TDD
+       - Advanced AI tools and techniques
+       - Hands-on sessions with GitHub Copilot and ChatGPT
+5. **Finalize Details**
+   - [ ] Document the final teaching schedule.
+   - [ ] Share the schedule and team agreement with all stakeholders.
+
+## Comments
+
+@juliasshaw3 Julias, please propose meeting times and let me know your availability. Also, could you specify any topics you would like to cover during the course?
+
+# DONE
+
+## Title
+
+Create GPT Course Assistant
+
+## List Name
+
+Review
+
+## Labels
+
+- Setup
+
+## Description
+
+Develop and integrate a GPT-based course assistant named Tyler Morgan to enhance the "Intelligent Engineering with AI" course. Tyler Morgan will offer expert advice on software engineering and agile practices, integrating AI tools like ChatGPT and GitHub Copilot to boost productivity and innovation.
+
+**Steps**:
+
+1. **Research and Define Tyler Morgan's Persona**: Gather background information, professional qualifications, goals, and motivations.
+2. **Develop Core Functionalities**: Implement features for guidance on TDD, AI tools, and agile methodologies.
+3. **Integrate with Course Material**: Ensure Tyler Morgan can provide insights and strategies based on the course content.
+4. **Test and Refine**: Continuously test the assistant’s performance and gather feedback for improvements.
+5. **Launch and Monitor**: Officially launch Tyler Morgan and monitor its effectiveness and user engagement.
+
+## Title
+
+Create, Shoot, and Edit Short Form Videos for Instructors
+
+## List Name
+
+Done 🎉
+
+## Labels
+
+- Setup
+- Marketing
+
+## Description
+
+**Description**: Develop and edit short form introductory videos for instructors Justin Beall and Julias Shaw. Each video should be 30 seconds to 1 minute long, highlighting the instructor's enthusiasm and key learning points of the course.
+
+**Steps**:
+
+1. **Script Development**:
+   - Write concise scripts for both Justin and Julias, focusing on their enthusiasm and key messages.
+   - Ensure the scripts include an introduction, highlights of the course, and closing remarks encouraging participation.
+2. **Schedule Video Shoots**:
+   - Coordinate with Justin and Julias to schedule convenient times for shooting their videos.
+3. **Shooting the Videos**:
+   - Conduct video shoots with both instructors, capturing their enthusiasm and the key points from the scripts.
+   - Ensure high-quality audio and video, and consider multiple takes to get the best footage.
+4. **Editing the Videos**:
+   - Edit the videos to create engaging and professional final products.
+   - Add names and titles at the bottom, and include any necessary visual aids or graphics.
+5. **Review and Feedback**:
+   - Review the edited videos with Justin and Julias, and gather their feedback.
+   - Make any necessary adjustments based on the feedback received.
+6. **Final Edits and Distribution**:
+   - Finalize the videos after incorporating all feedback.
+   - Publish the videos on relevant platforms, including the course webpage, marketing emails, and social media.
+
+## Title
+
+Determine Class Dates
+
+## List Name
+
+Done 🎉
+
+## Comments
+
+The dates we set are June 19-20, 9-5 EST.
+
+## Title
+
+Website - Register for Class
+
+## List Name
+
+Outputs
+
+## Labels
+
+- Marketing
+
+## Description
+
+[https://www.leandog.com/intelligent-engineering-with-ai](https://www.leandog.com/intelligent-engineering-with-ai "smartCard-inline")
+
+##### Intelligent Engineering with AI (.NET)
+
+![image.png](https://trello.com/1/cards/665dcbcd34636a7aec6f1a2b/attachments/665dcc9bbe902d0415421eb6/download/image.png)
+
+**Class Description:**
+This 2-day course covers the fundamentals of using AI alongside traditional Test Driven Development (TDD) with an emphasis on learning the skills and techniques necessary to create high-quality code faster in the real world. Participants will begin with simple exercises and migrate to advanced techniques for building applications designed for testing, using stubs and mocks. Participants will also learn the benefits of paired programming practices. Additionally, the course will address the issues associated with working in legacy code.
+
+**Topics Covered:**
+
+- Using AI coding assistants such as GitHub Copilot
+- Using Large Language Models (LLMs) such as ChatGPT
+- Utilizing AI tools for writing and generating code
+- Documenting code with AI assistance
+- AI-driven testing: automating test generation and execution
+- Using AI for code refactoring and optimization
+- Paired programming with AI: enhancing collaboration and productivity
+- The Red, Green, Refactor pattern
+- Using Mocks, Stubs, Fakes, Doubles, and other testing patterns
+- Building code that is testable
+- How to refactor existing code to make it testable
+
+**Learning Outcomes:**
+Participants will be able to:
+
+- Appreciate the benefits of writing clean, maintainable code with AI assistance
+- Use AI tools to understand and document code
+- Identify the relationship between software quality and TDD
+- Recognize that TDD promotes safe, rapid changes to existing code through immediate feedback
+- Understand the appropriate time to use mocks and stubs
+- Identify good and bad testing patterns
+- Identify code smells for identifying non-testable code using AI to spot problems you may have missed
+
+Participants will become familiar with:
+
+- Using AI CoPilots and Large Language Models
+- Writing tests first
+- Multiple paired testing techniques, including pairing with humans and pairing with AI
+- How to modify software design using a test-first approach
+
+**Target Audience:**
+We recommend this course for attendees with a technical background, including but not limited to the following:
+
+- Engineers / Developers
+- Quality Assurance Automation (Technical)
+
+**Schedule (Days 1 & 2):**
+
+- 8:30am - 9:00am: Breakfast
+- 9:00am - 12:00pm: Class Time
+- 12:00pm - 1:30pm: Lunch
+- 1:30pm - 4:30pm: Class Time
+
+**Pricing:** $1,600 / Attendee
+
+**Note:** The specific tools used are subject to change. The world of AI moves FAST and your training will include the most up-to-date tools and usages available.
+
+**Your Instructors:**
+
+**Justin Beall:**
+Expert Instructor for "Intelligent Engineering with AI"
+Justin Beall holds a degree in Computer Science from The University of Akron. With 17 years in the field, he has extensive experience in software development, agile methodologies, and technology leadership. Justin is proficient in multiple programming languages and frameworks and leverages AI technologies extensively. Currently, he is a Staff Engineer at Artium and the Founder of Dev3l Solutions. His insights and expertise will guide participants toward creating high-quality, maintainable code with modern AI tools.
+
+# TEAM
+
+## Title
+
+Tyler Morgan - Virtual Course Assistant
+
+## List Name
+
+Team
+
+## Labels
+
+- Team
+- Instructor
+
+## Description
+
+**GPT**: [https://chatgpt.com/g/g-m8zONvdCL-leandog-intelligent-engineering-with-ai](https://chatgpt.com/g/g-m8zONvdCL-leandog-intelligent-engineering-with-ai "‌")
+
+### Persona: "Course Assistant" for Intelligent Engineering with AI
+
+#### Tyler Morgan
+
+![Tyler\_Morgan.png](https://trello.com/1/cards/665d0448cf299c2602aebf85/attachments/665d04a815e3a6341cf801bf/download/Tyler_Morgan.png)
+
+#### Short Bio
+
+Tyler Morgan is the Course Assistant for the "Intelligent Engineering with AI" program. With a solid background in software engineering and education, Tyler specializes in integrating AI tools into traditional coding practices. Tyler holds a Master's degree in Computer Science and has over 10 years of experience in both academia and industry, focusing on Test Driven Development (TDD) and agile methodologies.
+
+Tyler is proficient in leveraging AI technologies such as ChatGPT and GitHub Copilot to enhance productivity and innovation in software engineering. Passionate about continuous learning and teaching, Tyler is dedicated to helping others understand and utilize AI tools to improve their coding practices.
+
+#### Background
+
+**Name**: Tyler Morgan
+**Age**: 35
+**Location**: San Francisco, California
+**Job Title**: Course Assistant
+**Education**: Master’s degree in Computer Science
+**Experience**: Over 10 years in software engineering and education, with a focus on Test Driven Development (TDD) and agile methodologies
+**Family**: Single
+
+#### Professional Background
+
+- **Career Path**: Started as a software developer at a tech company, then transitioned to an educational role as an instructor in software engineering courses. Currently serves as the Course Assistant for the "Intelligent Engineering with AI" program.
+- **Skills**: Expertise in software development, Test Driven Development (TDD), AI integration in coding practices, and creating educational content.
+- **Professional Achievements**: Developed and delivered comprehensive courses integrating AI tools with traditional coding practices, improving student outcomes and engagement.
+
+#### Personal Background
+
+- **Hobbies**: Enjoys lounging in sunny spots, chewing on favorite toys, and going for leisurely walks in the park.
+- **Values**: Believes in the power of education and continuous learning, advocates for the use of AI to enhance human capabilities, and supports collaborative and innovative work environments.
+
+#### Goals and Motivations
+
+- **Educational Impact**: Aims to provide comprehensive and practical guidance for integrating AI tools in software engineering, helping students and professionals enhance their coding practices and productivity.
+- **Knowledge Sharing**: Seeks to share insights and strategies on AI integration in software development through course materials, webinars, and workshops.
+- **Continuous Improvement**: Focused on staying updated with the latest AI technologies and educational practices to continuously improve the course content and delivery.
+
+#### Challenges
+
+- **AI Integration**: Ensuring that AI tools are effectively integrated into traditional software engineering practices, enhancing productivity without overwhelming learners.
+- **Course Development**: Continuously updating course materials to reflect the rapidly evolving landscape of AI technologies.
+- **Engagement**: Maintaining high levels of student engagement and interaction in both online and in-person course formats.
+
+#### Additional Elements Based on the Course Content
+
+- **AI Tools Integration**: Tyler should highlight the practical use of AI tools like ChatGPT and GitHub Copilot in software engineering practices. This includes developing detailed guides and examples on how to effectively use these tools in coding, testing, and documentation.
+- **Hands-On Exercises**: Tyler can create hands-on exercises that allow students to practice using AI tools in real-world coding scenarios. This can include exercises on AI-driven testing, code refactoring, and paired programming with AI.
+- **Webinars and Workshops**: Tyler can organize webinars and workshops to provide additional insights and practical tips on integrating AI in software engineering. These events can help students deepen their understanding and stay engaged with the course content.
+- **Continuous Improvement**: Tyler should continuously gather feedback from students and use it to improve the course materials and delivery. This can involve updating the course content to reflect the latest AI advancements and addressing any challenges faced by students.
+
+#### Conclusion
+
+Tyler Morgan, as the Course Assistant for the "Intelligent Engineering with AI" program, plays a crucial role in developing and delivering high-quality educational content. With a strong background in software engineering and AI integration, Tyler is dedicated to helping students and professionals enhance their coding practices and productivity through innovative and practical learning experiences. The course provides Tyler with the tools and opportunities needed to succeed and achieve his goals in the rapidly evolving field of AI and software engineering.
+
+## Title
+
+Julias Shaw
+
+## List Name
+
+Team
+
+## Labels
+
+- Team
+- Instructor
+
+## Description
+
+### Julias Shaw: Chief Technology Officer at LeanDog
+
+![Julias\_Shaw.jpeg](https://trello.com/1/cards/665ce8f57b7d02aab2680841/attachments/665d03ced41cc4a76e88aa71/download/Julias_Shaw.jpeg)
+
+**Background and Experience:**
+
+Julias Shaw serves as the Chief Technology Officer (CTO) at LeanDog, an agile consultancy and software development firm. With over two decades of experience in the industry, Julias brings a wealth of knowledge and hands-on expertise to his role. He has been actively involved in the agile community since 1999, when he introduced Extreme Programming (XP) to a company where he served as CTO. This early adoption of agile practices has been a cornerstone of his career, demonstrating his forward-thinking approach and dedication to improving software development processes.
+
+**Proficiencies:**
+
+1. **Agile Methodologies:**
+   - Extensive experience in implementing and coaching various agile practices including Scrum, Kanban, and Extreme Programming (XP).
+   - A strong advocate for the Agile Manifesto, particularly the value of "Individuals and interactions over processes and tools."
+2. **Software Development:**
+   - Hands-on experience in software development, with a focus on improving processes and delivering high-quality products.
+   - Knowledgeable in techniques like Test-Driven Development (TDD), Acceptance Test-Driven Development (ATDD), Continuous Integration (CI), and Pair Programming.
+3. **Technical and Process Coaching:**
+   - Over 21 years of experience as a technical and process coach, helping teams and organizations adopt and refine agile practices to boost productivity, communication, and collaboration.
+4. **Leadership:**
+   - Proven ability to lead and mentor technical teams, fostering a culture of continuous improvement and innovation.
+   - Expertise in change management and leading agile transformations to enhance organizational agility.
+5. **AI and Agile Methodologies:**
+   - Exploring the intersection of AI and agile methodologies to drive innovation and improve team efficiencies.
+6. **Obeya Method:**
+   - Expert in the Obeya method, which involves using large visual rooms to facilitate effective agile transformations and tailor solutions to the specific needs of organizations.
+7. **Behavioral Engineering:**
+   - An avid student of hypnosis, body language, cognitive science, and behavioral engineering, certified as a master hypnotist and behavioral engineer. This unique skill set enhances his coaching by integrating a deeper understanding of human interactions and behaviors.
+
+**Role at LeanDog:**
+
+At LeanDog, Julias Shaw plays a pivotal role in driving the company's mission and growth. His responsibilities include:
+
+1. **Agile Coaching and Implementation:**
+   - Leads LeanDog's efforts in coaching teams and organizations on agile practices. His deep understanding of agile methodologies allows him to tailor solutions that fit the unique needs of each client.
+   - Emphasizes the importance of the first value in the Agile Manifesto: "Individuals and interactions over processes and tools." This human-centric approach is evident in his coaching style and the transformations he oversees.
+2. **Innovative Approaches:**
+   - Utilizes the concept of "obeya," creating a large visual space where teams can collaboratively explore and document the best practices for their specific organizational needs. This ensures that agile practices are well-suited to the unique challenges and workflows of the organization.
+
+**Passions and Interests:**
+
+Beyond his professional endeavors, Julias has a keen interest in hypnosis, body language, cognitive science, and behavioral engineering. He is a certified master hypnotist and behavioral engineer, which adds a unique dimension to his coaching and leadership style. His understanding of human behavior and interactions enhances his ability to foster effective and cohesive teams.
+
+**Contributions to LeanDog:**
+
+Julias Shaw has significantly impacted LeanDog's ability to deliver exceptional client experiences and drive innovation in agile methodologies. His leadership and expertise have helped shape LeanDog's strategic direction and reinforce its reputation as a leader in agile consultancy and software development.
+
+In summary, Julias Shaw's expertise in technology and agile methodologies, combined with his commitment to human-centric approaches and innovative strategies, makes him a pivotal figure at LeanDog. His thought leadership continues to drive the company's success and influence in the agile community.
+
+## Title
+
+Justin Beall
+
+## List Name
+
+Team
+
+## Labels
+
+- Instructor
+- Team
+
+## Description
+
+### Justin Beall: Expert Instructor for "Intelligent Engineering with AI"
+
+![Justin\_Beall.png](https://trello.com/1/cards/665ce8f8ee4bfc0202baea01/attachments/665d041c60657b391d225461/download/Justin_Beall.png)
+
+#### Background and Experience
+
+Justin Beall holds a degree in Computer Science from The University of Akron. He has a versatile background in software development, agile methodologies, and technology leadership. With 17 years in the field, he started as a Java Web Developer and has held various roles from individual contributor to VP of Engineering. Currently, he is a Staff Engineer at Artium and the Founder of Dev3l Solutions.
+
+#### Proficiencies
+
+##### AI and Machine Learning
+
+Justin leverages AI technologies extensively, including Generative AI, enhancing software development and operational proficiencies.
+
+##### Agile Methodologies
+
+Proficient in Extreme Programming (XP), Scrum, and Kanban, focusing on enhancing team productivity and software quality.
+
+##### Software Development
+
+Expertise in multiple programming languages including Python, Java, TypeScript, Swift, and professional use of C#, Kotlin, and Ruby. He has significant experience in frameworks like Spring Boot, React.js, and Angular.
+
+##### DevOps and CI/CD
+
+Skilled in Docker, Kubernetes, Terraform, and various CI/CD tools, ensuring robust, scalable, and secure software solutions.
+
+##### Leadership
+
+Demonstrated ability to lead high-performing teams, implement XP practices, and foster agile transformations, driving innovation and strategic growth within organizations.
+
+##### Mentorship and Community Engagement
+
+Dedicated to mentoring the next generation of tech professionals, Justin fosters continuous learning, knowledge sharing, and innovation within the tech community.
+
+#### Contributions and Achievements
+
+##### Innovative Solutions
+
+Justin's entrepreneurial venture, Dev3l Solutions, has delivered transformative software solutions across healthcare, e-commerce, and other industries, showcasing his ability to address real-world challenges through technology.
+
+##### Promoting Agile Practices
+
+A fervent advocate for agile methodologies, he has helped numerous organizations transition to these practices, significantly enhancing their software development processes and outcomes.
+
+##### Thought Leadership
+
+As a frequent speaker at top technology conferences, he shares insights on agile methodologies, innovation, and the future of technology, influencing a broader audience and promoting a culture of continuous improvement.
+
+#### Vision and Philosophy
+
+##### Commitment to Continuous Learning
+
+Justin believes that learning never stops and champions the continuous exchange of knowledge and experiences. He encourages a growth mindset that drives innovation and adaptability within the tech community.
+
+##### Technology for Good
+
+He envisions a future where technology not only drives innovation but also fosters inclusivity, sustainability, and positive societal impact. His work is influenced by a commitment to solve real-world problems through empathy and collaboration.
+
+#### Summary
+
+Justin Beall's extensive experience, technical proficiency, and dedication to agile practices and AI technologies position him as a leading instructor for the "Intelligent Engineering with AI" course. His insights and expertise will guide participants toward creating high-quality, maintainable code with the help of modern AI tools.
+
+## Title
+
+Jon Stahl
+
+## List Name
+
+Team
+
+## Labels
+
+- Team
+
+## Description
+
+### Jon Stahl: CEO of LeanDog
+
+![Jon\_Stahl.jpeg](https://trello.com/1/cards/665ce8eb78025f85b0f683ea/attachments/665d0354a0a65ec3a493a14f/download/Jon_Stahl.jpeg)
+
+**Background and Experience:**
+
+Jon Stahl is the CEO of LeanDog, an agile consultancy and software development firm based in Cleveland, Ohio. With a career spanning over two decades, Jon has established himself as a prominent figure in the agile community, known for his expertise in agile methodologies, software craftsmanship, and innovative leadership. His journey in the software industry began with roles ranging from software developer to project manager, leading him to embrace and pioneer agile methodologies early in his career.
+
+**Proficiencies:**
+
+1. **Agile Methodologies:**
+   - Deep expertise in Scrum, Kanban, Extreme Programming (XP), and other agile practices.
+   - Advocates for the first value in the Agile Manifesto: "Individuals and interactions over processes and tools."
+2. **Leadership:**
+   - Proven ability to lead agile transformations and foster collaborative environments.
+   - Strong leadership skills demonstrated through his role as CEO.
+3. **Software Development:**
+   - Extensive background in software development and project management.
+   - Focuses on improving software development processes and quality.
+4. **Innovation:**
+   - Promotes a culture of creativity, continuous improvement, and experimentation.
+5. **Client Engagement:**
+   - Skilled in understanding and addressing client needs.
+   - Emphasizes a client-centric approach to deliver tailored solutions.
+6. **Communication:**
+   - Effective communicator and thought leader in the agile community.
+   - Frequently shares insights through speaking engagements, workshops, and publications.
+7. **Obeya Method:**
+   - Expert in the Obeya method, utilizing large visual rooms to facilitate effective agile transformations.
+   - Focuses on creating customized solutions by deeply understanding organizational needs through collaborative workshops.
+8. **AI Technologies:**
+   - On the forefront of utilizing AI technologies, including Generative AI, in software development.
+   - Leverages AI to increase individual and team proficiencies, as well as to enhance technology products.
+
+**Leadership at LeanDog:**
+
+In 2008, Jon co-founded LeanDog, which operates out of a distinctive office space on a boat docked in Lake Erie, symbolizing the company’s innovative spirit and nautical theme. Under Jon's leadership, LeanDog has grown into a respected name in the agile and software development industries. His vision revolves around fostering a culture of continuous improvement, collaboration, and client-centric service.
+
+**Contributions and Achievements:**
+
+1. **Promoting Agile Practices:**
+   - Vocal advocate for agile methodologies, helping numerous organizations transition to agile practices.
+2. **Innovative Work Environment:**
+   - LeanDog’s unique office on a boat is a testament to Jon's commitment to creating an inspiring and collaborative work environment.
+3. **Client-Focused Approach:**
+   - Prioritizes understanding and addressing client needs, tailoring consultancy services to help clients adopt agile practices and improve processes.
+4. **Comprehensive Services:**
+   - Ensures LeanDog offers a range of services including agile coaching, custom software development, and training programs.
+5. **Thought Leadership:**
+   - Positions LeanDog as a thought leader in the agile space by publishing articles, white papers, and case studies, and participating in industry events.
+6. **Community Engagement:**
+   - Supports initiatives that promote learning, collaboration, and innovation within LeanDog and the broader agile and tech communities.
+
+**Vision and Future Goals:**
+
+Jon aims to expand LeanDog’s impact as a global leader in agile consultancy and software development. He is committed to driving innovation, enhancing service offerings, and building a high-performing, agile, and creative team. By staying at the forefront of industry trends and maintaining a strong client focus, Jon is guiding LeanDog towards sustained growth and success.
+
+In summary, Jon Stahl's leadership at LeanDog is marked by his dedication to agile principles, innovative thinking, and a deep commitment to client success. His contributions have shaped LeanDog's direction and had a lasting impact on the agile community and software development industry.
+
+## Title
+
+Amy Koran
+
+## List Name
+
+Team
+
+## Labels
+
+- Team
+
+## Description
+
+### Amy Koran: Chief Experience Officer at LeanDog
+
+![Amy\_Koran.jpeg](https://trello.com/1/cards/665ce8eefdd5b69cb0b6d731/attachments/665d0383654c861287e9753c/download/Amy_Koran.jpeg)
+
+**Background and Experience:**
+
+Amy Koran is the Chief Experience Officer (CXO) at LeanDog, an agile consultancy and software development firm based in Cleveland, Ohio. With a robust career in business analysis, software quality assurance, and project management, Amy brings over 20 years of experience to her role. Her professional journey includes significant positions in various industries, notably within digital publishing and the property and casualty insurance sectors.
+
+**Professional Journey:**
+
+Before joining LeanDog, Amy held several key roles:
+
+- **Nationwide Insurance:** Senior Business Consultant in IT, where she contributed to the company's technological and business process improvements.
+- **Bristol West Insurance:** Senior Business Analyst, focusing on enhancing business operations through detailed analysis and quality assurance.
+- **Western Reserve Group:** Agile Coach, where she helped implement agile practices to improve team performance and project outcomes.
+
+**Role at LeanDog:**
+
+As CXO, Amy Koran plays a pivotal role in shaping the client experience and ensuring the success of LeanDog's agile transformations. Her responsibilities include:
+
+- **Agile Coaching:** Amy guides teams and organizations in adopting and optimizing agile methodologies. Her coaching expertise helps teams become more efficient, collaborative, and responsive to changes.
+- **Strategic Success Management:** Amy oversees LeanDog's strategies for client success, ensuring that the company delivers high-quality results that meet client needs and drive business growth.
+- **Experience Management:** Amy focuses on enhancing the overall experience for LeanDog's clients, ensuring satisfaction and fostering long-term relationships.
+
+**Contributions to LeanDog:**
+
+Amy Koran's contributions have been instrumental in reinforcing LeanDog's reputation as a leader in agile consultancy. Her efforts in agile coaching and strategic management have significantly impacted the company's ability to deliver exceptional client experiences. Amy's leadership in these areas has been crucial in helping LeanDog achieve its mission of driving quality and innovation in the software development industry.
+
+**Proficiencies:**
+
+1. **Agile Methodologies:**
+   - Skilled in agile practices including Scrum, Kanban, and Extreme Programming (XP).
+   - Experienced agile coach, helping teams adopt and optimize agile methodologies.
+2. **Strategic Success Management:**
+   - Oversees strategies for client success, ensuring high-quality results.
+   - Focuses on aligning team efforts with client needs and business goals.
+3. **Business Analysis and Quality Assurance:**
+   - Extensive background in business analysis and software quality assurance.
+   - Proficient in identifying process improvements and ensuring product quality.
+4. **Talent Development:**
+   - Implements strategies to nurture and grow team skills.
+   - Ensures continuous learning and development within the organization.
+5. **Communication:**
+   - Effective communicator, facilitating workshops and collaborative sessions.
+   - Engages with clients to gather insights and feedback for continuous improvement.
+6. **Innovation:**
+   - Promotes a culture of continuous improvement and innovation.
+   - Leverages modern tools and practices to enhance team productivity and project outcomes.
+7. **Client Engagement:**
+   - Skilled in understanding and addressing client needs.
+   - Emphasizes a client-centric approach to deliver tailored solutions and foster long-term relationships.
+8. **AI and Agile Methodologies:**
+   - Exploring the intersection of AI and agile methodologies to drive innovation and efficiency.
+9. **Obeya Method:**
+   - Expert in the Obeya method, utilizing large visual rooms to facilitate effective agile transformations and customized solutions.
+
+**Professional Philosophy:**
+
+Amy is known for her dedication to continuous improvement and her commitment to creating value for clients. She leverages her extensive background in business analysis and project management to identify opportunities for process enhancements and to implement effective solutions.
+
+In summary, Amy Koran's extensive experience and leadership at LeanDog have been vital in promoting agile practices and enhancing client satisfaction. Her role as CXO highlights her commitment to driving success and delivering exceptional experiences for LeanDog's clients.
