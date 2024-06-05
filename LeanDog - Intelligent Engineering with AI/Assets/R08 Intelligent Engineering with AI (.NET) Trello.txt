@@ -2,15 +2,11 @@
 
 ## Title
 
-Should we create a new repo for this course?
+Should we have a certification program for the course?
 
 ## List Name
 
 Questions
-
-## Comments
-
-I certainly think we should. We could start by forking the tdd for .net repo since I think that’s the foundation of the material.
 
 ## Title
 
@@ -384,82 +380,6 @@ Scenario: Send Personal Email to Free Seat Recipients
 
 ## Title
 
-Review GitHub Class Content
-
-## List Name
-
-To Do
-
-## Labels
-
-- Course Content
-- Review and Update Syllabus
-
-## Description
-
-**As a** course developer,
-**I want** to review and update the GitHub repository for the "Intelligent Engineering with AI" course,
-**so that** the content is current, comprehensive, and includes the latest AI tools and techniques.
-
-###### Acceptance Criteria:
-
-```gherkin
-Scenario: Review and Update GitHub Repository Content
-  Given I have access to the existing GitHub repository for the course
-  When I review the existing content for accuracy and relevance
-  And I identify outdated or missing information
-  And I update the repository to include the latest AI tools and techniques such as GitHub Copilot and ChatGPT
-  And I ensure the repository includes comprehensive setup instructions and examples
-  Then the repository should be reviewed by at least two team members for completeness and accuracy.
-```
-
-##### Supporting Information:
-
-- **Tasks Identified:**
-  - Include sections on using AI coding assistants such as GitHub Copilot and ChatGPT.
-  - Add documentation and examples for AI-driven testing and code generation.
-  - Ensure all code examples are tested and functional.
-  - Verify that the repository includes clear setup instructions for all required software and AI tools.
-- **Relevant Files and References:**
-  - Review existing course materials and update them with new AI content from sources like LeanDog's blog posts on AI integration and the existing TDD in C# course information.
-
-## Title
-
-Create New Repository for the Course
-
-## List Name
-
-To Do
-
-## Labels
-
-- Setup
-- Course Content
-
-## Description
-
-**As a** course developer,
-**I want** to create a new GitHub repository for the "Intelligent Engineering with AI" course,
-**so that** the course materials are organized and accessible to students and collaborators.
-
-###### Acceptance Criteria:
-
-```gherkin
-Scenario: Create New GitHub Repository
-  Given I have access to GitHub
-  When I create a new repository for the "Intelligent Engineering with AI" course
-  And I name the repository appropriately
-  And I include a README file with an overview of the course
-  And I add initial course materials and documentation to the repository
-  Then the repository should be reviewed by at least two team members for completeness and accuracy.
-```
-
-##### Question to @juliasshaw3 :
-
-**Question:** Should the new repository for the "Intelligent Engineering with AI" course be created under the LeanDog organization? If so, should Justin be invited to the LeanDog GitHub organization to manage and contribute to the repository?
-
-## Title
-
 Course Addition Suggestion: Integrating the Custom GPT Assistant as a Virtual Pair Programming Partner
 
 ## List Name
@@ -551,7 +471,7 @@ This module addition leverages the custom GPT assistant as a virtual pair progra
 
 ## Title
 
-Organize with Julias
+Create New Repository for the Course
 
 ## List Name
 
@@ -560,15 +480,45 @@ Doing
 ## Labels
 
 - Setup
+- Course Content
 
 ## Description
 
-To create a detailed Trello card for "Organize with Julias," we can follow these steps:
+**As a** course developer,
+**I want** to create a new GitHub repository for the "Intelligent Engineering with AI" course,
+**so that** the course materials are organized and accessible to students and collaborators.
 
-##### Trello Card for "Organize with Julias"
+###### Acceptance Criteria:
 
-**Title:**
+```gherkin
+Scenario: Create New GitHub Repository
+  Given I have access to GitHub
+  When I create a new repository for the "Intelligent Engineering with AI" course
+  And I name the repository appropriately
+  And I include a README file with an overview of the course
+  And I add initial course materials and documentation to the repository
+  Then the repository should be reviewed by at least two team members for completeness and accuracy.
+```
+
+##### Question to @juliasshaw3 :
+
+**Question:** Should the new repository for the "Intelligent Engineering with AI" course be created under the LeanDog organization? If so, should Justin be invited to the LeanDog GitHub organization to manage and contribute to the repository?
+
+# DONE
+
+## Title
+
 Organize with Julias
+
+## List Name
+
+Review
+
+## Labels
+
+- Setup
+
+## Description
 
 **Description:**
 Coordinate and schedule face-to-face time with Julias Shaw to discuss course details. Establish communication methods and create a team agreement. Confirm teaching schedule and topics for each instructor.
@@ -576,39 +526,227 @@ Coordinate and schedule face-to-face time with Julias Shaw to discuss course det
 **Checklist:**
 
 1. **Schedule Meeting with Julias**
-   - [ ] Find available dates and times for a face-to-face meeting.
-   - [ ] Send calendar invite to Julias.
-   - [ ] Confirm meeting details (virtual/platform).
+   - [x] Find available dates and times for a face-to-face meeting.
+   - [x] Send calendar invite to Julias.
+   - [x] Confirm meeting details (virtual/platform).
 2. **Discuss Communication Methods**
-   - [ ] Decide on primary communication channels (e.g., Slack, email).
-   - [ ] Set expectations for response times and availability.
+   - [x] Decide on primary communication channels (e.g., Slack, email).
+   - [x] Set expectations for response times and availability.
 3. **Create Team Agreement**
-   - [ ] Define roles and responsibilities.
-   - [ ] Establish ground rules for collaboration and decision-making.
-   - [ ] Agree on meeting frequency and formats (daily standups, weekly check-ins).
+   - [x] Define roles and responsibilities.
+   - [x] Establish ground rules for collaboration and decision-making.
+   - [x] Agree on meeting frequency and formats (daily standups, weekly check-ins).
 4. **Teaching Schedule and Topics**
-   - [ ] Confirm who will be teaching each day.
+   - [x] Confirm who will be teaching each day.
      - **Day 1:**
-       - Morning: [Instructor]
-       - Afternoon: [Instructor]
+       - Morning: [Instructor] (both)
+       - Afternoon: [Instructor] (both)
      - **Day 2:**
-       - Morning: [Instructor]
-       - Afternoon: [Instructor]
-   - [ ] Clarify if Julias will be present for the entire course or specific sessions.
+       - Morning: [Instructor] (both)
+       - Afternoon: [Instructor] (both)
+   - [x] Clarify if Julias will be present for the entire course or specific sessions.
    - [ ] Identify specific topics Julias wants to instruct.
      - Examples:
        - Overview of AI integration in TDD
        - Advanced AI tools and techniques
        - Hands-on sessions with GitHub Copilot and ChatGPT
 5. **Finalize Details**
-   - [ ] Document the final teaching schedule.
-   - [ ] Share the schedule and team agreement with all stakeholders.
+   - [x] Document the final teaching schedule.
+   - [x] Share the schedule and team agreement with all stakeholders.
 
 ## Comments
 
 @juliasshaw3 Julias, please propose meeting times and let me know your availability. Also, could you specify any topics you would like to cover during the course?
 
-# DONE
+@juliasshaw3 Are there specific topics you want to take? I don’t mind running it all, but wasn’t sure if there was something particular that you are passionate about.
+
+##### Team Agreement
+
+**Participants:**
+
+- **Justin** (Lead Instructor)
+- **Julias** (Decision Maker and Collaborator)
+
+**Communication:**
+
+- **Primary Channel:** Slack
+  - Regular updates and asynchronous communication will be done through Slack.
+  - Both parties will check Slack messages at least twice a day.
+
+**Roles and Responsibilities:**
+
+- **Justin:**
+  - Lead the instruction and course development.
+  - Work on course content and projects during the evening.
+  - Available for synchronous communication as needed.
+- **Julias:**
+  - Decision-making authority on course direction and major decisions.
+  - Available to provide input and collaborate on areas of comfort.
+  - Admits being late to the AI game, so relies on Justin's expertise for guidance but holds final decision power.
+
+**Collaboration:**
+
+- **Decision Making:**
+  - Julias has the final decision-making power but will consider Justin’s expert opinions before making decisions.
+- **Flexibility:**
+  - Julias can hop in and provide support whenever comfortable.
+
+**Availability:**
+
+- **Justin:**
+  - Working a bit of time each night on course-related tasks.
+  - Open to adjusting availability for synchronous meetings as needed.
+- **Julias:**
+  - Available for feedback and decisions when required, ensuring timely responses to facilitate progress.
+
+**Feedback and Iteration:**
+
+- **Regular Check-ins:**
+  - Weekly check-ins to review progress, discuss any challenges, and plan for the upcoming week.
+  - Use the check-ins to ensure alignment and address any issues promptly.
+
+**Conflict Resolution:**
+
+- **Dispute Handling:**
+  - In case of disagreements, a cooling-off period of 24 hours before reconvening to discuss the issue.
+  - Aim for consensus, but Julias retains final decision authority.
+
+**Documentation:**
+
+- **Record Keeping:**
+  - Keep a log of decisions made and important discussions for future reference.
+  - Use shared documents for transparency and easy access.
+
+**Continuous Improvement:**
+
+- **Reflect and Adapt:**
+  - Periodically review the team agreement to ensure it remains effective.
+  - Adjust practices based on feedback and changing needs.
+
+**Miscellaneous:**
+
+- **Code of Conduct:**
+  - Maintain professionalism and respect in all communications.
+  - Encourage open and honest feedback without fear of retribution.
+
+## Title
+
+Review GitHub Class Content
+
+## List Name
+
+Review
+
+## Labels
+
+- Course Content
+- Review and Update Syllabus
+
+## Description
+
+**As a** course developer,
+**I want** to review and update the GitHub repository for the "Intelligent Engineering with AI" course,
+**so that** the content is current, comprehensive, and includes the latest AI tools and techniques.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Review and Update GitHub Repository Content
+  Given I have access to the existing GitHub repository for the course
+  When I review the existing content for accuracy and relevance
+  And I identify outdated or missing information
+  And I update the repository to include the latest AI tools and techniques such as GitHub Copilot and ChatGPT
+  And I ensure the repository includes comprehensive setup instructions and examples
+  Then the repository should be reviewed by at least two team members for completeness and accuracy.
+```
+
+##### Supporting Information:
+
+- **Tasks Identified:**
+  - Include sections on using AI coding assistants such as GitHub Copilot and ChatGPT.
+  - Add documentation and examples for AI-driven testing and code generation.
+  - Ensure all code examples are tested and functional.
+  - Verify that the repository includes clear setup instructions for all required software and AI tools.
+- **Relevant Files and References:**
+  - Review existing course materials and update them with new AI content from sources like LeanDog's blog posts on AI integration and the existing TDD in C# course information.
+
+## Comments
+
+### Course Outline: Intelligent Engineering with AI (.NET)
+
+#### Day 1: Introduction to TDD and AI Tools
+
+##### Morning Session:
+
+1. Welcome and Introductions (30 minutes)
+   - Introduce participants and their experience.
+   - Overview of Tyler Morgan's role.
+2. Introducing Tyler Morgan, the Intelligent Engineering Course Assistant (10 minutes)
+3. Course Objectives and Structure (10 minutes)
+   - Outline the course modules and learning outcomes.
+     4\.Introduction to TDD with Fizz Buzz Kata (10 minutes)
+   - TDD cycle: Red, Green, Refactor.
+   - Practical exercise using GitHub Copilot and ChatGPT.
+   - Hands-on pair programming exercise.
+4. Practical Exercise: Fizz Buzz Kata (Parse String Time) with TDD and AI Tools (1 hour 30 minutes)
+   - TDD cycle: Red, Green, Refactor.
+   - Practical exercise using GitHub Copilot and ChatGPT.
+   - Hands-on pair programming exercise.
+5. Software Craftsmanship and Extreme Programming (1 hour)
+   - Introduction to SOLID principles and XP practices.
+   - ZOMBIE Testing Technique.7. Wrap-Up and Q&A (15 minutes)
+
+##### Afternoon Session:
+
+1. Overview of AI Tools and Current Capabilities (30 minutes)
+   - Provide a GitHub Copilot cheat sheet.
+   - Discuss the strengths and limitations of AI tools.
+2. Introduction to the Roman Numeral Calculator Kata (10 minutes)
+   - Practical exercise using TDD and AI tools.
+   - Pair programming exercise.
+3. Practical Exercise: Roman Numeral Calculator Kata with TDD and AI Tools (1 hour)
+4. Refactoring Techniques and Clean Code Concepts (1 hour)
+   - Practical exercise identifying code smells and refactoring with AI tools.
+   - Introduce clean code principles.
+5. Bowling Kata (1 hour 15 minutes)
+   - Practical exercise using TDD and AI tools.
+   - Pair programming exercise.
+6. Wrap-Up and Q&A (15 minutes)
+
+#### Day 2: Advanced TDD and Software Craftsmanship with AI Integration
+
+##### Morning Session:
+
+1. Recap and Introduction (30 minutes)
+   - Recap of Day 1 and address any questions.
+2. Gilded Rose Kata with TDD and AI Tools (2 hours)
+   - Practical exercise analyzing existing code, writing tests, making tests pass, and refactoring.
+   - Hands-on pair programming exercise.
+3. Code Smells and Design Patterns (1 hour 30 minutes)
+   - Identifying code smells and applying design patterns.
+   - Pair programming exercise.
+4. Wrap-Up and Q&A (15 minutes)
+
+##### Afternoon Session:
+
+1. Introduction to Prompt Engineering (30 minutes)
+   - Hands-on exercise writing effective prompts for AI tools.
+2. Stubs, Mocks, Fakes, and Doubles (30 minutes)
+   - Introduction and practical exercise implementing stubs, mocks, fakes, and test doubles.
+   - Pair programming exercise.
+3. Building a Simple MVC Application with .NET and SQLite (2 hours)
+   - Setting up the project.
+   - Developing the to-do task application.
+   - Pair programming exercise.
+4. Deploying the Application using GitHub Actions and a Free Cloud Provider (30 minutes)
+   - Setting up GitHub Actions for continuous integration.
+   - Configuring deployment to a free cloud provider.
+   - Pair programming exercise.
+5. Wrap-Up and Q&A (15 minutes)
+   - Summarize key takeaways and address any final questions.
+   - Conclusion of the course with additional resources and contact information for further support.
+
+@juliasshaw3 thoughts on the proposed outline?
 
 ## Title
 
@@ -616,7 +754,7 @@ Create GPT Course Assistant
 
 ## List Name
 
-Review
+Done 🎉
 
 ## Labels
 
@@ -634,6 +772,27 @@ Develop and integrate a GPT-based course assistant named Tyler Morgan to enhance
 3. **Integrate with Course Material**: Ensure Tyler Morgan can provide insights and strategies based on the course content.
 4. **Test and Refine**: Continuously test the assistant’s performance and gather feedback for improvements.
 5. **Launch and Monitor**: Officially launch Tyler Morgan and monitor its effectiveness and user engagement.
+
+## Title
+
+Create GitHub Repo for the Course
+
+## List Name
+
+Done 🎉
+
+## Labels
+
+- Course Content
+- Setup
+
+## Description
+
+[https://github.com/leandog/intelligent-engineering-c-sharp](https://github.com/leandog/intelligent-engineering-c-sharp "smartCard-inline")
+
+## Comments
+
+I certainly think we should. We could start by forking the tdd for .net repo since I think that’s the foundation of the material.
 
 ## Title
 
