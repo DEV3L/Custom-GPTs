@@ -1,0 +1,350 @@
+### Principles of Code - Five Key Points to Better Systems
+
+Languages and platforms come and go, but all code shares the same basic structures. Unfortunately, without a set of guiding principles, systems incur unnecessary technical debt as time, scope, and budget pressures force developers to cut corners for deadlines.
+
+**Then, what happens when the software created must adapt to an ever-changing environment?**  
+It seems to take twice as long to crank out new simple features or fix bugs. Stakeholders rarely empathize with the latest schedule. In the end, great engineers get blamed for past sins.
+
+In this session, developers (of any language) will be equipped with a handful of practical principles to positively guide the design decisions imprinted within every line of written code that leads to healthy, stable products and systems.
+
+---
+
+### About Me
+
+- **Name:** Justin Beall
+- **Experience:** 15 years in software development
+- **Industries:** Justice management, insurance, government, and manufacturing
+- **Current Role:** Works for a consulting firm called Artium
+
+---
+
+### Outcomes
+
+Recognize how **Simple Design** creates maintainable systems  
+Summarize **SOLID** as a heuristic for code implementation  
+Understand the basics of **Test-Driven Development**  
+Use **ZOMBIES** as an acronym for problem-solving  
+Identify how the **Boy Scout Rule** can be used to increase the quality of a code base
+
+---
+
+### Five Key Points
+
+1. Simple Design
+2. SOLID
+3. Test-Driven Development
+4. ZOMBIES
+5. Boy Scout Rule
+
+---
+
+### 1. Simple Design
+
+**Kent Beck's Four Rules of Simple Design:**
+
+1. **Passes the Tests**
+2. **Reveals Intention**
+3. **No Duplication**
+4. **Fewest Elements**
+
+---
+
+#### Passes the Tests
+
+- Has anyone been stuck in this situation before?
+  - You look at a piece of code and wonder how could this have ever worked.
+  - We should have confidence that the code we are looking at behaves as it is expected to.
+- How does everyone test their code now? Manually? Separate QA department? Automated?
+  - All these are valid solutions. The more automated we get, the better.
+- Confidence in the system
+- Working examples of business logic
+- Force good design principles
+- Without tests, how do we know our system works? Ideally, these tests are automated.
+  - Imagine pulling down a new code base, and seeing all tests pass gives a level of confidence that what change we are about to make is not going to impact other parts of the system.
+  - Manual quality assurance/checking cycles have slow feedback - by the time a bug is found, we have moved on to the next problem.
+  - When we have tests, we are empowered to keep our code clean.
+
+---
+
+#### Reveals Intention
+
+- When we are communicating with other people, especially through code, we need to make sure the other party understands what we are trying to convey.
+- Code should not force us to guess what it does
+- Be expressive - self-documenting code
+  - This means that all names, variables, methods, classes, modules, and so on should be obvious and easy to understand.
+  - Names should align and make sense within the domain.
+
+---
+
+#### No Duplication
+
+- No Duplication is a tricky topic. By duplication, we mean business logic.
+- Everything should be said once and only once
+  - Any time we have duplication it is easy for those once similar blocks to diverge leading us with multiple ways to achieve the same business outcome without knowing which one is correct.
+- DRY: Don't Repeat Yourself
+  - The idea of DRY is not having to update in parallel multiple things when one change needs to occur.
+  - Of course, we want to reduce duplication in our code, but this principle is about domain knowledge.
+  - DRY everything is a recipe for disaster though.
+    - Sometimes in an effort to reduce code duplication, we increase complexity and coupling.
+
+---
+
+#### Fewest Elements
+
+- This rule is a counterbalance to the other three. Sometimes in our pursuit of making things small and simple, we may create a lot of unnecessary abstractions. This is a tradeoff between systems that have lots of little pieces vs those with fewer pieces.
+- Do I have any dead code?
+- Have I abstracted too far?
+- No gold plating
+  - This involves not gold-plating for the future - we should code for the now.
+  - Code that “could be” useful in the future is the same as dead code.
+  - Small code is easier to maintain and follow.
+- YAGNI: You Aren’t Gonna Need It
+  - In this acronym, we code for the now - we do not presume the needs of the future.
+  - Requirements often change, what you code for now may not meet the needs of the specification in the future. Then you are spending time reworking or scraping code that was never used in production systems. By focusing on the “now” we reduce our Cost of Delay by shipping the known needed features sooner.
+  - YAGNI only applies to capabilities built into the software to support a presumptive feature, it does not apply to effort to make the software easier to modify. It is only a viable strategy if the code is easy to change, so refactoring isn’t a violation of YAGNI since it makes the code more malleable.
+
+---
+
+### 2. SOLID: Principles of Object-Oriented Design
+
+Maintainable code is what we should be aiming for when we write for any system. The SOLID principles give us a set of heuristics to go by when while implementing our system.
+
+**SOLID Principles:**
+
+1. **Single-responsibility Principle**
+
+   - A class/function should have one and only one reason to change, meaning that it should only have one job.
+   - The reason it is important to keep a class focused on a single concern is that it makes the class more robust.
+   - As an example, consider a module that compiles and prints a report. Imagine such a module can be changed for two reasons. First, the content of the report could change. Second, the format of the report could change. These two things change for different causes. The single-responsibility principle says that these two aspects of the problem are really two separate responsibilities.
+   - The ultimate Swiss army knife.
+
+2. **Open-closed Principle**
+
+   - Objects or entities should be open for extension but closed for modification.
+   - A typical example of this is the calculation of the area for shapes. Instead of having a single function that checks the type before calculating, we can encapsulate the logic inside of a shape object such as a triangle, circle, or square that each has its own function for calculating its area.
+   - What if mechanics didn’t follow the open-closed principle?
+
+3. **Liskov Substitution Principle**
+
+   - Objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
+   - `List<String> ducks = new ArrayList<String>();`
+   - We define our types to the highest abstraction possible, leaving the implementation details aside.
+
+4. **Interface Segregation Principle**
+
+   - A client should never be forced to implement an interface it doesn’t use, or clients shouldn’t be forced to depend on methods they do not use.
+   - This principle states our interfaces should be specialized and only expose the functionality needed.
+   - This is especially important as we do not want the implementors of our client to be burdened with understanding or second-guessing features that are not necessary.
+   - How useful is this, really?
+     - I worked at a company once that had a master stored procedure interface. The stored procedure had about 50 inputs of which only a few handfuls were ever used depending upon the stored being called. This was an effort to make the code less complex but ballooned out of control as the system evolved and new stored procedures were added.
+
+5. **Dependency Inversion Principle**
+   - Entities must depend on abstractions, not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
+   - So what does inverting our dependencies mean?
+     - A lot of modern programming languages come with dependency injection frameworks, but why do we use them?
+     - By inverting the dependencies, we allow the socket does not depend upon the lamp, a lamp depends upon the socket.
+
+---
+
+### CUPID: Properties for Joyful Coding
+
+**CUPID Principles:**
+
+- **C**omposable
+- **U**nix Philosophy
+- **P**redictable
+- **I**diomatic
+- **D**omain-based
+
+This is an alternative to SOLID. It was proposed by Dan North. SOLID is focused on Object-Oriented code, and while the principles apply to Functional programming - this concept works with the ideas of properties instead of principles.
+
+---
+
+#### Composable
+
+- Plays well with others
+  - Code that is easy to use gets used
+  - Small “surface area”
+  - Intention-revealing
+  - Minimal dependencies
+
+---
+
+#### Unix Philosophy
+
+- Small is beautiful
+- Do One Thing and Do It Well
+- Gain early feedback
+- Use standard interfaces
+
+---
+
+#### Predictable
+
+- Behaves as expected
+- Deterministic
+- Observable
+
+---
+
+#### Idiomatic
+
+- Feels natural
+- Uses language idioms
+- Use local idioms
+
+---
+
+#### Domain-based
+
+- Uses domain language
+- Uses domain structure
+- Uses domain boundaries
+
+---
+
+### 3. Test-Driven Development
+
+Software Development Discipline that relies on very short development cycles:
+
+- Start with a failing test
+- Write code to implement the failing test
+- Refactor
+
+code
+
+---
+
+#### Red - Green - Refactor
+
+1. **Red:** Define your expectations/specifications for a piece of code.
+2. **Green:** Implement the necessary logic to make your test pass.
+3. **Refactor:** Optimize or restructure the code.
+
+---
+
+### Test-Driven Development
+
+- **Only Write Code That is Needed**
+- **Modular Design**
+- **Easier Refactoring / Maintenance**
+- **Regression Test Suite**
+- **Code Documentation**
+- **Clear Requirements**
+
+---
+
+### Types of Tests:
+
+- **Unit** - Test on one very small piece of code
+- **Integration** - Test on the composition of various modules
+- **Acceptance (UI)** - Test features of the system as a whole
+
+---
+
+### Legacy Systems:
+
+- The best time to start is now
+- Write tests for new code
+- Keep bugs away by adding tests
+- Critical elements
+
+---
+
+### 4. ZOMBIES
+
+**ZOMBIES: Problem-Solving Strategy**
+
+- **Z**ero
+- **O**ne
+- **M**any (or More complex)
+- **B**oundary Behaviors
+- **I**nterface Definition
+- **E**xercise Exceptional Behavior
+- **S**imple Scenarios, Simple Solutions
+
+---
+
+#### ZOMBIES: FizzBuzz
+
+Write a program that returns a list of numbers or strings from 1 to n, where n is the upper bound.
+
+- For multiples of three add “Fizz” instead of the number
+- For multiples of five add “Buzz” instead of the number
+- For multiples of three and five add “FizzBuzz” instead of the number
+
+**Example:**
+
+- Upper bound: 15
+- Example output: [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz']
+
+---
+
+### 5. Boy Scout Rule
+
+**Always check a module in cleaner than when you checked it out.**
+
+- **Opportunistic Refactoring:**
+
+  - No dedicated refactoring iterations
+  - Small regular contributions
+  - Focus on parts of code currently working on
+
+- **Broken Window Theory:**
+
+  - Preventing code decay by fixing “broken windows”
+  - Developers take pride in their codebase
+  - Form a sense of community through quality
+
+- **Low-Risk IDE-based Refactorings:**
+
+  - Rename variable
+  - Inline Variable
+  - Extract Method
+  - Introduce Local Variable
+  - Introduce Parameter
+  - Introduce Field
+
+- **Technical Debt Backlog:**
+
+  - Identify areas to improve that are beyond the scope of the current feature being worked on
+
+- **Names are important in our code.** They are the primary way to Reveal Intention.
+
+---
+
+### Summary
+
+**Simple Design:**
+
+- Keep complexity down by focusing on current needs
+- Greater ease of change in the future
+- Faster time to market
+
+**SOLID:**
+
+- Language for describing code
+- Keeps code clean and more manageable
+- Makes implementation more enjoyable for developers
+
+**Test-Driven Development:**
+
+- Write only code to implement the specific feature working on
+- Continual validation that the system works
+- Reduced costs of change and overall maintenance
+
+**ZOMBIES:**
+
+- Zero/One/Many problem-solving strategy
+- Start implementing sooner by removing constraints
+- Layer on complexity
+
+**Boy Scout Rule:**
+
+- Makes the codebase easier to work with over time
+- Small incremental changes
+- Culture of continuous improvement
+
+---
+
+### Thank You
