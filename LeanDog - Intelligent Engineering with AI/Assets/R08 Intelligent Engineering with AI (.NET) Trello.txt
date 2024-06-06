@@ -8,6 +8,57 @@ Should we have a certification program for the course?
 
 Questions
 
+## Labels
+
+- Marketing
+
+## Description
+
+Creating a certification program for the "Intelligent Engineering with AI" course could provide significant value for both the participants and the organization. Here's a detailed outline and rationale for implementing such a program:
+
+##### Why a Certification Program?
+
+1. **Enhanced Credibility**: Offering certification enhances the credibility of the course, providing tangible proof of the skills and knowledge acquired.
+2. **Motivation for Learners**: Certifications serve as a motivational tool, encouraging participants to complete the course and achieve a recognized qualification.
+3. **Marketability**: Certified participants can add the credential to their resumes, increasing their marketability and career prospects.
+4. **Quality Assurance**: A certification program ensures that the participants have met a certain standard, which reflects positively on the course and LeanDog's reputation.
+
+##### Proposed Certification Structure
+
+###### Certification Levels
+
+- **Foundation Certificate**: For participants who complete the course and demonstrate understanding of basic concepts and tools.
+- **Advanced Certificate**: For those who show proficiency in applying AI tools in real-world scenarios and advanced techniques.
+
+###### Certification Criteria
+
+- **Completion of Course**: Attendees must attend all sessions and participate in practical exercises.
+- **Assessment**: A combination of quizzes, practical assignments, and a final project. The final project should involve using AI tools to solve a real-world problem or create an application.
+- **Evaluation**: Continuous assessment throughout the course, with feedback provided to guide improvement.
+
+##### Certification Badges by [http://Certifier.io](http://Certifier.io "smartCard-inline")
+
+[http://Certifier.io](http://Certifier.io "smartCard-inline")  offers a free service for issuing up to 250 badges, which can be leveraged for this program. Here’s how to integrate it:
+
+1. **Badge Design**: Create visually appealing badges for each certification level. These badges should include the course name, LeanDog's logo, and the certification level.
+2. **Issuance Process**: Upon successful completion of the course and passing the assessments, participants will receive their digital badge via [http://Certifier.io](http://Certifier.io "smartCard-inline") . The platform allows easy sharing on LinkedIn, resumes, and other professional platforms.
+3. **Verification**: Each badge will include a unique verification link, ensuring that employers and others can verify the authenticity of the certification.
+
+##### Implementation Steps
+
+1. **Develop Assessment Materials**: Create quizzes, practical assignments, and project guidelines aligned with the course content.
+2. **Set Up** [http://Certifier.io](http://Certifier.io "smartCard-inline")  **Account**: Design the badges and set up the issuance process.
+3. **Inform Participants**: Communicate the certification program details to course participants at the start, outlining the benefits and requirements.
+4. **Monitor Progress**: Continuously assess participants' performance and provide feedback.
+5. **Award Certificates**: Upon completion, issue the badges through [http://Certifier.io](http://Certifier.io "smartCard-inline")  and guide participants on how to use and share their certification.
+
+##### Benefits to Participants and LeanDog
+
+- **Participants**: Gain recognition for their skills, increase their job prospects, and have a tangible proof of their learning.
+- **LeanDog**: Enhances the course's reputation, attracts more participants, and provides a measurable outcome of the training effectiveness.
+
+By implementing a certification program, LeanDog can add significant value to its "Intelligent Engineering with AI" course, benefiting both the participants and the organization.
+
 ## Title
 
 Post Class Summary on LinkedIn
@@ -130,19 +181,6 @@ Scenario: Update Course Materials
 ```
 
 These user stories and acceptance criteria provide a structured approach to conducting a comprehensive post-class follow-up.
-
-## Title
-
-Review and Update Syllabus
-
-## List Name
-
-Epics
-
-## Labels
-
-- Course Content
-- Setup
 
 ## Title
 
@@ -467,11 +505,40 @@ This module addition leverages the custom GPT assistant as a virtual pair progra
 
 @juliasshaw3  what do you think? Using our Custom GPT as a Course Assistant to work through Roman Numeral Calculator kata
 
+## Title
+
+Participant Machine Setup
+
+## List Name
+
+To Do
+
+## Labels
+
+- Setup
+- Marketing
+- Course Content
+
+## Description
+
+**Business Value:** Facilitate a smooth start to the course by ensuring all participants have their machines properly set up with the necessary software and tools.
+
+**Problem:** Participants may face technical difficulties at the beginning of the course if their machines are not properly set up, leading to delays and frustration.
+
+**Description:** Develop a detailed guide for participants to set up their machines before the course begins. This should include step-by-step instructions for installing required software and tools, as well as any configuration settings needed.
+
+**Acceptance Criteria:**
+
+- **Given** the course software and tools requirements,
+- **When** creating the machine setup guide,
+- **Then** ensure it includes detailed, step-by-step instructions for installing and configuring all necessary software and tools.
+- **And** the guide is clear, comprehensive, and tested to ensure it works as intended on participant machines.
+
 # DOING
 
 ## Title
 
-Create New Repository for the Course
+Participant Prerequisites
 
 ## List Name
 
@@ -479,36 +546,30 @@ Doing
 
 ## Labels
 
+- Marketing
 - Setup
 - Course Content
 
 ## Description
 
-**As a** course developer,
-**I want** to create a new GitHub repository for the "Intelligent Engineering with AI" course,
-**so that** the course materials are organized and accessible to students and collaborators.
+**Business Value:** Ensure participants are adequately prepared for the course, leading to a more effective learning experience and better course outcomes.
 
-###### Acceptance Criteria:
+**Problem:** Participants may not be aware of the necessary background knowledge or skills required for the course, leading to potential confusion and ineffective learning.
 
-```gherkin
-Scenario: Create New GitHub Repository
-  Given I have access to GitHub
-  When I create a new repository for the "Intelligent Engineering with AI" course
-  And I name the repository appropriately
-  And I include a README file with an overview of the course
-  And I add initial course materials and documentation to the repository
-  Then the repository should be reviewed by at least two team members for completeness and accuracy.
-```
+**Description:** Create a document outlining the prerequisites for participants, including necessary background knowledge, skills, and any required software or tools. This should be communicated clearly to participants before the course begins.
 
-##### Question to @juliasshaw3 :
+**Acceptance Criteria:**
 
-**Question:** Should the new repository for the "Intelligent Engineering with AI" course be created under the LeanDog organization? If so, should Justin be invited to the LeanDog GitHub organization to manage and contribute to the repository?
+- **Given** the course content and requirements,
+- **When** creating the prerequisites document,
+- **Then** ensure it includes all necessary background knowledge, skills, and required tools or software.
+- **And** the document is clear and easily accessible to participants prior to the course start date.
 
 # DONE
 
 ## Title
 
-Organize with Julias
+Enhance C# "Hello World" Example and Update README
 
 ## List Name
 
@@ -517,117 +578,318 @@ Review
 ## Labels
 
 - Setup
+- Course Content
 
 ## Description
 
+**Business Value:** Provide an educational and comprehensive C# example for beginners, demonstrating various language features and functional programming concepts.
+
+**As a** developer
+**I want** to enhance the C# "Hello World" example and update the README
+**So that** beginners can learn C# features and functional programming concepts through a comprehensive example
+
+**Problem:** The current "Hello World" example is basic and does not showcase the full capabilities of C#. There is also a lack of detailed documentation explaining the code to beginners.
+
 **Description:**
-Coordinate and schedule face-to-face time with Julias Shaw to discuss course details. Establish communication methods and create a team agreement. Confirm teaching schedule and topics for each instructor.
 
-**Checklist:**
+- Enhance the existing "Hello World" C# example to include various language features, functional programming concepts, and syntax sugar.
+- Update the README file to provide detailed explanations of each feature and concept included in the code.
+- Ensure that the example and documentation are beginner-friendly and educational.
 
-1. **Schedule Meeting with Julias**
-   - [x] Find available dates and times for a face-to-face meeting.
-   - [x] Send calendar invite to Julias.
-   - [x] Confirm meeting details (virtual/platform).
-2. **Discuss Communication Methods**
-   - [x] Decide on primary communication channels (e.g., Slack, email).
-   - [x] Set expectations for response times and availability.
-3. **Create Team Agreement**
-   - [x] Define roles and responsibilities.
-   - [x] Establish ground rules for collaboration and decision-making.
-   - [x] Agree on meeting frequency and formats (daily standups, weekly check-ins).
-4. **Teaching Schedule and Topics**
-   - [x] Confirm who will be teaching each day.
-     - **Day 1:**
-       - Morning: [Instructor] (both)
-       - Afternoon: [Instructor] (both)
-     - **Day 2:**
-       - Morning: [Instructor] (both)
-       - Afternoon: [Instructor] (both)
-   - [x] Clarify if Julias will be present for the entire course or specific sessions.
-   - [ ] Identify specific topics Julias wants to instruct.
-     - Examples:
-       - Overview of AI integration in TDD
-       - Advanced AI tools and techniques
-       - Hands-on sessions with GitHub Copilot and ChatGPT
-5. **Finalize Details**
-   - [x] Document the final teaching schedule.
-   - [x] Share the schedule and team agreement with all stakeholders.
+**Acceptance Criteria:**
+
+```gherkin
+Given a developer is viewing the project,
+When they open the `Program.cs` file,
+Then they should see an enhanced "Hello World" example including:
+    - Value types and reference types
+    - Implicit and explicit typing
+    - Conditional statements
+    - Arrays, lists, and dictionaries
+    - Loops
+    - Classes and structs
+    - Enums
+    - LINQ queries (filter, find, map, reduce)
+    - Exception handling
+    - Asynchronous programming
+    - Syntax sugar (auto-implemented properties, object initializers, string interpolation, null-coalescing operators, expression-bodied members, pattern matching)
+
+Given a developer is viewing the project,
+When they open the README file,
+Then they should see detailed explanations for each feature and concept in the `Program.cs` file.
+
+Given a developer is following the instructions in the README,
+When they run the provided commands,
+Then the project should build and execute correctly, displaying the expected output in the console.
+```
+
+##### Task Breakdown
+
+1. **Enhance** `Program.cs` File:
+   - Add examples of value types and reference types.
+   - Include implicit and explicit typing.
+   - Demonstrate conditional statements.
+   - Add arrays, lists, and dictionaries.
+   - Use loops to iterate over collections.
+   - Add classes, structs, and enums.
+   - Include LINQ queries (filter, find, map, reduce).
+   - Add exception handling.
+   - Demonstrate asynchronous programming.
+   - Use syntax sugar features.
+2. **Update README File:**
+   - Provide detailed explanations of each feature and concept included in the `Program.cs` file.
+   - Include instructions on how to build and run the project.
+   - Ensure the documentation is clear and beginner-friendly.
+3. **Testing:**
+   - Verify that the project builds and runs correctly.
+   - Ensure that the README instructions are accurate and easy to follow.
 
 ## Comments
 
-@juliasshaw3 Julias, please propose meeting times and let me know your availability. Also, could you specify any topics you would like to cover during the course?
+### Intelligent Engineering with AI
 
-@juliasshaw3 Are there specific topics you want to take? I don’t mind running it all, but wasn’t sure if there was something particular that you are passionate about.
+![LeanDog Logo](/Assets/LeanDog-logo.png)
 
-##### Team Agreement
+#### C# - Hello World
 
-**Participants:**
+This project demonstrates the basic syntax and features of the C# programming language. The `Hello, World!` example is extended to include various types, conditionals, loops, collections, LINQ, exception handling, asynchronous programming, and syntax sugar features.
 
-- **Justin** (Lead Instructor)
-- **Julias** (Decision Maker and Collaborator)
+##### Prerequisites
 
-**Communication:**
+- [.NET SDK](https://dotnet.microsoft.com/download "‌") installed on your machine.
 
-- **Primary Channel:** Slack
-  - Regular updates and asynchronous communication will be done through Slack.
-  - Both parties will check Slack messages at least twice a day.
+##### Running the Project
 
-**Roles and Responsibilities:**
+This project is created using the dotnet CLI. Follow the steps below to build and run the C# file in your terminal:
 
-- **Justin:**
-  - Lead the instruction and course development.
-  - Work on course content and projects during the evening.
-  - Available for synchronous communication as needed.
-- **Julias:**
-  - Decision-making authority on course direction and major decisions.
-  - Available to provide input and collaborate on areas of comfort.
-  - Admits being late to the AI game, so relies on Justin's expertise for guidance but holds final decision power.
+```bash
+~ cd HelloWorld
+~ dotnet run
+```
 
-**Collaboration:**
+##### Code Overview
 
-- **Decision Making:**
-  - Julias has the final decision-making power but will consider Justin’s expert opinions before making decisions.
-- **Flexibility:**
-  - Julias can hop in and provide support whenever comfortable.
+Below is a detailed explanation of the features and syntax used in the `Program.cs` file:
 
-**Availability:**
+###### Basic Output
 
-- **Justin:**
-  - Working a bit of time each night on course-related tasks.
-  - Open to adjusting availability for synchronous meetings as needed.
-- **Julias:**
-  - Available for feedback and decisions when required, ensuring timely responses to facilitate progress.
+The `Console.WriteLine` method is used to print text to the console.
 
-**Feedback and Iteration:**
+```csharp
+Console.WriteLine("Hello, World!");
+```
 
-- **Regular Check-ins:**
-  - Weekly check-ins to review progress, discuss any challenges, and plan for the upcoming week.
-  - Use the check-ins to ensure alignment and address any issues promptly.
+###### Value Types
 
-**Conflict Resolution:**
+C# has several primitive value types, including `bool`, `byte`, `char`, `decimal`, `double`, `float`, `int`, and `long`.
 
-- **Dispute Handling:**
-  - In case of disagreements, a cooling-off period of 24 hours before reconvening to discuss the issue.
-  - Aim for consensus, but Julias retains final decision authority.
+```csharp
+bool isActive = true;
+byte byteValue = 255;
+char charValue = 'A';
+decimal decimalValue = 10.5m;
+double doubleValue = 10.5;
+float floatValue = 10.5f;
+int intValue = 10;
+long longValue = 100000L;
+```
 
-**Documentation:**
+###### Reference Types
 
-- **Record Keeping:**
-  - Keep a log of decisions made and important discussions for future reference.
-  - Use shared documents for transparency and easy access.
+C# also supports reference types such as `object`, `string`, and `dynamic`.
 
-**Continuous Improvement:**
+```csharp
+object obj = new object();
+string str = "Hello";
+dynamic dyn = "Dynamic typing";
+```
 
-- **Reflect and Adapt:**
-  - Periodically review the team agreement to ensure it remains effective.
-  - Adjust practices based on feedback and changing needs.
+###### Implicit vs Explicit Typing
 
-**Miscellaneous:**
+You can declare variables using implicit (`var`) or explicit types.
 
-- **Code of Conduct:**
-  - Maintain professionalism and respect in all communications.
-  - Encourage open and honest feedback without fear of retribution.
+```csharp
+var i = 10; // Implicitly typed.
+int x = 10; // Explicitly typed.
+Console.WriteLine($"i={i}, x={x}");
+```
+
+###### Conditionals
+
+Conditional statements in C# use `if`, `else if`, and `else`.
+
+```csharp
+var isTrue = false;
+if (isTrue)
+{
+    Console.WriteLine("true");
+}
+else
+{
+    Console.WriteLine("false");
+}
+```
+
+###### Collections: Arrays, Lists, and Dictionaries
+
+C# supports various collection types, such as arrays, lists, and dictionaries.
+
+```csharp
+string[] weekDays = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+var optionList = new List<string> { "Option1", "Option2" };
+var cities = new Dictionary<string, string>
+{
+    { "UK", "London, Manchester, Birmingham" },
+    { "USA", "Chicago, New York, Washington" },
+    { "India", "Mumbai, New Delhi, Pune" }
+};
+```
+
+###### Loops
+
+You can iterate over collections using loops like `foreach`.
+
+```csharp
+foreach (var kvp in cities)
+{
+    Console.WriteLine($"Key: {kvp.Key}, Value: {kvp.Value}");
+}
+```
+
+###### Classes and Objects
+
+Classes in C# are used to create objects with properties and methods.
+
+```csharp
+var helloWorld = new HelloWorld { Name = "Grogu" };
+Console.WriteLine(helloWorld.Greeting());
+```
+
+## Title
+
+Participant Course Summary
+
+## List Name
+
+Review
+
+## Labels
+
+- Setup
+- Marketing
+- Course Content
+
+## Description
+
+**Business Value:** Provide participants with a clear, concise overview of the course content, enhancing their understanding and engagement.
+
+**Problem:** Participants need a comprehensive summary of the course to understand the key takeaways and structure, improving their learning experience and satisfaction.
+
+**Description:** Develop a summary document for participants that outlines the course objectives, key topics covered, learning outcomes, and schedule. This document should be easy to read and provide a quick reference to the course structure and important information.
+
+**Acceptance Criteria:**
+
+- **Given** the course content,
+- **When** creating the summary document,
+- **Then** ensure it includes the course objectives, key topics, learning outcomes, and schedule.
+- **And** the document is clear, concise, and formatted for easy reading.
+
+## Comments
+
+### Participant Course Summary
+
+**Intelligent Engineering with AI** is a two-day course that integrates AI tools with traditional Test-Driven Development (TDD) practices. By leveraging AI technologies, this course will enhance software engineers' productivity and code quality.
+
+#### Course Objectives
+
+- Understand the fundamentals of Test-Driven Development (TDD).
+- Learn how to use AI coding assistants like GitHub Copilot and ChatGPT.
+- Develop skills for writing, generating, and refactoring code using AI tools.
+- Master paired programming with AI for enhanced collaboration.
+- Address issues associated with working in legacy code.
+
+#### Key Topics Covered
+
+1. **Introduction to TDD and AI Tools**
+   - Basics of TDD and its cycle: Red, Green, Refactor.
+   - Hands-on exercises with GitHub Copilot and ChatGPT.
+   - Practical pair programming exercises.
+2. **AI-Driven Testing and Code Quality**
+   - Automating test generation and execution with AI.
+   - Using AI for code refactoring and optimization.
+   - Documenting code using AI tools.
+3. **Advanced TDD Practices**
+   - Working with mocks, stubs, fakes, and test doubles.
+   - Techniques for building testable code and refactoring legacy code.
+   - Applying design patterns and recognizing code smells with AI assistance.
+4. **Software Craftsmanship and Extreme Programming (XP)**
+   - SOLID principles and XP practices.
+   - Clean code concepts and refactoring techniques.
+   - Practical exercises like the Fizz Buzz Kata and Bowling Kata.
+5. **Building and Deploying Applications**
+   - Developing a simple API application.
+   - Setting up continuous integration and deployment using GitHub Actions.
+   - Hands-on exercises in pair programming.
+
+#### Learning Outcomes
+
+Participants will be able to:
+
+- Write clean, maintainable code with the help of AI tools.
+- Understand and document code effectively using AI.
+- Implement TDD practices to improve software quality.
+- Utilize AI for code generation, refactoring, and testing.
+- Collaborate efficiently using paired programming techniques.
+
+Participants will become familiar with:
+
+- GitHub Copilots and ChatGPT.
+- Writing tests first and using multiple paired testing techniques.
+- Modifying software design using a test-first approach.
+
+#### Course Schedule
+
+##### Day 1: Introduction to TDD and AI Tools
+
+**Morning Session:**
+
+1. Welcome and Introductions
+2. Introducing Tyler Morgan, the Intelligent Engineering Course Assistant
+3. Course Objectives and Structure
+4. Introduction to TDD with Fizz Buzz Kata
+5. Practical Exercise: Fizz Buzz Kata (Parse String Time) with TDD and AI Tools
+6. Software Craftsmanship and Extreme Programming
+7. Wrap-Up and Q&A
+
+**Afternoon Session:**
+
+1. Overview of AI Tools and Current Capabilities
+2. Bowling Kata
+3. Refactoring Techniques and Clean Code Concepts
+4. Introduction to the Roman Numeral Calculator Kata
+5. Practical Exercise: Roman Numeral Calculator Kata with TDD and AI Tools
+6. Wrap-Up and Q&A
+
+##### Day 2: Advanced TDD and Software Craftsmanship with AI Integration
+
+**Morning Session:**
+
+1. Recap and Introduction
+2. Gilded Rose Kata with TDD and AI Tools
+3. Code Smells and Design Patterns
+4. Wrap-Up and Q&A
+
+**Afternoon Session:**
+
+1. Introduction to Prompt Engineering
+2. Stubs, Mocks, Fakes, and Doubles
+3. Building a Simple API Application
+4. Deploying the Application using GitHub Actions
+5. Wrap-Up and Q&A
+
+#### Conclusion
+
+This course comprehensively introduces integrating AI tools with traditional software engineering practices, focusing on TDD. By the end of the course, participants will be equipped with the knowledge and skills to enhance their coding practices and productivity using AI technologies.
 
 ## Title
 
@@ -747,6 +1009,224 @@ Scenario: Review and Update GitHub Repository Content
    - Conclusion of the course with additional resources and contact information for further support.
 
 @juliasshaw3 thoughts on the proposed outline?
+
+## Title
+
+Organize with Julias
+
+## List Name
+
+Done 🎉
+
+## Labels
+
+- Setup
+
+## Description
+
+**Description:**
+Coordinate and schedule face-to-face time with Julias Shaw to discuss course details. Establish communication methods and create a team agreement. Confirm teaching schedule and topics for each instructor.
+
+**Checklist:**
+
+1. **Schedule Meeting with Julias**
+   - [x] Find available dates and times for a face-to-face meeting.
+   - [x] Send calendar invite to Julias.
+   - [x] Confirm meeting details (virtual/platform).
+2. **Discuss Communication Methods**
+   - [x] Decide on primary communication channels (e.g., Slack, email).
+   - [x] Set expectations for response times and availability.
+3. **Create Team Agreement**
+   - [x] Define roles and responsibilities.
+   - [x] Establish ground rules for collaboration and decision-making.
+   - [x] Agree on meeting frequency and formats (daily standups, weekly check-ins).
+4. **Teaching Schedule and Topics**
+   - [x] Confirm who will be teaching each day.
+     - **Day 1:**
+       - Morning: [Instructor] (both)
+       - Afternoon: [Instructor] (both)
+     - **Day 2:**
+       - Morning: [Instructor] (both)
+       - Afternoon: [Instructor] (both)
+   - [x] Clarify if Julias will be present for the entire course or specific sessions.
+   - [ ] Identify specific topics Julias wants to instruct.
+     - Examples:
+       - Overview of AI integration in TDD
+       - Advanced AI tools and techniques
+       - Hands-on sessions with GitHub Copilot and ChatGPT
+5. **Finalize Details**
+   - [x] Document the final teaching schedule.
+   - [x] Share the schedule and team agreement with all stakeholders.
+
+## Comments
+
+@juliasshaw3 Julias, please propose meeting times and let me know your availability. Also, could you specify any topics you would like to cover during the course?
+
+@juliasshaw3 Are there specific topics you want to take? I don’t mind running it all, but wasn’t sure if there was something particular that you are passionate about.
+
+##### Team Agreement
+
+**Participants:**
+
+- **Justin** (Lead Instructor)
+- **Julias** (Decision Maker and Collaborator)
+
+**Communication:**
+
+- **Primary Channel:** Slack
+  - Regular updates and asynchronous communication will be done through Slack.
+  - Both parties will check Slack messages at least twice a day.
+
+**Roles and Responsibilities:**
+
+- **Justin:**
+  - Lead the instruction and course development.
+  - Work on course content and projects during the evening.
+  - Available for synchronous communication as needed.
+- **Julias:**
+  - Decision-making authority on course direction and major decisions.
+  - Available to provide input and collaborate on areas of comfort.
+  - Admits being late to the AI game, so relies on Justin's expertise for guidance but holds final decision power.
+
+**Collaboration:**
+
+- **Decision Making:**
+  - Julias has the final decision-making power but will consider Justin’s expert opinions before making decisions.
+- **Flexibility:**
+  - Julias can hop in and provide support whenever comfortable.
+
+**Availability:**
+
+- **Justin:**
+  - Working a bit of time each night on course-related tasks.
+  - Open to adjusting availability for synchronous meetings as needed.
+- **Julias:**
+  - Available for feedback and decisions when required, ensuring timely responses to facilitate progress.
+
+**Feedback and Iteration:**
+
+- **Regular Check-ins:**
+  - Weekly check-ins to review progress, discuss any challenges, and plan for the upcoming week.
+  - Use the check-ins to ensure alignment and address any issues promptly.
+
+**Conflict Resolution:**
+
+- **Dispute Handling:**
+  - In case of disagreements, a cooling-off period of 24 hours before reconvening to discuss the issue.
+  - Aim for consensus, but Julias retains final decision authority.
+
+**Documentation:**
+
+- **Record Keeping:**
+  - Keep a log of decisions made and important discussions for future reference.
+  - Use shared documents for transparency and easy access.
+
+**Continuous Improvement:**
+
+- **Reflect and Adapt:**
+  - Periodically review the team agreement to ensure it remains effective.
+  - Adjust practices based on feedback and changing needs.
+
+**Miscellaneous:**
+
+- **Code of Conduct:**
+  - Maintain professionalism and respect in all communications.
+  - Encourage open and honest feedback without fear of retribution.
+
+## Title
+
+Create New Repository for the Course
+
+## List Name
+
+Done 🎉
+
+## Labels
+
+- Setup
+- Course Content
+
+## Description
+
+**As a** course developer,
+**I want** to create a new GitHub repository for the "Intelligent Engineering with AI" course,
+**so that** the course materials are organized and accessible to students and collaborators.
+
+###### Acceptance Criteria:
+
+```gherkin
+Scenario: Create New GitHub Repository
+  Given I have access to GitHub
+  When I create a new repository for the "Intelligent Engineering with AI" course
+  And I name the repository appropriately
+  And I include a README file with an overview of the course
+  And I add initial course materials and documentation to the repository
+  Then the repository should be reviewed by at least two team members for completeness and accuracy.
+```
+
+##### Question to @juliasshaw3 :
+
+**Question:** Should the new repository for the "Intelligent Engineering with AI" course be created under the LeanDog organization? If so, should Justin be invited to the LeanDog GitHub organization to manage and contribute to the repository?
+
+## Title
+
+Review and Update Syllabus
+
+## List Name
+
+Done 🎉
+
+## Labels
+
+- Course Content
+- Setup
+
+## Description
+
+###### Objectives
+
+1. **Ensure Alignment with Current Trends**: Update the syllabus to include the latest AI tools, frameworks, and methodologies relevant to software engineering and Test Driven Development (TDD).
+2. **Incorporate Feedback**: Review feedback from past participants to identify areas for improvement and incorporate suggestions.
+3. **Enhance Learning Outcomes**: Clearly define learning outcomes to ensure participants know what skills and knowledge they will gain by the end of the course.
+4. **Detailed Course Structure**: Break down the course content into detailed modules and sessions, providing a clear roadmap for participants.
+
+###### Key Updates
+
+1. **Introduction to AI in Software Engineering**
+   - Overview of AI tools like GitHub Copilot and ChatGPT.
+   - Current capabilities and limitations of AI in coding and testing.
+2. **Fundamentals of Test Driven Development (TDD)**
+   - Introduction to TDD principles and the Red, Green, Refactor cycle.
+   - Practical exercises using AI tools to enhance TDD practices.
+3. **Advanced TDD Techniques**
+   - Using mocks, stubs, and test doubles.
+   - Refactoring legacy code with AI assistance.
+4. **AI-Driven Coding Practices**
+   - Automating code documentation and optimization with AI.
+   - Pair programming with AI: best practices and collaboration techniques.
+5. **Real-World Applications**
+   - Case studies and hands-on projects using AI for real-world problem-solving.
+   - Final project: Participants will develop and present a project incorporating the tools and techniques learned.
+
+###### Learning Outcomes
+
+By the end of the course, participants will be able to:
+
+- Utilize AI tools like GitHub Copilot and ChatGPT to enhance coding practices.
+- Apply TDD principles to write clean, maintainable code.
+- Refactor and optimize code using AI-driven techniques.
+- Collaborate effectively using AI tools in a pair programming setup.
+- Solve real-world problems using AI-enhanced software engineering practices.
+
+###### Implementation Steps
+
+1. **Gather Feedback**: Collect and analyze feedback from previous course participants.
+2. **Research Latest Trends**: Investigate the latest developments in AI and TDD to ensure the syllabus is up-to-date.
+3. **Revise Modules**: Update the course modules to reflect new content and improve existing material.
+4. **Document Updates**: Create a detailed syllabus document and upload it to the GitHub repository for easy access and reference by participants.
+5. **Continuous Improvement**: Establish a process for regular syllabus reviews and updates based on ongoing feedback and industry trends.
+
+This updated syllabus will ensure that the "Intelligent Engineering with AI" course remains relevant, comprehensive, and aligned with industry needs.
 
 ## Title
 
