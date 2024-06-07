@@ -507,11 +507,281 @@ This module addition leverages the custom GPT assistant as a virtual pair progra
 
 ## Title
 
-Participant Machine Setup
+Setup Roman Numeral Calculator Kata
 
 ## List Name
 
 To Do
+
+## Labels
+
+- Course Content
+- Setup
+
+## Description
+
+**Business Value**: Enable participants to practice TDD by converting numbers to Roman numerals, enhancing their understanding of converting and manipulating data within the TDD framework.
+
+**Problem**: Participants need to practice data conversion and manipulation within the TDD framework.
+
+**Description**: As a participant, I want to set up the Roman Numeral Calculator Kata so that I can practice writing tests and implementing code to convert numbers to Roman numerals. This exercise will help me understand how to handle data conversion and ensure my code meets specified requirements.
+
+**Acceptance Criteria**:
+
+```gherkin
+Given a new project setup,
+When I open the Roman Numeral Calculator Kata project,
+Then I should see the initial test cases for converting numbers to Roman numerals.
+
+Given the initial test cases,
+When I implement the Roman numeral conversion logic,
+Then all tests should pass according to the specified requirements.
+
+Given the completed Roman numeral conversion logic,
+When I run the tests,
+Then I should see correct Roman numeral outputs for various numbers.
+```
+
+## Title
+
+Setup Gilded Rose Kata
+
+## List Name
+
+To Do
+
+## Labels
+
+- Course Content
+- Setup
+
+## Description
+
+**Business Value**: Provide a real-world legacy code refactoring challenge for participants to practice TDD and improve code quality.
+
+**Problem**: Participants need to practice refactoring legacy code using TDD to improve code quality and maintainability.
+
+**Description**: As a participant, I want to set up the Gilded Rose Kata so that I can practice writing tests and refactoring legacy code. This will help me understand how to improve code quality and maintainability using TDD techniques.
+
+**Acceptance Criteria**:
+
+```gherkin
+Given a new project setup,
+When I open the Gilded Rose Kata project,
+Then I should see the initial legacy code and corresponding test cases.
+
+Given the initial test cases,
+When I refactor the legacy code,
+Then all tests should pass according to the specified requirements.
+
+Given the refactored code,
+When I run the tests,
+Then I should see improved code quality and maintainability without altering the functionality.
+```
+
+## Title
+
+Setup API Project
+
+## List Name
+
+To Do
+
+## Labels
+
+- Course Content
+- Setup
+
+## Description
+
+**Business Value**: Enable participants to practice TDD by building and testing a simple API, enhancing their understanding of API development and testing.
+
+**Problem**: Participants need to practice building and testing APIs within the TDD framework to understand how to develop robust and testable APIs.
+
+**Description**: As a participant, I want to set up a simple API project so that I can practice writing tests and implementing API endpoints. This will help me understand how to develop and test APIs using TDD techniques.
+
+**Acceptance Criteria**:
+
+```gherkin
+Given a new project setup,
+When I open the API project,
+Then I should see the initial setup for a simple API with placeholder endpoints.
+
+Given the initial test cases for the API endpoints,
+When I implement the API logic,
+Then all tests should pass according to the specified requirements.
+
+Given the completed API endpoints,
+When I run the tests,
+Then I should see correct responses for various API requests as specified in the tests.
+```
+
+# DOING
+
+## Title
+
+Setup Bowling Kata
+
+## List Name
+
+Doing
+
+## Labels
+
+- Setup
+- Course Content
+
+## Description
+
+**Business Value**: Provide a more complex problem for participants to practice advanced TDD techniques and improve their problem-solving skills.
+
+**Problem**: Participants need a challenging example to deepen their understanding of TDD and apply advanced techniques.
+
+**Description**: As a participant, I want to set up the Bowling Kata so that I can practice writing tests and implementing code for a more complex problem. This will help me understand how to handle more intricate logic and multiple scenarios within the TDD framework.
+
+**Acceptance Criteria**:
+
+```gherkin
+Given a new project setup,
+When I open the Bowling Kata project,
+Then I should see the initial test cases for scoring a bowling game.
+
+Given the initial test cases,
+When I implement the bowling score calculation logic,
+Then all tests should pass according to the specified requirements.
+
+Given the completed bowling score calculation logic,
+When I run the tests,
+Then I should see accurate scores for various bowling game scenarios, including strikes and spares.
+```
+
+# DONE
+
+## Title
+
+Setup FizzBuzz Kata
+
+## List Name
+
+Review
+
+## Labels
+
+- Course Content
+- Setup
+
+## Description
+
+**Business Value**: Ensure participants can practice TDD by implementing a simple problem, improving their understanding of the TDD cycle.
+
+**Problem**: Participants need a straightforward example to practice the TDD cycle and understand the basics of Test-Driven Development.
+
+**Description**: As a participant, I want to set up the FizzBuzz Kata so that I can practice writing tests and implementing code in a TDD manner. The FizzBuzz Kata will help solidify my understanding of the Red-Green-Refactor cycle in a simple, controlled exercise.
+
+**Acceptance Criteria**:
+
+```gherkin
+Given a new project setup,
+When I open the FizzBuzz Kata project,
+Then I should see the initial test cases for the FizzBuzz problem.
+
+Given the initial test cases,
+When I implement the FizzBuzz logic,
+Then all tests should pass according to the specified requirements.
+
+Given the completed FizzBuzz logic,
+When I run the tests,
+Then I should see outputs matching the FizzBuzz rules for numbers divisible by 3, 5, and both.
+```
+
+## Comments
+
+### Intelligent Engineering with AI
+
+![LeanDog Logo](/Assets/LeanDog-logo.png)
+
+#### Fizz Buzz Kata
+
+[Fizz Buzz: Coding Dojo](http://codingdojo.org/kata/FizzBuzz "‌")
+
+#### Problem Description
+
+Write a program that returns a list of numbers and strings from 1 to n, where n is the upper bound.
+
+- For multiples of three, return “Fizz” instead of the number
+- For multiples of five, return “Buzz”
+- For numbers which are multiples of both three and five, return “FizzBuzz“
+- Otherwise, return the ordinal number
+
+**Upper bound**: 15
+**Example output**: ['1', '2', 'Fizz', '4', 'Buzz', 'Fizz', '7', '8', 'Fizz', 'Buzz', '11', 'Fizz', '13', '14', 'FizzBuzz']
+
+#### Run
+
+Project created using dotnet CLI.
+
+##### In the terminal, build and run the project
+
+```bash
+dotnet test
+```
+
+#### TDD Cycle
+
+1. **Red**: Write a failing test case that defines a function or feature.
+2. **Green**: Write just enough code to make the test pass.
+3. **Refactor**: Clean up the code, ensuring that all tests still pass.
+
+#### Tips for Using GitHub Copilot in TDD
+
+- **Generating Test Cases**: Start by writing the test cases. Use prompts to guide Copilot to generate these test cases.
+  ```csharp
+  // Prompt Copilot to create test cases
+  [Fact]
+  public void ShouldReturnFizzForMultiplesOf3()
+  {
+      // Copilot will suggest code here
+  }
+  ```
+- **Implementing Minimal Code**: After your test case is written and fails, use Copilot to suggest minimal code to make the test pass.
+  ```csharp
+  public string FizzBuzz(int number)
+  {
+      // Copilot will suggest implementation
+  }
+  ```
+- **Refactoring with Copilot**: Use Copilot to assist in refactoring the code to improve quality while keeping all tests green.
+
+#### Tips for Using GitHub Copilot Chat Plugin
+
+- **Asking for Explanations**: If you are unsure about a particular piece of code, ask Copilot Chat to explain it.
+  ```csharp
+  // What does this method do?
+  ```
+- **Generating Code Snippets**: Request specific code snippets or solutions.
+  ```csharp
+  // Can you generate a method to check for multiples of 3 and 5?
+  ```
+- **Debugging Help**: Use the chat to get help on debugging issues.
+  ```csharp
+  // Why is my test failing?
+  ```
+
+#### Potential Questions to Ask Tyler Morgan
+
+- **Starting with TDD**: "How should I start TDD for the FizzBuzz problem?"
+- **Writing Initial Tests**: "What are some good initial test cases for the FizzBuzz problem?"
+- **Using AI Tools**: "How can I effectively use GitHub Copilot to assist with writing tests for FizzBuzz?"
+- **Handling Edge Cases**: "What are some edge cases I should consider when writing tests for FizzBuzz?"
+- **Refactoring Tips**: "How can I refactor my FizzBuzz code to ensure it's clean and maintainable?"
+
+## Title
+
+Participant Machine Setup
+
+## List Name
+
+Review
 
 ## Labels
 
@@ -534,15 +804,13 @@ To Do
 - **Then** ensure it includes detailed, step-by-step instructions for installing and configuring all necessary software and tools.
 - **And** the guide is clear, comprehensive, and tested to ensure it works as intended on participant machines.
 
-# DOING
-
 ## Title
 
 Participant Prerequisites
 
 ## List Name
 
-Doing
+Review
 
 ## Labels
 
@@ -565,7 +833,52 @@ Doing
 - **Then** ensure it includes all necessary background knowledge, skills, and required tools or software.
 - **And** the document is clear and easily accessible to participants prior to the course start date.
 
-# DONE
+## Comments
+
+### Participant Prerequisites
+
+This document outlines the prerequisites for participants, including necessary background knowledge, skills, and any required software or tools. This information should be communicated clearly to participants before the course begins.
+
+#### Background Knowledge and Skills
+
+1. **Basic Programming Knowledge**: Participants should have a basic understanding of programming concepts. Experience with any programming language is acceptable, though familiarity with .NET languages like C# will be beneficial.
+2. **Test-Driven Development (TDD) Basics**: Understanding the principles and practices of TDD will be helpful. This includes writing tests before code, understanding the Red-Green-Refactor cycle, and familiarity with testing patterns such as mocks and stubs.
+3. **Software Development Practices**: Familiarity with general software development practices and methodologies, particularly agile methodologies like Scrum or Kanban, will be advantageous.
+
+#### Required Software and Tools
+
+1. **Development Environment**:
+   - IDE: Visual Studio Code.
+   - Version Control: Git.
+2. **Frameworks and SDKs**:
+   - .NET Core: Ensure the .NET Core SDK is installed.
+3. **AI Tools**:
+   - GitHub Copilot: Ensure you have access to GitHub Copilot.
+   - ChatGPT: Access to ChatGPT for AI-driven code assistance and documentation.
+
+#### Required Access
+
+Your laptop must have the capabilities and proper configuration before attending. If you do not understand any of this, please contact your company’s tech support for help.
+
+- **Software Installation**: You should be able to install software on your laptop (Local Admin in Windows or Administrator in macOS).
+
+#### Preparation Steps
+
+1. **Install Required Software**:
+   - Download and install Visual Studio Code.
+   - Set up Git and ensure it is functioning correctly.
+   - Install the .NET Core SDK.
+   - Ensure GitHub Copilot is enabled in your Visual Studio Code.
+   - Ensure you have access to ChatGPT.
+2. **Review TDD Concepts**:
+   - Familiarize yourself with the basics of TDD.
+   - Read introductory material on TDD if necessary.
+3. **Join Pre-Course Communication**:
+   - Ensure you can access any pre-course communication channels (e.g., Slack, email) where additional instructions or resources may be provided.
+
+#### Contact for Setup Issues
+
+If you have any issues or questions regarding setup, please reach out to Jeff Dunay at [jeff.dunay@leandogsoftware.com](mailto:jeff.dunay@leandogsoftware.com "‌").
 
 ## Title
 
