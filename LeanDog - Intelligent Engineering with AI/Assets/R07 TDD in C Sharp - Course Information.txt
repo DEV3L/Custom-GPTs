@@ -1031,7 +1031,7 @@ http://codingdojo.org/kata/FizzBuzz
 - Cost money!
 - Introduce into plan and estimate
 - Make executable where possible
-- Unit tests can supplant code specs, heredocs, design docs
+- Unit tests can supplant code specs, here docs, design docs
 - Acceptance tests can supplant use cases, requirements docs
 
 ---
