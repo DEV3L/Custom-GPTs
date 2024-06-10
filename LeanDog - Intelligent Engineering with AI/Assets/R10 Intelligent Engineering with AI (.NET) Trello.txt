@@ -2,65 +2,6 @@
 
 ## Title
 
-Should we have a certification program for the course?
-
-## List Name
-
-Questions
-
-## Labels
-
-- Marketing
-
-## Description
-
-Creating a certification program for the "Intelligent Engineering with AI" course could provide significant value for both the participants and the organization. Here's a detailed outline and rationale for implementing such a program:
-
-##### Why a Certification Program?
-
-1. **Enhanced Credibility**: Offering certification enhances the credibility of the course, providing tangible proof of the skills and knowledge acquired.
-2. **Motivation for Learners**: Certifications serve as a motivational tool, encouraging participants to complete the course and achieve a recognized qualification.
-3. **Marketability**: Certified participants can add the credential to their resumes, increasing their marketability and career prospects.
-4. **Quality Assurance**: A certification program ensures that the participants have met a certain standard, which reflects positively on the course and LeanDog's reputation.
-
-##### Proposed Certification Structure
-
-###### Certification Levels
-
-- **Foundation Certificate**: For participants who complete the course and demonstrate understanding of basic concepts and tools.
-- **Advanced Certificate**: For those who show proficiency in applying AI tools in real-world scenarios and advanced techniques.
-
-###### Certification Criteria
-
-- **Completion of Course**: Attendees must attend all sessions and participate in practical exercises.
-- **Assessment**: A combination of quizzes, practical assignments, and a final project. The final project should involve using AI tools to solve a real-world problem or create an application.
-- **Evaluation**: Continuous assessment throughout the course, with feedback provided to guide improvement.
-
-##### Certification Badges by [http://Certifier.io](http://Certifier.io "smartCard-inline")
-
-[http://Certifier.io](http://Certifier.io "smartCard-inline")  offers a free service for issuing up to 250 badges, which can be leveraged for this program. Here’s how to integrate it:
-
-1. **Badge Design**: Create visually appealing badges for each certification level. These badges should include the course name, LeanDog's logo, and the certification level.
-2. **Issuance Process**: Upon successful completion of the course and passing the assessments, participants will receive their digital badge via [http://Certifier.io](http://Certifier.io "smartCard-inline") . The platform allows easy sharing on LinkedIn, resumes, and other professional platforms.
-3. **Verification**: Each badge will include a unique verification link, ensuring that employers and others can verify the authenticity of the certification.
-
-##### Implementation Steps
-
-1. **Develop Assessment Materials**: Create quizzes, practical assignments, and project guidelines aligned with the course content.
-2. **Set Up** [http://Certifier.io](http://Certifier.io "smartCard-inline")  **Account**: Design the badges and set up the issuance process.
-3. **Inform Participants**: Communicate the certification program details to course participants at the start, outlining the benefits and requirements.
-4. **Monitor Progress**: Continuously assess participants' performance and provide feedback.
-5. **Award Certificates**: Upon completion, issue the badges through [http://Certifier.io](http://Certifier.io "smartCard-inline")  and guide participants on how to use and share their certification.
-
-##### Benefits to Participants and LeanDog
-
-- **Participants**: Gain recognition for their skills, increase their job prospects, and have a tangible proof of their learning.
-- **LeanDog**: Enhances the course's reputation, attracts more participants, and provides a measurable outcome of the training effectiveness.
-
-By implementing a certification program, LeanDog can add significant value to its "Intelligent Engineering with AI" course, benefiting both the participants and the organization.
-
-## Title
-
 Post Class Summary on LinkedIn
 
 ## List Name
@@ -207,6 +148,95 @@ Epics
 
 - Marketing
 - Post Class Follow-up
+
+## Title
+
+Develop Course Katas
+
+## List Name
+
+Epics
+
+## Labels
+
+- Course Content
+- Course Katas
+
+## Description
+
+**Business Value:**
+Enhance learning experiences by providing hands-on coding exercises that reinforce the concepts taught in the "Intelligent Engineering with AI (.NET)" course, ensuring students can practice and apply their knowledge effectively.
+
+**Problem:**
+The current course lacks practical exercises (katas) that help students solidify their understanding of software engineering principles, TDD, and AI tool integration.
+
+**Description:**
+Create a series of coding katas tailored for the "Intelligent Engineering with AI (.NET)" course. Each kata should be designed to teach specific software engineering concepts, including Test Driven Development (TDD), code refactoring, and the integration of AI tools such as GitHub Copilot. The katas should cover varying levels of complexity, from basic exercises to more advanced challenges, and should be structured to guide students through writing tests, implementing minimal code to pass tests, and refactoring.
+
+**Acceptance Criteria:**
+
+1. **Kata 1: HelloWorld**
+   - **Given**: A blank console application
+   - **When**: The application runs
+   - **Then**: It should print "Hello, World!" to the console
+2. **Kata 2: FizzBuzz**
+   - **Given**: A function that takes an integer
+   - **When**: The integer is divisible by 3
+   - **Then**: Return "Fizz"
+   - **When**: The integer is divisible by 5
+   - **Then**: Return "Buzz"
+   - **When**: The integer is divisible by both 3 and 5
+   - **Then**: Return "FizzBuzz"
+   - **When**: The integer is not divisible by 3 or 5
+   - **Then**: Return the integer as a string
+3. **Kata 3: String Parse Time**
+   - **Given**: A string representing a time (e.g., "14:30")
+   - **When**: The string is parsed
+   - **Then**: It should return a TimeSpan object representing the same time
+4. **Kata 4: Bowling Game**
+   - **Given**: A bowling game
+   - **When**: Pins are knocked down
+   - **Then**: Keep track of the score correctly according to bowling rules
+5. **Kata 5: Roman Numeral Converter**
+   - **Given**: An integer
+   - **When**: Converted
+   - **Then**: Return the corresponding Roman numeral as a string
+6. **Kata 6: Gilded Rose Refactoring**
+   - **Given**: An existing codebase
+   - **When**: Refactored
+   - **Then**: Ensure all existing tests pass and improve code quality
+7. **Kata 7: Simple API Application**
+   - **Given**: A requirement to create a simple API
+   - **When**: Implemented
+   - **Then**: It should expose basic CRUD operations and integrate AI tools for code assistance
+
+**Tasks:**
+
+1. **Research and Design:**
+   - Research best practices for kata creation.
+   - Design the structure and objectives for each kata.
+2. **Develop Katas:**
+   - Implement the HelloWorld kata.
+   - Implement the FizzBuzz kata.
+   - Implement the String Parse Time kata.
+   - Implement the Bowling Game kata.
+   - Implement the Roman Numeral Converter kata.
+   - Implement the Gilded Rose Refactoring kata.
+   - Implement the Simple API Application kata.
+3. **Review and Test:**
+   - Peer review each kata.
+   - Create unit tests for each kata.
+   - Test katas with a small group of students for feedback.
+4. **Documentation:**
+   - Write clear instructions for each kata.
+   - Provide example solutions and explanations.
+   - Document common pitfalls and tips.
+
+**Questions:**
+
+- Is there a specific format you prefer for the katas?
+- Are there any additional topics or specific requirements you'd like included in the katas?
+- How would you like to incorporate feedback from students?
 
 ## Title
 
@@ -418,11 +448,249 @@ Scenario: Send Personal Email to Free Seat Recipients
 
 ## Title
 
-Course Addition Suggestion: Integrating the Custom GPT Assistant as a Virtual Pair Programming Partner
+Setup Gilded Rose Kata
 
 ## List Name
 
 To Do
+
+## Labels
+
+- Course Content
+- Course Katas
+
+## Description
+
+**Business Value**: Provide a real-world legacy code refactoring challenge for participants to practice TDD and improve code quality.
+
+**Problem**: Participants need to practice refactoring legacy code using TDD to improve code quality and maintainability.
+
+**Description**: As a participant, I want to set up the Gilded Rose Kata so that I can practice writing tests and refactoring legacy code. This will help me understand how to improve code quality and maintainability using TDD techniques.
+
+**Acceptance Criteria**:
+
+```gherkin
+Given a new project setup,
+When I open the Gilded Rose Kata project,
+Then I should see the initial legacy code and corresponding test cases.
+
+Given the initial test cases,
+When I refactor the legacy code,
+Then all tests should pass according to the specified requirements.
+
+Given the refactored code,
+When I run the tests,
+Then I should see improved code quality and maintainability without altering the functionality.
+```
+
+## Title
+
+Setup API Project
+
+## List Name
+
+To Do
+
+## Labels
+
+- Course Content
+- Course Katas
+
+## Description
+
+**Business Value**: Enable participants to practice TDD by building and testing a simple API, enhancing their understanding of API development and testing.
+
+**Problem**: Participants need to practice building and testing APIs within the TDD framework to understand how to develop robust and testable APIs.
+
+**Description**: As a participant, I want to set up a simple API project so that I can practice writing tests and implementing API endpoints. This will help me understand how to develop and test APIs using TDD techniques.
+
+**Acceptance Criteria**:
+
+```gherkin
+Given a new project setup,
+When I open the API project,
+Then I should see the initial setup for a simple API with placeholder endpoints.
+
+Given the initial test cases for the API endpoints,
+When I implement the API logic,
+Then all tests should pass according to the specified requirements.
+
+Given the completed API endpoints,
+When I run the tests,
+Then I should see correct responses for various API requests as specified in the tests.
+```
+
+# DOING
+
+## Title
+
+Setup Roman Numeral Calculator Kata
+
+## List Name
+
+Doing
+
+## Labels
+
+- Course Content
+- Course Katas
+
+## Description
+
+**Business Value**: Enable participants to practice TDD by converting numbers to Roman numerals, enhancing their understanding of converting and manipulating data within the TDD framework.
+
+**Problem**: Participants need to practice data conversion and manipulation within the TDD framework.
+
+**Description**: As a participant, I want to set up the Roman Numeral Calculator Kata so that I can practice writing tests and implementing code to convert numbers to Roman numerals. This exercise will help me understand how to handle data conversion and ensure my code meets specified requirements.
+
+**Acceptance Criteria**:
+
+```gherkin
+Given a new project setup,
+When I open the Roman Numeral Calculator Kata project,
+Then I should see the initial test cases for converting numbers to Roman numerals.
+
+Given the initial test cases,
+When I implement the Roman numeral conversion logic,
+Then all tests should pass according to the specified requirements.
+
+Given the completed Roman numeral conversion logic,
+When I run the tests,
+Then I should see correct Roman numeral outputs for various numbers.
+```
+
+## Title
+
+Setup Certification Program
+
+## List Name
+
+Doing
+
+# DONE
+
+## Title
+
+Setup Bowling Kata
+
+## List Name
+
+Review
+
+## Labels
+
+- Course Content
+- Course Katas
+
+## Description
+
+**Business Value**: Provide a more complex problem for participants to practice advanced TDD techniques and improve their problem-solving skills.
+
+**Problem**: Participants need a challenging example to deepen their understanding of TDD and apply advanced techniques.
+
+**Description**: As a participant, I want to set up the Bowling Kata so that I can practice writing tests and implementing code for a more complex problem. This will help me understand how to handle more intricate logic and multiple scenarios within the TDD framework.
+
+**Acceptance Criteria**:
+
+```gherkin
+Given a new project setup,
+When I open the Bowling Kata project,
+Then I should see the initial test cases for scoring a bowling game.
+
+Given the initial test cases,
+When I implement the bowling score calculation logic,
+Then all tests should pass according to the specified requirements.
+
+Given the completed bowling score calculation logic,
+When I run the tests,
+Then I should see accurate scores for various bowling game scenarios, including strikes and spares.
+```
+
+## Title
+
+Setup Duration Converter Kata
+
+## List Name
+
+Review
+
+## Labels
+
+- Course Katas
+- Course Content
+
+## Description
+
+**Business Value:**
+Enhance students' ability to handle string parsing and time conversion in C#. This exercise will help students practice working with different time formats and converting them into a single unit, reinforcing their skills in data manipulation and validation.
+
+**Problem:**
+Students need to learn how to parse strings representing time durations and convert these into seconds. This will help them handle non-standard time formats often encountered in real-world scenarios.
+
+**Description:**
+Create a kata that requires students to write a function that converts a string representing time durations (e.g., "1 hr 33 min") into total seconds. The input string can contain various time units like milliseconds, seconds, minutes, and hours. The function should handle different valid time formats and return zero for invalid inputs.
+
+##### Difficulty
+
+_Low?_
+
+##### Problem Description
+
+Execution times for a program are outputted in a non-standard parseable time format.
+
+The format is such:
+
+- `f'{amount} {duration type}'`
+- amount is a positive integer value
+- duration type is an enumeration of weighted values
+  - ms  : .001
+  - sec : 1
+  - min : 60
+  - hr  : 3600
+- different duration types are joined together with a space character
+- invalid input values equal zero
+
+Create a program, which, given a valid time format, calculates the time in seconds.
+
+**Examples:**
+
+| Input Value | Expected Result |
+|-------------|-----------------|
+| '1 ms'      | .001            |
+| '1 sec'     | 1               |
+| '1 min'     | 60              |
+| '1 hr'      | 3600            |
+| '5 sec 421 ms' | 5.421        |
+| '9 min 57 sec' | 597          |
+| '1 hr 33 min'  | 5580         |
+| '1 hr 1 min 1 sec 111 ms' | 3661.111 |
+| ''           | 0              |
+
+**Tasks:**
+
+1. **Research and Design:**
+   - Identify common time formats and edge cases for string parsing.
+   - Design the structure and objectives of the kata.
+2. **Develop Kata:**
+   - Implement the function to parse the string into total seconds.
+3. **Write Tests:**
+   - Create unit tests for different time formats and edge cases.
+   - Ensure tests cover both valid and invalid input scenarios.
+4. **Review and Test:**
+   - Peer review the kata implementation and tests.
+   - Test the kata with a small group of students for feedback.
+5. **Documentation:**
+   - Write clear instructions for the kata.
+   - Provide example solutions and explanations.
+   - Document common pitfalls and tips.
+
+## Title
+
+Course Addition Suggestion: Integrating the Custom GPT Assistant as a Virtual Pair Programming Partner
+
+## List Name
+
+Review
 
 ## Labels
 
@@ -505,157 +773,9 @@ This module addition leverages the custom GPT assistant as a virtual pair progra
 
 @juliasshaw3  what do you think? Using our Custom GPT as a Course Assistant to work through Roman Numeral Calculator kata
 
-## Title
+[https://github.com/DEV3L/Custom-GPTs/tree/main/LeanDog%20-%20Intelligent%20Engineering%20with%20AI](https://github.com/DEV3L/Custom-GPTs/tree/main/LeanDog%20-%20Intelligent%20Engineering%20with%20AI "smartCard-inline")
 
-Setup Roman Numeral Calculator Kata
-
-## List Name
-
-To Do
-
-## Labels
-
-- Course Content
-- Setup
-
-## Description
-
-**Business Value**: Enable participants to practice TDD by converting numbers to Roman numerals, enhancing their understanding of converting and manipulating data within the TDD framework.
-
-**Problem**: Participants need to practice data conversion and manipulation within the TDD framework.
-
-**Description**: As a participant, I want to set up the Roman Numeral Calculator Kata so that I can practice writing tests and implementing code to convert numbers to Roman numerals. This exercise will help me understand how to handle data conversion and ensure my code meets specified requirements.
-
-**Acceptance Criteria**:
-
-```gherkin
-Given a new project setup,
-When I open the Roman Numeral Calculator Kata project,
-Then I should see the initial test cases for converting numbers to Roman numerals.
-
-Given the initial test cases,
-When I implement the Roman numeral conversion logic,
-Then all tests should pass according to the specified requirements.
-
-Given the completed Roman numeral conversion logic,
-When I run the tests,
-Then I should see correct Roman numeral outputs for various numbers.
-```
-
-## Title
-
-Setup Gilded Rose Kata
-
-## List Name
-
-To Do
-
-## Labels
-
-- Course Content
-- Setup
-
-## Description
-
-**Business Value**: Provide a real-world legacy code refactoring challenge for participants to practice TDD and improve code quality.
-
-**Problem**: Participants need to practice refactoring legacy code using TDD to improve code quality and maintainability.
-
-**Description**: As a participant, I want to set up the Gilded Rose Kata so that I can practice writing tests and refactoring legacy code. This will help me understand how to improve code quality and maintainability using TDD techniques.
-
-**Acceptance Criteria**:
-
-```gherkin
-Given a new project setup,
-When I open the Gilded Rose Kata project,
-Then I should see the initial legacy code and corresponding test cases.
-
-Given the initial test cases,
-When I refactor the legacy code,
-Then all tests should pass according to the specified requirements.
-
-Given the refactored code,
-When I run the tests,
-Then I should see improved code quality and maintainability without altering the functionality.
-```
-
-## Title
-
-Setup API Project
-
-## List Name
-
-To Do
-
-## Labels
-
-- Course Content
-- Setup
-
-## Description
-
-**Business Value**: Enable participants to practice TDD by building and testing a simple API, enhancing their understanding of API development and testing.
-
-**Problem**: Participants need to practice building and testing APIs within the TDD framework to understand how to develop robust and testable APIs.
-
-**Description**: As a participant, I want to set up a simple API project so that I can practice writing tests and implementing API endpoints. This will help me understand how to develop and test APIs using TDD techniques.
-
-**Acceptance Criteria**:
-
-```gherkin
-Given a new project setup,
-When I open the API project,
-Then I should see the initial setup for a simple API with placeholder endpoints.
-
-Given the initial test cases for the API endpoints,
-When I implement the API logic,
-Then all tests should pass according to the specified requirements.
-
-Given the completed API endpoints,
-When I run the tests,
-Then I should see correct responses for various API requests as specified in the tests.
-```
-
-# DOING
-
-## Title
-
-Setup Bowling Kata
-
-## List Name
-
-Doing
-
-## Labels
-
-- Setup
-- Course Content
-
-## Description
-
-**Business Value**: Provide a more complex problem for participants to practice advanced TDD techniques and improve their problem-solving skills.
-
-**Problem**: Participants need a challenging example to deepen their understanding of TDD and apply advanced techniques.
-
-**Description**: As a participant, I want to set up the Bowling Kata so that I can practice writing tests and implementing code for a more complex problem. This will help me understand how to handle more intricate logic and multiple scenarios within the TDD framework.
-
-**Acceptance Criteria**:
-
-```gherkin
-Given a new project setup,
-When I open the Bowling Kata project,
-Then I should see the initial test cases for scoring a bowling game.
-
-Given the initial test cases,
-When I implement the bowling score calculation logic,
-Then all tests should pass according to the specified requirements.
-
-Given the completed bowling score calculation logic,
-When I run the tests,
-Then I should see accurate scores for various bowling game scenarios, including strikes and spares.
-```
-
-# DONE
+[https://chatgpt.com/g/g-m8zONvdCL-leandog-intelligent-engineering-with-ai](https://chatgpt.com/g/g-m8zONvdCL-leandog-intelligent-engineering-with-ai "smartCard-inline")
 
 ## Title
 
@@ -668,7 +788,7 @@ Review
 ## Labels
 
 - Course Content
-- Setup
+- Course Katas
 
 ## Description
 
@@ -775,434 +895,11 @@ dotnet test
 - **Handling Edge Cases**: "What are some edge cases I should consider when writing tests for FizzBuzz?"
 - **Refactoring Tips**: "How can I refactor my FizzBuzz code to ensure it's clean and maintainable?"
 
-## Title
+@justinbeall What’s the context for this? Speaker notes? Slides? Facilitator guide? Something else?
 
-Participant Machine Setup
+@juliasshaw3 [https://github.com/leandog/intelligent-engineering-with-ai/tree/main/C-Sharp/01-fizz-buzz](https://github.com/leandog/intelligent-engineering-with-ai/tree/main/C-Sharp/01-fizz-buzz "smartCard-inline")
 
-## List Name
-
-Review
-
-## Labels
-
-- Setup
-- Marketing
-- Course Content
-
-## Description
-
-**Business Value:** Facilitate a smooth start to the course by ensuring all participants have their machines properly set up with the necessary software and tools.
-
-**Problem:** Participants may face technical difficulties at the beginning of the course if their machines are not properly set up, leading to delays and frustration.
-
-**Description:** Develop a detailed guide for participants to set up their machines before the course begins. This should include step-by-step instructions for installing required software and tools, as well as any configuration settings needed.
-
-**Acceptance Criteria:**
-
-- **Given** the course software and tools requirements,
-- **When** creating the machine setup guide,
-- **Then** ensure it includes detailed, step-by-step instructions for installing and configuring all necessary software and tools.
-- **And** the guide is clear, comprehensive, and tested to ensure it works as intended on participant machines.
-
-## Title
-
-Participant Prerequisites
-
-## List Name
-
-Review
-
-## Labels
-
-- Marketing
-- Setup
-- Course Content
-
-## Description
-
-**Business Value:** Ensure participants are adequately prepared for the course, leading to a more effective learning experience and better course outcomes.
-
-**Problem:** Participants may not be aware of the necessary background knowledge or skills required for the course, leading to potential confusion and ineffective learning.
-
-**Description:** Create a document outlining the prerequisites for participants, including necessary background knowledge, skills, and any required software or tools. This should be communicated clearly to participants before the course begins.
-
-**Acceptance Criteria:**
-
-- **Given** the course content and requirements,
-- **When** creating the prerequisites document,
-- **Then** ensure it includes all necessary background knowledge, skills, and required tools or software.
-- **And** the document is clear and easily accessible to participants prior to the course start date.
-
-## Comments
-
-### Participant Prerequisites
-
-This document outlines the prerequisites for participants, including necessary background knowledge, skills, and any required software or tools. This information should be communicated clearly to participants before the course begins.
-
-#### Background Knowledge and Skills
-
-1. **Basic Programming Knowledge**: Participants should have a basic understanding of programming concepts. Experience with any programming language is acceptable, though familiarity with .NET languages like C# will be beneficial.
-2. **Test-Driven Development (TDD) Basics**: Understanding the principles and practices of TDD will be helpful. This includes writing tests before code, understanding the Red-Green-Refactor cycle, and familiarity with testing patterns such as mocks and stubs.
-3. **Software Development Practices**: Familiarity with general software development practices and methodologies, particularly agile methodologies like Scrum or Kanban, will be advantageous.
-
-#### Required Software and Tools
-
-1. **Development Environment**:
-   - IDE: Visual Studio Code.
-   - Version Control: Git.
-2. **Frameworks and SDKs**:
-   - .NET Core: Ensure the .NET Core SDK is installed.
-3. **AI Tools**:
-   - GitHub Copilot: Ensure you have access to GitHub Copilot.
-   - ChatGPT: Access to ChatGPT for AI-driven code assistance and documentation.
-
-#### Required Access
-
-Your laptop must have the capabilities and proper configuration before attending. If you do not understand any of this, please contact your company’s tech support for help.
-
-- **Software Installation**: You should be able to install software on your laptop (Local Admin in Windows or Administrator in macOS).
-
-#### Preparation Steps
-
-1. **Install Required Software**:
-   - Download and install Visual Studio Code.
-   - Set up Git and ensure it is functioning correctly.
-   - Install the .NET Core SDK.
-   - Ensure GitHub Copilot is enabled in your Visual Studio Code.
-   - Ensure you have access to ChatGPT.
-2. **Review TDD Concepts**:
-   - Familiarize yourself with the basics of TDD.
-   - Read introductory material on TDD if necessary.
-3. **Join Pre-Course Communication**:
-   - Ensure you can access any pre-course communication channels (e.g., Slack, email) where additional instructions or resources may be provided.
-
-#### Contact for Setup Issues
-
-If you have any issues or questions regarding setup, please reach out to Jeff Dunay at [jeff.dunay@leandogsoftware.com](mailto:jeff.dunay@leandogsoftware.com "‌").
-
-## Title
-
-Enhance C# "Hello World" Example and Update README
-
-## List Name
-
-Review
-
-## Labels
-
-- Setup
-- Course Content
-
-## Description
-
-**Business Value:** Provide an educational and comprehensive C# example for beginners, demonstrating various language features and functional programming concepts.
-
-**As a** developer
-**I want** to enhance the C# "Hello World" example and update the README
-**So that** beginners can learn C# features and functional programming concepts through a comprehensive example
-
-**Problem:** The current "Hello World" example is basic and does not showcase the full capabilities of C#. There is also a lack of detailed documentation explaining the code to beginners.
-
-**Description:**
-
-- Enhance the existing "Hello World" C# example to include various language features, functional programming concepts, and syntax sugar.
-- Update the README file to provide detailed explanations of each feature and concept included in the code.
-- Ensure that the example and documentation are beginner-friendly and educational.
-
-**Acceptance Criteria:**
-
-```gherkin
-Given a developer is viewing the project,
-When they open the `Program.cs` file,
-Then they should see an enhanced "Hello World" example including:
-    - Value types and reference types
-    - Implicit and explicit typing
-    - Conditional statements
-    - Arrays, lists, and dictionaries
-    - Loops
-    - Classes and structs
-    - Enums
-    - LINQ queries (filter, find, map, reduce)
-    - Exception handling
-    - Asynchronous programming
-    - Syntax sugar (auto-implemented properties, object initializers, string interpolation, null-coalescing operators, expression-bodied members, pattern matching)
-
-Given a developer is viewing the project,
-When they open the README file,
-Then they should see detailed explanations for each feature and concept in the `Program.cs` file.
-
-Given a developer is following the instructions in the README,
-When they run the provided commands,
-Then the project should build and execute correctly, displaying the expected output in the console.
-```
-
-##### Task Breakdown
-
-1. **Enhance** `Program.cs` File:
-   - Add examples of value types and reference types.
-   - Include implicit and explicit typing.
-   - Demonstrate conditional statements.
-   - Add arrays, lists, and dictionaries.
-   - Use loops to iterate over collections.
-   - Add classes, structs, and enums.
-   - Include LINQ queries (filter, find, map, reduce).
-   - Add exception handling.
-   - Demonstrate asynchronous programming.
-   - Use syntax sugar features.
-2. **Update README File:**
-   - Provide detailed explanations of each feature and concept included in the `Program.cs` file.
-   - Include instructions on how to build and run the project.
-   - Ensure the documentation is clear and beginner-friendly.
-3. **Testing:**
-   - Verify that the project builds and runs correctly.
-   - Ensure that the README instructions are accurate and easy to follow.
-
-## Comments
-
-### Intelligent Engineering with AI
-
-![LeanDog Logo](/Assets/LeanDog-logo.png)
-
-#### C# - Hello World
-
-This project demonstrates the basic syntax and features of the C# programming language. The `Hello, World!` example is extended to include various types, conditionals, loops, collections, LINQ, exception handling, asynchronous programming, and syntax sugar features.
-
-##### Prerequisites
-
-- [.NET SDK](https://dotnet.microsoft.com/download "‌") installed on your machine.
-
-##### Running the Project
-
-This project is created using the dotnet CLI. Follow the steps below to build and run the C# file in your terminal:
-
-```bash
-~ cd HelloWorld
-~ dotnet run
-```
-
-##### Code Overview
-
-Below is a detailed explanation of the features and syntax used in the `Program.cs` file:
-
-###### Basic Output
-
-The `Console.WriteLine` method is used to print text to the console.
-
-```csharp
-Console.WriteLine("Hello, World!");
-```
-
-###### Value Types
-
-C# has several primitive value types, including `bool`, `byte`, `char`, `decimal`, `double`, `float`, `int`, and `long`.
-
-```csharp
-bool isActive = true;
-byte byteValue = 255;
-char charValue = 'A';
-decimal decimalValue = 10.5m;
-double doubleValue = 10.5;
-float floatValue = 10.5f;
-int intValue = 10;
-long longValue = 100000L;
-```
-
-###### Reference Types
-
-C# also supports reference types such as `object`, `string`, and `dynamic`.
-
-```csharp
-object obj = new object();
-string str = "Hello";
-dynamic dyn = "Dynamic typing";
-```
-
-###### Implicit vs Explicit Typing
-
-You can declare variables using implicit (`var`) or explicit types.
-
-```csharp
-var i = 10; // Implicitly typed.
-int x = 10; // Explicitly typed.
-Console.WriteLine($"i={i}, x={x}");
-```
-
-###### Conditionals
-
-Conditional statements in C# use `if`, `else if`, and `else`.
-
-```csharp
-var isTrue = false;
-if (isTrue)
-{
-    Console.WriteLine("true");
-}
-else
-{
-    Console.WriteLine("false");
-}
-```
-
-###### Collections: Arrays, Lists, and Dictionaries
-
-C# supports various collection types, such as arrays, lists, and dictionaries.
-
-```csharp
-string[] weekDays = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
-var optionList = new List<string> { "Option1", "Option2" };
-var cities = new Dictionary<string, string>
-{
-    { "UK", "London, Manchester, Birmingham" },
-    { "USA", "Chicago, New York, Washington" },
-    { "India", "Mumbai, New Delhi, Pune" }
-};
-```
-
-###### Loops
-
-You can iterate over collections using loops like `foreach`.
-
-```csharp
-foreach (var kvp in cities)
-{
-    Console.WriteLine($"Key: {kvp.Key}, Value: {kvp.Value}");
-}
-```
-
-###### Classes and Objects
-
-Classes in C# are used to create objects with properties and methods.
-
-```csharp
-var helloWorld = new HelloWorld { Name = "Grogu" };
-Console.WriteLine(helloWorld.Greeting());
-```
-
-## Title
-
-Participant Course Summary
-
-## List Name
-
-Review
-
-## Labels
-
-- Setup
-- Marketing
-- Course Content
-
-## Description
-
-**Business Value:** Provide participants with a clear, concise overview of the course content, enhancing their understanding and engagement.
-
-**Problem:** Participants need a comprehensive summary of the course to understand the key takeaways and structure, improving their learning experience and satisfaction.
-
-**Description:** Develop a summary document for participants that outlines the course objectives, key topics covered, learning outcomes, and schedule. This document should be easy to read and provide a quick reference to the course structure and important information.
-
-**Acceptance Criteria:**
-
-- **Given** the course content,
-- **When** creating the summary document,
-- **Then** ensure it includes the course objectives, key topics, learning outcomes, and schedule.
-- **And** the document is clear, concise, and formatted for easy reading.
-
-## Comments
-
-### Participant Course Summary
-
-**Intelligent Engineering with AI** is a two-day course that integrates AI tools with traditional Test-Driven Development (TDD) practices. By leveraging AI technologies, this course will enhance software engineers' productivity and code quality.
-
-#### Course Objectives
-
-- Understand the fundamentals of Test-Driven Development (TDD).
-- Learn how to use AI coding assistants like GitHub Copilot and ChatGPT.
-- Develop skills for writing, generating, and refactoring code using AI tools.
-- Master paired programming with AI for enhanced collaboration.
-- Address issues associated with working in legacy code.
-
-#### Key Topics Covered
-
-1. **Introduction to TDD and AI Tools**
-   - Basics of TDD and its cycle: Red, Green, Refactor.
-   - Hands-on exercises with GitHub Copilot and ChatGPT.
-   - Practical pair programming exercises.
-2. **AI-Driven Testing and Code Quality**
-   - Automating test generation and execution with AI.
-   - Using AI for code refactoring and optimization.
-   - Documenting code using AI tools.
-3. **Advanced TDD Practices**
-   - Working with mocks, stubs, fakes, and test doubles.
-   - Techniques for building testable code and refactoring legacy code.
-   - Applying design patterns and recognizing code smells with AI assistance.
-4. **Software Craftsmanship and Extreme Programming (XP)**
-   - SOLID principles and XP practices.
-   - Clean code concepts and refactoring techniques.
-   - Practical exercises like the Fizz Buzz Kata and Bowling Kata.
-5. **Building and Deploying Applications**
-   - Developing a simple API application.
-   - Setting up continuous integration and deployment using GitHub Actions.
-   - Hands-on exercises in pair programming.
-
-#### Learning Outcomes
-
-Participants will be able to:
-
-- Write clean, maintainable code with the help of AI tools.
-- Understand and document code effectively using AI.
-- Implement TDD practices to improve software quality.
-- Utilize AI for code generation, refactoring, and testing.
-- Collaborate efficiently using paired programming techniques.
-
-Participants will become familiar with:
-
-- GitHub Copilots and ChatGPT.
-- Writing tests first and using multiple paired testing techniques.
-- Modifying software design using a test-first approach.
-
-#### Course Schedule
-
-##### Day 1: Introduction to TDD and AI Tools
-
-**Morning Session:**
-
-1. Welcome and Introductions
-2. Introducing Tyler Morgan, the Intelligent Engineering Course Assistant
-3. Course Objectives and Structure
-4. Introduction to TDD with Fizz Buzz Kata
-5. Practical Exercise: Fizz Buzz Kata (Parse String Time) with TDD and AI Tools
-6. Software Craftsmanship and Extreme Programming
-7. Wrap-Up and Q&A
-
-**Afternoon Session:**
-
-1. Overview of AI Tools and Current Capabilities
-2. Bowling Kata
-3. Refactoring Techniques and Clean Code Concepts
-4. Introduction to the Roman Numeral Calculator Kata
-5. Practical Exercise: Roman Numeral Calculator Kata with TDD and AI Tools
-6. Wrap-Up and Q&A
-
-##### Day 2: Advanced TDD and Software Craftsmanship with AI Integration
-
-**Morning Session:**
-
-1. Recap and Introduction
-2. Gilded Rose Kata with TDD and AI Tools
-3. Code Smells and Design Patterns
-4. Wrap-Up and Q&A
-
-**Afternoon Session:**
-
-1. Introduction to Prompt Engineering
-2. Stubs, Mocks, Fakes, and Doubles
-3. Building a Simple API Application
-4. Deploying the Application using GitHub Actions
-5. Wrap-Up and Q&A
-
-#### Conclusion
-
-This course comprehensively introduces integrating AI tools with traditional software engineering practices, focusing on TDD. By the end of the course, participants will be equipped with the knowledge and skills to enhance their coding practices and productivity using AI technologies.
+This is the practice problem for FizzBuzz. I will link the course in GitHub for the other ones
 
 ## Title
 
@@ -1322,6 +1019,187 @@ Scenario: Review and Update GitHub Repository Content
    - Conclusion of the course with additional resources and contact information for further support.
 
 @juliasshaw3 thoughts on the proposed outline?
+
+## Title
+
+Participant Prerequisites
+
+## List Name
+
+Done 🎉
+
+## Labels
+
+- Marketing
+- Setup
+- Course Content
+
+## Description
+
+**Business Value:** Ensure participants are adequately prepared for the course, leading to a more effective learning experience and better course outcomes.
+
+**Problem:** Participants may not be aware of the necessary background knowledge or skills required for the course, leading to potential confusion and ineffective learning.
+
+**Description:** Create a document outlining the prerequisites for participants, including necessary background knowledge, skills, and any required software or tools. This should be communicated clearly to participants before the course begins.
+
+**Acceptance Criteria:**
+
+- **Given** the course content and requirements,
+- **When** creating the prerequisites document,
+- **Then** ensure it includes all necessary background knowledge, skills, and required tools or software.
+- **And** the document is clear and easily accessible to participants prior to the course start date.
+
+## Comments
+
+### Participant Prerequisites
+
+This document outlines the prerequisites for participants, including necessary background knowledge, skills, and any required software or tools. This information should be communicated clearly to participants before the course begins.
+
+#### Background Knowledge and Skills
+
+1. **Basic Programming Knowledge**: Participants should have a basic understanding of programming concepts. Experience with any programming language is acceptable, though familiarity with .NET languages like C# will be beneficial.
+2. **Test-Driven Development (TDD) Basics**: Understanding the principles and practices of TDD will be helpful. This includes writing tests before code, understanding the Red-Green-Refactor cycle, and familiarity with testing patterns such as mocks and stubs.
+3. **Software Development Practices**: Familiarity with general software development practices and methodologies, particularly agile methodologies like Scrum or Kanban, will be advantageous.
+
+#### Required Software and Tools
+
+1. **Development Environment**:
+   - IDE: Visual Studio Code.
+   - Version Control: Git.
+2. **Frameworks and SDKs**:
+   - .NET Core: Ensure the .NET Core SDK is installed.
+3. **AI Tools**:
+   - GitHub Copilot: Ensure you have access to GitHub Copilot.
+   - ChatGPT: Access to ChatGPT for AI-driven code assistance and documentation.
+
+#### Required Access
+
+Your laptop must have the capabilities and proper configuration before attending. If you do not understand any of this, please contact your company’s tech support for help.
+
+- **Software Installation**: You should be able to install software on your laptop (Local Admin in Windows or Administrator in macOS).
+
+#### Preparation Steps
+
+1. **Install Required Software**:
+   - Download and install Visual Studio Code.
+   - Set up Git and ensure it is functioning correctly.
+   - Install the .NET Core SDK.
+   - Ensure GitHub Copilot is enabled in your Visual Studio Code.
+   - Ensure you have access to ChatGPT.
+2. **Review TDD Concepts**:
+   - Familiarize yourself with the basics of TDD.
+   - Read introductory material on TDD if necessary.
+3. **Join Pre-Course Communication**:
+   - Ensure you can access any pre-course communication channels (e.g., Slack, email) where additional instructions or resources may be provided.
+
+#### Contact for Setup Issues
+
+If you have any issues or questions regarding setup, please reach out to Jeff Dunay at [jeff.dunay@leandogsoftware.com](mailto:jeff.dunay@leandogsoftware.com "‌").
+
+Do we need to specify the .NET Core version?
+
+@juliasshaw3 Updated to sate `.NET 8.0 (latest)`
+
+## Title
+
+Participant Machine Setup
+
+## List Name
+
+Done 🎉
+
+## Labels
+
+- Setup
+- Marketing
+- Course Content
+
+## Description
+
+**Business Value:** Facilitate a smooth start to the course by ensuring all participants have their machines properly set up with the necessary software and tools.
+
+**Problem:** Participants may face technical difficulties at the beginning of the course if their machines are not properly set up, leading to delays and frustration.
+
+**Description:** Develop a detailed guide for participants to set up their machines before the course begins. This should include step-by-step instructions for installing required software and tools, as well as any configuration settings needed.
+
+**Acceptance Criteria:**
+
+- **Given** the course software and tools requirements,
+- **When** creating the machine setup guide,
+- **Then** ensure it includes detailed, step-by-step instructions for installing and configuring all necessary software and tools.
+- **And** the guide is clear, comprehensive, and tested to ensure it works as intended on participant machines.
+
+## Comments
+
+Do we need to specify what version of .NET core they need?
+
+Do we need to specify plugin versions?
+
+@juliasshaw3 in VS Code, I have the suggested extensions in there too for each practice problem. The specific versions are not necessary; whatever the \@latest is what I would recommend.
+
+![image.png](https://trello.com/1/cards/66609415b07e0578c46baa50/attachments/6663d7ca86e4e1e39ad5410f/download/image.png)
+
+@juliasshaw3 It would make sense to put 8.0 since that is the latest.
+Updated in the repo
+
+## Title
+
+Should we have a certification program for the course?
+
+## List Name
+
+Done 🎉
+
+## Labels
+
+- Marketing
+
+## Description
+
+Creating a certification program for the "Intelligent Engineering with AI" course could provide significant value for both the participants and the organization. Here's a detailed outline and rationale for implementing such a program:
+
+##### Why a Certification Program?
+
+1. **Enhanced Credibility**: Offering certification enhances the credibility of the course, providing tangible proof of the skills and knowledge acquired.
+2. **Motivation for Learners**: Certifications serve as a motivational tool, encouraging participants to complete the course and achieve a recognized qualification.
+3. **Marketability**: Certified participants can add the credential to their resumes, increasing their marketability and career prospects.
+4. **Quality Assurance**: A certification program ensures that the participants have met a certain standard, which reflects positively on the course and LeanDog's reputation.
+
+##### Proposed Certification Structure
+
+###### Certification Levels
+
+- **Foundation Certificate**: For participants who complete the course and demonstrate understanding of basic concepts and tools.
+- **Advanced Certificate**: For those who show proficiency in applying AI tools in real-world scenarios and advanced techniques.
+
+###### Certification Criteria
+
+- **Completion of Course**: Attendees must attend all sessions and participate in practical exercises.
+- **Assessment**: A combination of quizzes, practical assignments, and a final project. The final project should involve using AI tools to solve a real-world problem or create an application.
+- **Evaluation**: Continuous assessment throughout the course, with feedback provided to guide improvement.
+
+##### Certification Badges by [http://Certifier.io](http://Certifier.io "smartCard-inline")
+
+[http://Certifier.io](http://Certifier.io "smartCard-inline")  offers a free service for issuing up to 250 badges, which can be leveraged for this program. Here’s how to integrate it:
+
+1. **Badge Design**: Create visually appealing badges for each certification level. These badges should include the course name, LeanDog's logo, and the certification level.
+2. **Issuance Process**: Upon successful completion of the course and passing the assessments, participants will receive their digital badge via [http://Certifier.io](http://Certifier.io "smartCard-inline") . The platform allows easy sharing on LinkedIn, resumes, and other professional platforms.
+3. **Verification**: Each badge will include a unique verification link, ensuring that employers and others can verify the authenticity of the certification.
+
+##### Implementation Steps
+
+1. **Develop Assessment Materials**: Create quizzes, practical assignments, and project guidelines aligned with the course content.
+2. **Set Up** [http://Certifier.io](http://Certifier.io "smartCard-inline")  **Account**: Design the badges and set up the issuance process.
+3. **Inform Participants**: Communicate the certification program details to course participants at the start, outlining the benefits and requirements.
+4. **Monitor Progress**: Continuously assess participants' performance and provide feedback.
+5. **Award Certificates**: Upon completion, issue the badges through [http://Certifier.io](http://Certifier.io "smartCard-inline")  and guide participants on how to use and share their certification.
+
+##### Benefits to Participants and LeanDog
+
+- **Participants**: Gain recognition for their skills, increase their job prospects, and have a tangible proof of their learning.
+- **LeanDog**: Enhances the course's reputation, attracts more participants, and provides a measurable outcome of the training effectiveness.
+
+By implementing a certification program, LeanDog can add significant value to its "Intelligent Engineering with AI" course, benefiting both the participants and the organization.
 
 ## Title
 
@@ -1641,6 +1519,330 @@ Done 🎉
 ## Comments
 
 The dates we set are June 19-20, 9-5 EST.
+
+## Title
+
+Enhance C# "Hello World" Example and Update README
+
+## List Name
+
+Done 🎉
+
+## Labels
+
+- Setup
+- Course Content
+
+## Description
+
+**Business Value:** Provide an educational and comprehensive C# example for beginners, demonstrating various language features and functional programming concepts.
+
+**As a** developer
+**I want** to enhance the C# "Hello World" example and update the README
+**So that** beginners can learn C# features and functional programming concepts through a comprehensive example
+
+**Problem:** The current "Hello World" example is basic and does not showcase the full capabilities of C#. There is also a lack of detailed documentation explaining the code to beginners.
+
+**Description:**
+
+- Enhance the existing "Hello World" C# example to include various language features, functional programming concepts, and syntax sugar.
+- Update the README file to provide detailed explanations of each feature and concept included in the code.
+- Ensure that the example and documentation are beginner-friendly and educational.
+
+**Acceptance Criteria:**
+
+```gherkin
+Given a developer is viewing the project,
+When they open the `Program.cs` file,
+Then they should see an enhanced "Hello World" example including:
+    - Value types and reference types
+    - Implicit and explicit typing
+    - Conditional statements
+    - Arrays, lists, and dictionaries
+    - Loops
+    - Classes and structs
+    - Enums
+    - LINQ queries (filter, find, map, reduce)
+    - Exception handling
+    - Asynchronous programming
+    - Syntax sugar (auto-implemented properties, object initializers, string interpolation, null-coalescing operators, expression-bodied members, pattern matching)
+
+Given a developer is viewing the project,
+When they open the README file,
+Then they should see detailed explanations for each feature and concept in the `Program.cs` file.
+
+Given a developer is following the instructions in the README,
+When they run the provided commands,
+Then the project should build and execute correctly, displaying the expected output in the console.
+```
+
+##### Task Breakdown
+
+1. **Enhance** `Program.cs` File:
+   - Add examples of value types and reference types.
+   - Include implicit and explicit typing.
+   - Demonstrate conditional statements.
+   - Add arrays, lists, and dictionaries.
+   - Use loops to iterate over collections.
+   - Add classes, structs, and enums.
+   - Include LINQ queries (filter, find, map, reduce).
+   - Add exception handling.
+   - Demonstrate asynchronous programming.
+   - Use syntax sugar features.
+2. **Update README File:**
+   - Provide detailed explanations of each feature and concept included in the `Program.cs` file.
+   - Include instructions on how to build and run the project.
+   - Ensure the documentation is clear and beginner-friendly.
+3. **Testing:**
+   - Verify that the project builds and runs correctly.
+   - Ensure that the README instructions are accurate and easy to follow.
+
+## Comments
+
+### Intelligent Engineering with AI
+
+![LeanDog Logo](/Assets/LeanDog-logo.png)
+
+#### C# - Hello World
+
+This project demonstrates the basic syntax and features of the C# programming language. The `Hello, World!` example is extended to include various types, conditionals, loops, collections, LINQ, exception handling, asynchronous programming, and syntax sugar features.
+
+##### Prerequisites
+
+- [.NET SDK](https://dotnet.microsoft.com/download "‌") installed on your machine.
+
+##### Running the Project
+
+This project is created using the dotnet CLI. Follow the steps below to build and run the C# file in your terminal:
+
+```bash
+~ cd HelloWorld
+~ dotnet run
+```
+
+##### Code Overview
+
+Below is a detailed explanation of the features and syntax used in the `Program.cs` file:
+
+###### Basic Output
+
+The `Console.WriteLine` method is used to print text to the console.
+
+```csharp
+Console.WriteLine("Hello, World!");
+```
+
+###### Value Types
+
+C# has several primitive value types, including `bool`, `byte`, `char`, `decimal`, `double`, `float`, `int`, and `long`.
+
+```csharp
+bool isActive = true;
+byte byteValue = 255;
+char charValue = 'A';
+decimal decimalValue = 10.5m;
+double doubleValue = 10.5;
+float floatValue = 10.5f;
+int intValue = 10;
+long longValue = 100000L;
+```
+
+###### Reference Types
+
+C# also supports reference types such as `object`, `string`, and `dynamic`.
+
+```csharp
+object obj = new object();
+string str = "Hello";
+dynamic dyn = "Dynamic typing";
+```
+
+###### Implicit vs Explicit Typing
+
+You can declare variables using implicit (`var`) or explicit types.
+
+```csharp
+var i = 10; // Implicitly typed.
+int x = 10; // Explicitly typed.
+Console.WriteLine($"i={i}, x={x}");
+```
+
+###### Conditionals
+
+Conditional statements in C# use `if`, `else if`, and `else`.
+
+```csharp
+var isTrue = false;
+if (isTrue)
+{
+    Console.WriteLine("true");
+}
+else
+{
+    Console.WriteLine("false");
+}
+```
+
+###### Collections: Arrays, Lists, and Dictionaries
+
+C# supports various collection types, such as arrays, lists, and dictionaries.
+
+```csharp
+string[] weekDays = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+var optionList = new List<string> { "Option1", "Option2" };
+var cities = new Dictionary<string, string>
+{
+    { "UK", "London, Manchester, Birmingham" },
+    { "USA", "Chicago, New York, Washington" },
+    { "India", "Mumbai, New Delhi, Pune" }
+};
+```
+
+###### Loops
+
+You can iterate over collections using loops like `foreach`.
+
+```csharp
+foreach (var kvp in cities)
+{
+    Console.WriteLine($"Key: {kvp.Key}, Value: {kvp.Value}");
+}
+```
+
+###### Classes and Objects
+
+Classes in C# are used to create objects with properties and methods.
+
+```csharp
+var helloWorld = new HelloWorld { Name = "Grogu" };
+Console.WriteLine(helloWorld.Greeting());
+```
+
+## Title
+
+Participant Course Summary
+
+## List Name
+
+Done 🎉
+
+## Labels
+
+- Setup
+- Marketing
+- Course Content
+
+## Description
+
+**Business Value:** Provide participants with a clear, concise overview of the course content, enhancing their understanding and engagement.
+
+**Problem:** Participants need a comprehensive summary of the course to understand the key takeaways and structure, improving their learning experience and satisfaction.
+
+**Description:** Develop a summary document for participants that outlines the course objectives, key topics covered, learning outcomes, and schedule. This document should be easy to read and provide a quick reference to the course structure and important information.
+
+**Acceptance Criteria:**
+
+- **Given** the course content,
+- **When** creating the summary document,
+- **Then** ensure it includes the course objectives, key topics, learning outcomes, and schedule.
+- **And** the document is clear, concise, and formatted for easy reading.
+
+## Comments
+
+### Participant Course Summary
+
+**Intelligent Engineering with AI** is a two-day course that integrates AI tools with traditional Test-Driven Development (TDD) practices. By leveraging AI technologies, this course will enhance software engineers' productivity and code quality.
+
+#### Course Objectives
+
+- Understand the fundamentals of Test-Driven Development (TDD).
+- Learn how to use AI coding assistants like GitHub Copilot and ChatGPT.
+- Develop skills for writing, generating, and refactoring code using AI tools.
+- Master paired programming with AI for enhanced collaboration.
+- Address issues associated with working in legacy code.
+
+#### Key Topics Covered
+
+1. **Introduction to TDD and AI Tools**
+   - Basics of TDD and its cycle: Red, Green, Refactor.
+   - Hands-on exercises with GitHub Copilot and ChatGPT.
+   - Practical pair programming exercises.
+2. **AI-Driven Testing and Code Quality**
+   - Automating test generation and execution with AI.
+   - Using AI for code refactoring and optimization.
+   - Documenting code using AI tools.
+3. **Advanced TDD Practices**
+   - Working with mocks, stubs, fakes, and test doubles.
+   - Techniques for building testable code and refactoring legacy code.
+   - Applying design patterns and recognizing code smells with AI assistance.
+4. **Software Craftsmanship and Extreme Programming (XP)**
+   - SOLID principles and XP practices.
+   - Clean code concepts and refactoring techniques.
+   - Practical exercises like the Fizz Buzz Kata and Bowling Kata.
+5. **Building and Deploying Applications**
+   - Developing a simple API application.
+   - Setting up continuous integration and deployment using GitHub Actions.
+   - Hands-on exercises in pair programming.
+
+#### Learning Outcomes
+
+Participants will be able to:
+
+- Write clean, maintainable code with the help of AI tools.
+- Understand and document code effectively using AI.
+- Implement TDD practices to improve software quality.
+- Utilize AI for code generation, refactoring, and testing.
+- Collaborate efficiently using paired programming techniques.
+
+Participants will become familiar with:
+
+- GitHub Copilots and ChatGPT.
+- Writing tests first and using multiple paired testing techniques.
+- Modifying software design using a test-first approach.
+
+#### Course Schedule
+
+##### Day 1: Introduction to TDD and AI Tools
+
+**Morning Session:**
+
+1. Welcome and Introductions
+2. Introducing Tyler Morgan, the Intelligent Engineering Course Assistant
+3. Course Objectives and Structure
+4. Introduction to TDD with Fizz Buzz Kata
+5. Practical Exercise: Fizz Buzz Kata (Parse String Time) with TDD and AI Tools
+6. Software Craftsmanship and Extreme Programming
+7. Wrap-Up and Q&A
+
+**Afternoon Session:**
+
+1. Overview of AI Tools and Current Capabilities
+2. Bowling Kata
+3. Refactoring Techniques and Clean Code Concepts
+4. Introduction to the Roman Numeral Calculator Kata
+5. Practical Exercise: Roman Numeral Calculator Kata with TDD and AI Tools
+6. Wrap-Up and Q&A
+
+##### Day 2: Advanced TDD and Software Craftsmanship with AI Integration
+
+**Morning Session:**
+
+1. Recap and Introduction
+2. Gilded Rose Kata with TDD and AI Tools
+3. Code Smells and Design Patterns
+4. Wrap-Up and Q&A
+
+**Afternoon Session:**
+
+1. Introduction to Prompt Engineering
+2. Stubs, Mocks, Fakes, and Doubles
+3. Building a Simple API Application
+4. Deploying the Application using GitHub Actions
+5. Wrap-Up and Q&A
+
+#### Conclusion
+
+This course comprehensively introduces integrating AI tools with traditional software engineering practices, focusing on TDD. By the end of the course, participants will be equipped with the knowledge and skills to enhance their coding practices and productivity using AI technologies.
 
 ## Title
 
