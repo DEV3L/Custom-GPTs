@@ -62,7 +62,7 @@ This detailed morning session ensures participants are introduced to TDD in a pr
    - Writing minimal code to pass tests.
    - Assisting in refactoring for better code quality.
 
-**Practical Exercise: Fizz Buzz Kata and Duration Converter Kata with TDD and AI Tools (1 hour 30 minutes)**
+**Practical Exercise: Fizz Buzz Kata (String Parse Time) with TDD and AI Tools (1 hour 30 minutes)**
 
 1. **Step-by-Step Guide:**
 
@@ -129,9 +129,22 @@ This detailed morning session ensures participants are introduced to TDD in a pr
      - **B**: Boundaries - Are there special boundary values for the thing?
      - **I**: Interfaces - Are there common interfaces with expectations?
      - **E**: Exceptions/Errors - What cases cause errors? Exactly what should they do?
+   - **Practical Exercise:**
+     - Apply the ZOMBIE testing technique to a simple problem, discussing how to use this approach to identify edge cases and potential issues.
 
-4. **Practical Exercise:**
-   - Apply the ZOMBIE testing technique to a simple problem, discussing how to use this approach to identify edge cases and potential issues.
+4. **Fake it till you make it**
+
+Start with the simplest solution that could possibly work, even if it is just hardcoding the answer. Gradually replace hardcoded parts with real logic as more tests are added and pass.
+
+5. **DRY - Don't Repeat Yourself**
+
+Avoid duplication. Each piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+
+6. **YAGNI**
+
+Implement only what is necessary. Don’t add functionality until it is deemed necessary.
+
+7. **Fake it till you make it**
 
 **Wrap-Up and Q&A (15 minutes)**
 
@@ -156,6 +169,7 @@ This detailed afternoon session ensures participants build on their TDD skills w
 **Overview of AI Tools and Current Capabilities (30 minutes)**
 
 1. **Introduction to AI Tools (15 minutes)**
+
    - Overview of GitHub Copilot and ChatGPT.
    - Discuss how these tools can assist in coding, testing, and documentation.
    - Provide a GitHub Copilot cheat sheet with common commands and tips.
@@ -168,6 +182,7 @@ This detailed afternoon session ensures participants build on their TDD skills w
 **Introduction to the Bowling Kata (10 minutes)**
 
 1. **Overview of the Problem**
+
    - Problem statement: Calculate the score of a bowling game considering strikes and spares.
    - Importance of the problem for practicing TDD and AI integration.
 
@@ -180,26 +195,31 @@ This detailed afternoon session ensures participants build on their TDD skills w
 3. **Step-by-Step Guide:**
 
    **Step 1: Write the First Test (Red)**
+
    - **Instructor Demonstration (10 minutes):**
      - Use GitHub Copilot to generate initial test cases for the Bowling Kata problem.
      - Discuss how to verify the generated code and ensure it aligns with TDD principles.
 
    **Step 2: Make the Test Pass (Green)**
+
    - **Instructor Demonstration (10 minutes):**
      - Use Copilot to generate the minimal code needed to pass the test.
      - Discuss the manual verification of the code's correctness.
 
    **Step 3: Refactor**
+
    - **Instructor Demonstration (10 minutes):**
      - Refactor the code with the assistance of Copilot to improve readability and maintainability.
      - Ensure the test still passes after refactoring.
 
    **Step 4: Repeat the Cycle**
+
    - **Instructor Demonstration (10 minutes):**
      - Add additional test cases and iterate through the TDD cycle.
      - Example Test Cases: Ensure various bowling game scenarios produce correct results.
 
 4. **Using ChatGPT as an Assistant (10 minutes)**
+
    - **Instructor Demonstration:**
      - Show how ChatGPT can provide explanations and suggestions during the TDD process.
      - Example: Ask ChatGPT to suggest additional test cases or help debug issues.
@@ -212,6 +232,7 @@ This detailed afternoon session ensures participants build on their TDD skills w
 **Introduction to the Roman Numeral Calculator Kata (10 minutes)**
 
 1. **Overview of the Problem**
+
    - Problem statement: Write a program that converts Roman numerals to integers and vice versa.
    - Importance of the problem for practicing TDD and AI integration.
 
@@ -224,31 +245,37 @@ This detailed afternoon session ensures participants build on their TDD skills w
 3. **Step-by-Step Guide:**
 
    **Step 1: Analyze Existing Code (10 minutes)**
+
    - **Instructor Demonstration:**
      - Review any existing code for the Roman Numeral Calculator.
      - Identify areas for improvement and potential refactoring opportunities.
 
    **Step 2: Write the First Test (Red)**
+
    - **Instructor Demonstration (15 minutes):**
      - Use GitHub Copilot to generate initial test cases for converting Roman numerals to integers.
      - Discuss how to verify the generated code and ensure it aligns with TDD principles.
 
    **Step 3: Make the Test Pass (Green)**
+
    - **Instructor Demonstration (10 minutes):**
      - Use Copilot to generate the minimal code needed to pass the test.
      - Discuss the manual verification of the code's correctness.
 
    **Step 4: Refactor**
+
    - **Instructor Demonstration (10 minutes):**
      - Refactor the code with the assistance of Copilot to improve readability and maintainability.
      - Ensure the test still passes after refactoring.
 
    **Step 5: Add New Features and Tests**
+
    - **Instructor Demonstration (15 minutes):**
      - Add new features to the Roman Numeral Calculator while ensuring all tests pass.
      - Use the TDD cycle: Red, Green, Refactor for each new feature.
 
 4. **Using ChatGPT as an Assistant (10 minutes)**
+
    - **Instructor Demonstration:**
      - Show how ChatGPT can provide explanations and suggestions during the TDD process.
      - Example: Ask ChatGPT to suggest additional test cases or help debug issues.
@@ -273,16 +300,19 @@ This detailed afternoon session ensures participants build on their TDD skills w
 7. **Step-by-Step Guide:**
 
    **Step 1: Identify Code Smells (10 minutes)**
+
    - **Instructor Demonstration:**
      - Use AI tools to identify code smells in the Roman Numeral Calculator codebase.
      - Discuss the significance of each identified issue.
 
    **Step 2: Refactor the Code (15 minutes)**
+
    - **Instructor Demonstration:**
      - Use AI tools to assist in refactoring the code.
      - Manually verify and improve the AI-suggested refactorings.
 
    **Step 3: Apply Clean Code Principles (20 minutes)**
+
    - **Instructor Demonstration:**
      - Refactor the codebase to adhere to clean code principles.
      - Examples of renaming variables, breaking down large functions, and removing duplication.
@@ -294,10 +324,12 @@ This detailed afternoon session ensures participants build on their TDD skills w
 **Wrap-Up and Q&A (15 minutes)**
 
 1. **Summarize Key Takeaways from the Afternoon Session**
+
    - Emphasize the importance of TDD, AI tools, refactoring, and clean code principles.
    - Encourage continuous practice and improvement.
 
 2. **Open Floor for Questions and Discussions**
+
    - Address any challenges faced by participants.
    - Provide solutions and additional resources as needed.
 
