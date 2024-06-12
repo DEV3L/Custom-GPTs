@@ -2,21 +2,78 @@
 
 ## Exploratory Testing
 
+**Definition and Purpose:**
+Exploratory testing is a method used to rapidly learn something specific about a product. Unlike scripted testing, it is not random or ad hoc. Instead, it relies on structured learning to iterate towards new insights or understanding. It is focused on answering specific questions about the system and involves hypothesis formulation and testing【33:0†source】【33:2†source】.
+
+**Practices:**
+
+- **Manual Tests**: These may occur before, during, or after development.
+- **Guiding Questions**: Each session should have a clear purpose, hypothesis, or charter.
+- **Time-boxed Sessions**: Typically lasting 30-120 minutes.
+- **Output**: The results should be documented and shared with team members through notes, screenshots, videos, or log files.
+- **Collaboration**: Can be done individually or as a team, often during "bug bashes" or similar events.
+
+### Transcript
+
 We have found that traditional manual testing is way too expensive when agile teams in our first sprint will produce some software. And if we test it manually, it'll take one testing unit to test that piece of software. In a second sprint, by its definition, it will take more, we'll have to test the things that we wrote in the first sprint plus the new things that we've added. And over time, that amount of testing continues to grow. And manual testing is not a sustainable way to test the application from that perspective, the amount of effort grows and grows and grows. And because it's manual, and we're following the script, it's actually error prone and it's not reproducible. We're human, we make mistakes along the way, we found that it's essential to automate our functional tests on agile teams, see only a way that we can continuously test all of the application and continuously produce a higher quality. One thing that automating the functional test does for us is it frees up the testers to perform exploratory testing, which is where we really leverage their testing skills and their knowledge of the application. exploratory testing is the goal. Automated functional testing is one of the tools that helps us achieve that goal.
 
 ## Fist to Five
+
+**Purpose:**
+The "Fist to Five" technique is used for gauging consensus among team members during decision-making processes. It allows everyone to express their level of agreement or disagreement with a proposal quickly.
+
+**Process:**
+
+1. **Proposal Presentation**: The facilitator presents a proposal to the group.
+2. **Voting**: Team members show their level of support using their fingers (a fist indicates strong opposition, while five fingers indicate full support).
+3. **Discussion**: If there is not a clear consensus, discuss concerns and suggestions until a more agreeable solution is found.
+
+### Transcript
 
 So another technique that we like to practice in Lean dog around decision making, it was what we call fist to five, I'm not sure where it originated was pretty common in the Agile community. We're trying to make a decision on something, we pretty much take your hand and we kind of do paper, scissors rock, and we do we throw it, we throw a number out a five means I completely agree with it, and I'm full for it. And we should do this. A one means or fist means I'm going to actively work against it. Okay, a three kind of means, you know what, I'm in the middle. I don't I have an opinion, but I'll go with whatever the team decides. So often, if we're talking about something, and we just want to get to consensus, we say hey, tell you what fist to 5123 We throw our hands out, right? We look for the consensus. If there's a lot of dissent, right? There's a lot of variation between you know, fully supportive verse down into ones and twos and even a fist. We better stop and talk about it and do something about it. Typically, if we do a fist of five and like wow, okay, we're have a pretty big degree of separation here. The next technique that we usually employ is six thinking hats by Edward de Bono, so check out our other page or book our guide for more information about that, but easy practice works. You'll see a lot of agile teams do it even some end up even use it for their planning poker as well. They just said on the card flop. They actually do the hands simple geason and borders
 
 ## Frequent Releases
 
+**Definition:**
+Frequent releases involve deploying new features, improvements, or fixes to production regularly. This practice ensures continuous delivery of value to users and helps teams to receive and incorporate feedback swiftly.
+
+**Benefits:**
+
+- **Continuous Feedback**: Enables teams to gather user feedback regularly and adjust accordingly.
+- **Reduced Risk**: Smaller, more frequent releases reduce the risk associated with large, infrequent releases.
+- **Increased Flexibility**: Allows teams to respond to changes and new requirements more quickly.
+
+### Transcript
+
 As we're building software, we make a lot of assumptions there product owners, assuming that we're building the right thing. And they're making some assumptions around, what are the highest value things we can deliver. The team is making assumptions around the usability and user interface of the system as well. The only way we know for sure if those assumptions are right is trying to get the software into the hands of the end users. Not only does getting the software in the hands of the end users help us validate those assumptions. But it helps us discover the new things that we're going to work on. Often we can deliver software to customers or to our client, or to the end users. And they'll start to use it and they'll say, you know, this was this was nice, but it would surely be more helpful if it did this other thing as well, or this other thing would be more important to us. That helps us make sure that we're focused on the right thing. The only way we can achieve this is by releasing the code. Frequently frequent releases is one of the principles of the Agile Manifesto. And we find that it's the central technique in order for us to get the feedback from the end users to make sure that we're building the right thing and to make sure we're heading in the right direction as we develop software.
 
 ## Information Radiators
 
+**Purpose:**
+Information radiators are visible displays that provide key information to the team and stakeholders. They are used to promote transparency and real-time awareness of project status.
+
+**Examples:**
+
+- **Task Boards**: Visual representations of the work items, typically used in Scrum or Kanban.
+- **Burn-down Charts**: Graphs showing the remaining work in a sprint or project.
+- **Build Monitors**: Displays indicating the status of the build and deployment pipelines.
+
+### Transcript
+
 Information radiators are also very, very important concept in that job. Most people are visual and they conserve a lot more information visually than not any other form. Alastair Coburn came up with this concept when he was working on Crystal methodology years ago. And it's become kind of a cornerstone to agile. The purpose of information radiators are to radiate and paper form things on the wall, right so that people can absorb them. So they could be things like the burn up chart, Burndown Chart, release plan, project status, roadblocks, risks, your story, card, wall, your architecture, anything that is important for the team to understand, to convey the support the work that they're doing. The another important part of information Raiders is they meet needs to be, the only way it works is if it's cheap and simple. So if I have a post it note up on the wall, when that post it note says something and I don't think it's right, I have a duty to actually update that information as a as an employee, or as somebody for the client. And if it's something fancy, let's say somebody did a fancy PowerPoint or drawing, and they printed it. And that's wrong. Now the cost of change is great. I have to say, if the interrupt someone said hey, can you update this, this is incorrect. But if I can just take the the accountability for going up and ripping up the post it note and throwing it away and putting the correct information up, the cost of change is a lot less. So that's why sometimes it looks sloppy. When you see all the stuff around the room and you're like, especially it looks like kindergarten again, well, in a way it kind of is we hang our homework up on the wall for everybody to see it for everybody to absorb. So it's also nice to kind of have some nicer signs up. For people that don't understand agile, maybe one of the texting we do is we take signs and we put them in picture frames, and we hang them up. So we'll see all right, the purpose of this information radiator is to convey the status of the project. And, you know, are we getting through the cards in a fast enough manner and what's our pace, the purpose of this information Raiders to convey risk, so that we can manage to talk about discuss it. So having a couple of nice looking pictures on the wall to kind of convey that all the clutter you see around it is actually valuable to us. And this is the purpose of it usually helps corporations and companies except that a little bit better. Even coming into the room. I like to have a scientist explaining what information radiator is. So before they even get into the room, like okay, I kind of get the fact that this all this stuff on the wall is important, and why they actually have it up there. One of the challenges is that there's too much information to radiate. So you don't teams have neat information sometimes and sometimes they don't. So one of the practices I like to do is it on, on your stand up meetings, say on Friday stand ups after the standup. Everybody takes five minutes and we kind of peruse the room. And we look at all the radiators and we make sure they're sturdy. So adding value. One way to know they aren't adding value is if they aren't changing, okay? So if you're having discussions about things and you're changing, you're updating, that's probably serving its purpose if we became just a poster or just something to show it's really not adding value to the team that maybe we need to free up that wall space. So we put more radiators up. So again, it should look sloppy it should be fun. It should be easy. Tape yarn, bingo daubers postcards, ribbon, go to the craft store, buy a bunch of stuff and let people radiate out what's in their minds and then through radiate radiate out what's what you believe to be true. The team will let you know what what the reality of that is. So that's the purpose of the information radiators. And again, if you aren't doing it, it's one of the cornerstones of of becoming agile.
 
 ## Iteration Management
+
+**Definition:**
+Iteration management involves planning, executing, and reviewing a set period during which specific work is completed and made ready for review. Commonly used in Agile methodologies like Scrum, where iterations are referred to as sprints.
+
+**Activities:**
+
+- **Planning**: Define goals, tasks, and deliverables for the iteration.
+- **Execution**: Complete the tasks and build the deliverables.
+- **Review**: Evaluate what was accomplished, gather feedback, and make adjustments for the next iteration.
+
+### Transcript
 
 I'd like to talk about the scrum master or iteration manager or team leader, Team facilitator. It's a pretty key rule. They do things like handle demand management, they help facilitate issues with with the product backlog remove roadblocks facilitate release planning, or sprint or iteration planning for doing that. They help coordinate the show until us along with the product owner, they'll help run retrospectives when they need to, they will track and make sure that we're keeping our key metrics velocity cycle times kind of up to date, and frequently visible to the rest of the team and stakeholders. One of the biggest parts of this role is that they're able to see the team as a team as a whole team as its own individual entity. When we're picking who this role should be filled by sometimes we like to think well, maybe just we can have our tech lead do that, you know, the, the Hero Guy, technical guy on the team, or, Hey, maybe our product owner or business analysts can just double up as the scrum master as well. I've certainly seen cases where all of these things have worked. The biggest thing is with with a product owner and an iteration manager, Team facilitator, specifically is the product owners trying to consume the team and that team facilitators trying to kind of create a safe place for the team and make sure that we're doing things sustainably and keeping a good pace of things going well, if the product owner is sort of predatory in nature and wants to just sort of get as much as they can out of team, probably not a great individual to couple with that scrum master iteration manager role, if they're pretty level headed and understand that a team has kind of some level amount of throughput and understands the team needs to take time to breathe and learn, reflect and adapt as well, then certainly that can work. A pitfall or potential thing to watch out for if you're going to be picking someone like your tech lead or a test lead or someone like that is if these people are continuing to be individual contributors on the team as well. They can be a little bit too heads down in what's going on. So it is important that if you do pick someone like this, that they've got a proven ability to every every now and again, be able to kind of pick their ostrich heads out of the sand and look at the team as a whole thing. So it's a very important role. Sometimes some of the facility the facilitation or the making sure that the various rituals are getting done that can be rotated. There's certainly been places fiddling with things like having a not full time scrum master or Scrum Masters sports to maybe three teams. And those are all things to keep in mind. But remember, it really needs to be someone who's who's kind of a learner is really good at helping others see the whole can see the whole themselves and are good at making sure that a good team facilitation can happen
 
@@ -24,13 +81,181 @@ I'm talking about iteration manager. And this role is near and dear to my heart,
 
 ## Kanban
 
+**Definition:**
+Kanban is a visual workflow management method used to optimize the flow of work through a process. It is characterized by its use of a Kanban board, where tasks move through stages such as "To Do," "In Progress," and "Done."
+
+**Principles:**
+
+- **Visualize Work**: Use a Kanban board to see the status of all tasks.
+- **Limit Work in Progress (WIP)**: Set limits on the number of tasks in each stage to prevent bottlenecks.
+- **Focus on Flow**: Aim to improve the flow of tasks through the process.
+- **Continuous Improvement**: Regularly review and refine the process.
+
+### Transcript
+
 Kanban is a Japanese term, a customer card system. Another lesson from studying lean, and kind of Toyota way. Basically, what Kanban is it's it's a way to kind of see the whole system and understand the theory of constraints and limits in your system. Con means card. Bond means board. And if you think about manufacturing, the way it was applied in Toyota is that they would have cards a signal events. So if you were putting corridors on a car, and you stack of 20 doors, when it got down, about five doors left, there'll be a physical car to take to that door. And that door would say, hey, it's time to make more doors. And you'd go in and the person who makes doors and tell them to make it, so the entire system was pull based. If they're selling cars, that one of the line, then that would signal that we need to start selling more cars. And if they're selling cars with bad doors, we don't want to build up a ton of inventory. Like these physical doors if the design of the door is wrong. So in software, the parallel is that physical inventory, that's our that those are requirements for us to doors are story cards, we don't want to build up a ton of requirements, if we aren't shipping business value. Kanban really has three explicit rules. One is make your work visible. So make it a token or make it a card. So turn August, create all your story cards, create all your work products, put it visually up on a wall, then kind of measure out and flow out what are your system and which states are all these different cards in the next rule to come on after you make a visible is to start applying limits. So what you want to do is be a five five developers or 10 developers pairing, you set a limit of five for the development state, and you stick make people stick to that state. So they can't if they're working, and they need to pass something over to test and test is already backed up. And they already had their capacity, you actually stopped coding, because we don't want to build up more code that doesn't have a fast feedback cycle. So the times in between the active states or the wait states, and we're going to keep those very small. We know that if you if you find a defect, and I just coded something yesterday, it's gonna be cheaper and easier for me to fix it. If you find a defect that coded it last week, it's going to be much more costly. So after you make your work visible, start applying limits, alright, and then applying this pull based thinking. That's the third rule. So the third rule is if work is float up, don't keep piling on more work. Wait until work downstream like QA or getting to production happens before you start coding and creating more requirements. So the entire system should pull out to production from the beginning of value stream. So Kanban is a practice we're very passionate about here at lean, lean dog. And it's something you should explore if you're doing Scrum. If you don't only don't combine sheets for Scrum and compare contrast and choose what works best for your organization.
 
 ## LeanDog Obeya Process
 
+#### 1. Initial Assessment
+
+- **Objective**: Understand the current state of the organization, its culture, challenges, and goals.
+- **Actions**: Conduct interviews, surveys, and workshops with stakeholders at all levels to gather insights.
+- **Output**: A comprehensive report that outlines the organization's current state and desired future state.
+
+#### 2. Assemble Your Crew
+
+- **Objective**: Form a change agent team with representatives from various levels and departments.
+- **Characteristics of Change Agents**: Passionate about continuous improvement, strong communication skills, respect for others, and courage to drive change.
+- **Actions**: Identify and recruit change agents, ensuring buy-in from executives to delivery teams.
+
+#### 3. Equip and Train
+
+- **Objective**: Provide the change agents with the necessary skills and knowledge.
+- **Training Topics**: Lean, agile methodologies, design thinking, DevOps, servant leadership, and more.
+- **Actions**: Conduct LeanDog-led Agile Explained courses and hands-on workshops.
+
+#### 4. Establish the Obeya Room
+
+- **Objective**: Create a big visual room to map out the current state and design the future state of the organization.
+- **Actions**:
+  - Set up physical or digital walls for various aspects of the organization (e.g., business, products, customers, organizational structure, demand funnel, technology, current practice adoption).
+  - Populate the walls with relevant information to visualize workflows, bottlenecks, and opportunities for improvement.
+  - Use large information radiators to display key data and metrics.
+- **Output**: A comprehensive visual representation of the organization's current state.
+
+#### 5. Conduct the Obeya Process
+
+- **Objective**: Use the Obeya room to facilitate ongoing discussions, problem-solving, and decision-making.
+- **Steps**:
+  - **Current State Analysis**: Visualize and discuss the current state of people, processes, technology, and demand.
+  - **Future State Design**: Identify necessary changes in organizational design, technology stack, and processes to achieve the desired future state.
+  - **Demand Management**: Map out the demand funnel to identify bottlenecks and prioritize work effectively.
+  - **Technology Assessment**: Evaluate technology assets and technical debt.
+  - **Practice Adoption**: Monitor and support the adoption of agile practices across teams.
+  - **Change Agent Focus**: Ensure sustainable changes by coaching and mentoring the change agent team.
+
+#### 6. Chart Your Course
+
+- **Objective**: Develop and implement an agile transformation plan tailored to the organization's needs.
+- **Actions**:
+  - Create a backlog of coaching, training, and educational opportunities.
+  - Implement adaptive processes over predictive ones.
+  - Foster a culture of continuous improvement and lifelong learning.
+  - Use agile practices to iterate through the transformation plan.
+  - Ensure transparency and open communication throughout the organization.
+- **Output**: A detailed transformation roadmap with specific milestones and measurable outcomes.
+
+#### 7. Continuous Improvement
+
+- **Objective**: Maintain and scale agile practices through continuous assessment and adaptation.
+- **Actions**:
+  - Regularly update the Obeya room with current data and insights.
+  - Conduct periodic reviews and retrospectives to assess progress and make necessary adjustments.
+  - Scale successful practices across the organization through communities of practice and knowledge sharing.
+  - Use Gemba walks (visiting the actual place where work is done) to stay connected with teams and understand their challenges and successes.
+
+#### Example Case: Cardinal Health
+
+- **Initial Steps**: Built 31 walls in three weeks to map out every aspect of their innovation hub.
+- **Current and Future State**: Created visual representations of current and future organizational designs.
+- **Demand Management**: Highlighted bottlenecks in the demand funnel and identified areas for improvement.
+- **Technology Assessment**: Assessed technology assets and identified areas with high technical debt.
+
+### Conclusion
+
+The Obeya process is a powerful tool for driving organizational change and achieving business agility. By visualizing the current state, designing the future state, and continuously iterating and improving, organizations can effectively manage change and foster a culture of collaboration and transparency.
+
+### Transcript
+
 At lean dog, we've been helping organizations implement and scale agile practices for over 15 years. Every organization is different. Every organization starts from a different point with its own unique culture challenges and goals. Which is why our process begins with an assessment of where your organization is today, where you want to go and how you'll get there. From there, we follow a proven six step process for implementing agile in your company. During the first step, we help you assemble your crew. And by that, we mean we're going to gather the change agents on your team. One thing to keep in mind about our process is that buy in from all levels of your organization is a crucial element. The executives have to believe in this, so does your project or product management team, your delivery teams, your process teams, your engineering teams, and so on. There will be change agents at all levels of your organization. And we're going to rely on them a lot. So who's a change agent. These are people who are continually learning are passionate about continual improvement, and also exhibit skills like Courage, communication, feedback and respect to others. They're important because once the early adopters get on board, they'll begin to spread these ideas throughout your organization, and others will begin to copy their behavior. Once your crew is assembled, we'll move on to phase two and three, where we're going to equip and train them in the skills they need to succeed, including lean, agile, design thinking, DevOps, servant leadership, and more. To do this, the team completes a lean dog lead agile explained course. Throughout the training, our expert trainers walk through the Agile fundamentals, establishing a baseline of agile methodologies and terminology and build the foundation of what's to come. Now that we mutually understand what we mean by agile, now we need to understand your world. We do this by introducing a concept called obeya. obeya is a Japanese term meaning big visual room, and we physically draw up what your current state is in your company. This helps ensure we're actually on the same page and is an important way to uncover things we might overlook if we relied on conversations alone, making it physical or digital gives us a truer understanding of your current reality. We have been thought leaders on using big visual rooms to lead change management since 2008, sharing our knowledge at conferences and practicing with our customers. Led by lean dog agile coaches, the change agent team populates large information radiators physically or digitally. To understand your current state will use different walls for every aspect of your organization. Starting with establishing your organization's current state. The Obeah will help us get everything out in the open, so you can visualize how your organization gets work done. While the transparency of the process begins to break down. Barriers that often prevent employees from collaborating and sharing information will visualize your current state of people process, technology and demand funnel and understand how your knowledge workers transfer their skills from ideation to production, and where we have bottlenecks and where we can improve. Next, we'll move on to the design of your organization. This is crucial because most organizations aren't designed to be agile. In fact, it's usually just the opposite, which is often one of the biggest challenges we'll need to overcome during the obeya process. As we look at how knowledge flows across your organization, it's almost a given that will discover that you're not set up properly. If your goal is to create high powered, high performing teams that support the Agile Manifesto. Which means we'll often find a need for some level of reorganization within the company will also map out your demand funnel. Is there a problem of too much demand and not enough supply? Too many requests for work and not enough people with the knowledge or time to actually accomplish those tasks? are too many things being made high priority items. These are the kinds of things we'll find out. Clients are often shocked to discover Once this information is put into a physical form, that there's simply too much work being asked if your teams and need a better process for demand management. Then we'll map out your technology. What's your technology soup? What are your technology assets? How much technical debt Do you have? How many people have the skills to actually use your technology will also create walls to help visualize your current practice adoption. Another to discuss driving forces behind why we're going Agile and what we hope to accomplish. And another centered around your change agent team, where we focus on how we're going to make these changes sustainable, who are going to be the team members we coach and teach. How will they in turn pass along what they learn to other members of your organization? How will we ensure that new hires are a fit with your new culture? These are all topics we'll work through during the obeya process. Finally, we'll move on to charting your course, which is where we're going to create your Agile transformation plan and begin deployment. Your plan will be, of course unique to you. But what remains the same for all clients is an emphasis implementing the agile methodologies will prioritize people over processes. Instill servant leadership practices, implement adaptive processes over predictive ones. Create a culture of continuous improvement and lifelong learning. empower employees to help craft their culture. Create a backlog of coaching, training and educational opportunities. Use agile practices to iterate through your transformation plan and get all information out in the open and create a culture of transparency. Remember, our agile coaches will be along for this journey, providing regular instruction and direction as you transform your culture. Remember to that this journey is one of continuous improvement, so we'll continue to help you adjust your sales as you make the cultural and structural changes required to achieve your desired outcome. These changes will be different for everyone as well the methods you use. Rest assured we'll be with you to help build upon the foundation you've established and continue to scale agile over time.
 
 ## Low-Fidelity Prototyping
+
+Low-fidelity (lo-fi) prototyping is a crucial technique for quickly iterating and testing ideas during the early stages of design and development. It involves creating simple and rough versions of a product to explore concepts, gather feedback, and identify potential issues without investing significant time and resources.
+
+#### Benefits of Low-Fidelity Prototyping
+
+- **Speed**: Quick to create and modify, allowing for rapid iteration.
+- **Cost-effective**: Requires minimal resources, typically using paper, whiteboards, or simple digital tools.
+- **Focus on Concepts**: Emphasizes functionality and user flow over visual design details.
+- **Encourages Feedback**: Makes it easier for stakeholders to provide feedback, as changes can be made swiftly.
+
+#### Methods and Tools
+
+1. **Whiteboard Sketching**
+
+   - **Purpose**: Quickly visualize ideas and concepts.
+   - **Materials**: Whiteboard, markers, eraser.
+   - **Process**: Draw out user interfaces, workflows, and interaction designs. Easily erase and adjust elements based on feedback.
+
+2. **Paper Prototyping**
+
+   - **Purpose**: Create tangible, manipulable prototypes.
+   - **Materials**: Paper, pens, sticky notes, scissors.
+   - **Process**: Sketch out screens and components on paper, cut them out, and arrange them to simulate user interactions. Useful for collaborative sessions where team members can contribute ideas and make adjustments on the fly.
+
+3. **Digital Tools**
+   - **Purpose**: Create more refined lo-fi prototypes using software.
+   - **Tools**: Balsamiq, Figma, Sketch, PowerPoint.
+   - **Process**: Use digital tools to draw simple wireframes and mockups. These tools often have libraries of common UI elements, making it easy to assemble screens quickly.
+
+#### Example: Creating a Grocery List App
+
+Let's walk through a basic example of lo-fi prototyping for a grocery list app.
+
+1. **Define the Concept**
+
+   - **Goal**: Build an app that helps users manage their grocery shopping and meal planning.
+   - **Core Features**:
+     - Add and remove grocery items.
+     - Organize items by categories.
+     - Plan meals for the week.
+
+2. **Whiteboard Sketching**
+
+   - **Step 1**: Draw the main screen layout.
+     - Sections for different days of the week.
+     - Input fields to add meal plans and grocery items.
+   - **Step 2**: Add basic interactions.
+     - Checkboxes to mark items as bought.
+     - Drag-and-drop functionality to reorganize items.
+
+3. **Paper Prototyping**
+
+   - **Step 1**: Sketch each screen on a piece of paper.
+     - Main screen with a weekly overview.
+     - Detailed view for each day's meal plan.
+     - Grocery list with items categorized (e.g., produce, dairy).
+   - **Step 2**: Cut out individual elements.
+     - Move items between days.
+     - Check off items as they are added to the cart.
+
+4. **Digital Prototyping (Optional)**
+   - **Step 1**: Use a tool like Balsamiq to create wireframes.
+     - Main screen with placeholders for meal plans and grocery items.
+     - Interaction elements like buttons and checkboxes.
+   - **Step 2**: Share the digital prototype with stakeholders.
+     - Gather feedback and make quick adjustments.
+
+#### Collaboration and Feedback
+
+- **Workshops and Collaborative Sessions**: Involve team members from UX, business, and development to co-create prototypes.
+- **Feedback Loops**: Regularly review prototypes with stakeholders to validate concepts and gather input.
+- **Iteration**: Continuously refine prototypes based on feedback, ensuring the final product aligns with user needs and business goals.
+
+#### Tips for Effective Low-Fidelity Prototyping
+
+- **Stay Flexible**: Be prepared to make quick changes based on feedback.
+- **Focus on Functionality**: Prioritize user flows and interactions over visual design.
+- **Encourage Participation**: Make the prototyping process inclusive, allowing all team members to contribute ideas.
+- **Document Progress**: Take photos or screenshots of each iteration to track changes and decisions.
+
+### Conclusion
+
+Low-fidelity prototyping is an invaluable technique for exploring ideas, gathering feedback, and iterating quickly during the early stages of product development. By using simple tools and methods, teams can focus on functionality and user experience, ensuring that the final product meets the needs of its users.
+
+### Transcript
 
 Today, we're gonna go over Lo Fi prototyping. And that is one method we use to help quickly iterate some ideas around what it is that we're trying to build, there's a couple of ways you can do that. And probably the item you use the most is the whiteboard. Because then you can erase it when you mess up. And there is nothing invested in it, right. So if I have an idea that I want to build, one reason thing I had was I wanted to build a grocery list app, something that would allow me to manage my grocery shopping and my menu for the week. So one of the things I as a user, of course, this isn't necessarily the best user case, right? You don't want to build just for yourself. But because this is my idea, these are sort of the rough ideas I'm going to start with. So I want something that I can plan out my week. At a simple level, I want it to be able to be divided into however many days I plan to shop for. So if this is going to be Sunday, Monday, etc. I want something that I can just quickly say I'm going to make pork carnitas on Sunday, and Monday I'm going to have fish and salad. So this is at its bare bones just sort of a rough idea of to start with. So from here, I can start to add on either features and things that I want to detail out more. So that's, that's an ad it's bare bones are really rough, rough prototype, right. But so as I'm talking about this, this is just my list. But if I want something that I can go add onto, and then I have my list of things. So if I'm grocery shopping, I need my pork, I might need tacos, I might eat fish, salad, etc. So I need the ability to add and remove these things. And I want the ability to move them at will. So if I could tap that, and drag it up, that'd be really cool. Because maybe I want to organize my list based on how I shopped in the store. So if I start to produce probably all my produce section together instead of Higgledy Piggledy over the place. So in my our app world, I'm gonna have my, my logo, I'm gonna have some actions, you know, any iPad checkmark to say it's done. Again, I can't, because I'm building this on the fly, not necessarily have a totally fleshed out, but just trying to get some sketches together. So they're really sketches, their bare bones, they allow you to, where's my eraser, things things like, you know, forget that. And nothing bested Miss aside from writing on a whiteboard, right? The same thing goes. If I'm not your whiteboard, sometimes I just use pen and paper. So I'll sit down and start to draw something out and, and try to just see how that feels. Because you can crumple up a piece of paper, throw it away, start again. And then as you get those prototypes together in their basic, basic outline, you can start to share them and get some feedback. And you could do this collaboratively. So if you're in a project and you have the whole project team, here you have it, you have UX, you have business, you have analysts who have testing. As you start to talk through what it is that you're trying to solve, you can start to sketch out together, what it is that you're aiming for. So while you can use whiteboard, and you can use pen and paper, other people may jump into quick prototyping tools like balsamic or IRA's, X after all our tools that are computer tools that you can then use to quickly sketch things out. Heck, you could even use PowerPoint if you really wanted to start drawing boxes and squares and get some of those concepts out. And the nice thing about Lo Fi prototyping is you don't have to be a designer you don't have to have it look fantastic. It's just just bare bones meant to get your concept across like the giant sticky notes that you put up. You could stick it up and you could use other sticky notes to layer onto it to to show different regions. You know, let's say you're going to use a pink every bad summer substitute. So we're gonna get back to a for Okay, so I have a website or webpage that I'm trying to build.
 
@@ -43,6 +268,90 @@ these are comments. Terrible writing, but so add a roof, I've got some core thin
 that because touch introduces a whole new interesting interface, you can start to represent with like almost origami paper aid, so if this upon load is reduced in size, then you can actually get the sense of okay, I pull this down. So there's some really interesting things out there on the web that are starting to do that type of stuff.
 
 ## Obeya - A Systems Thinking Approach to Business Agility
+
+Obeya, a Japanese term meaning "big visual room," is a collaborative workspace that facilitates systems thinking and enhances business agility. At LeanDog, we use the Obeya approach to help organizations visualize their current state, identify areas for improvement, and implement changes effectively. Here’s a detailed look at how the Obeya process can drive business agility.
+
+#### Overview of Obeya
+
+The Obeya room serves as a central hub where team members can gather, visualize workflows, and align on organizational goals. By making information visible and accessible, the Obeya approach helps break down silos, foster collaboration, and ensure everyone is on the same page.
+
+#### Key Steps in the Obeya Process
+
+1. **Assemble Your Crew**
+
+   - **Objective**: Gather a diverse team of change agents from different levels and departments within the organization.
+   - **Change Agents**: Individuals who are passionate about continuous improvement, exhibit skills like communication and respect, and can influence others.
+   - **Importance of Buy-In**: Securing commitment from all levels, including executives, management, and delivery teams, is crucial for successful transformation.
+
+2. **Equip and Train the Crew**
+
+   - **Skills Training**: Provide training in agile methodologies, lean principles, design thinking, DevOps, and servant leadership.
+   - **LeanDog Agile Explained Course**: This foundational course establishes a common understanding of agile concepts and prepares the team for the next steps.
+
+3. **Visualize the Current State with Obeya**
+
+   - **Create Information Radiators**: Use large visual displays to map out the current state of the organization’s people, processes, technology, and demand funnel.
+   - **Physical or Digital Visualization**: Ensuring a tangible representation of workflows and organizational structure helps uncover issues that might be overlooked in discussions alone.
+
+4. **Design the Future State**
+
+   - **Organizational Design**: Assess how knowledge flows across the organization and identify areas for reorganization to support high-performing agile teams.
+   - **Demand Funnel Mapping**: Analyze the balance between demand and supply, prioritize work, and identify bottlenecks.
+   - **Technology Assessment**: Inventory technology assets, evaluate technical debt, and understand the capabilities of the current tech stack.
+
+5. **Create and Implement the Transformation Plan**
+
+   - **Agile Transformation Plan**: Develop a customized plan focusing on people over processes, servant leadership, adaptive processes, continuous improvement, and transparency.
+   - **Coaching and Training**: Establish a backlog of coaching, training, and educational opportunities to support ongoing transformation efforts.
+
+6. **Iterate and Scale**
+   - **Continuous Improvement**: Use agile practices to iterate through the transformation plan, regularly review progress, and adjust as needed.
+   - **Scaling Agile**: As teams mature, expand the agile practices across the organization while maintaining alignment with the overall goals.
+
+#### Benefits of the Obeya Approach
+
+- **Transparency**: Visualizing information and workflows promotes transparency and shared understanding.
+- **Collaboration**: Breaking down silos and fostering collaboration across departments.
+- **Alignment**: Ensuring all team members are aligned with organizational goals and strategies.
+- **Continuous Improvement**: Facilitating ongoing assessment and iteration to drive continuous improvement.
+
+#### Implementing Obeya at LeanDog
+
+**Step 1: Assemble Your Crew**
+
+- Identify and gather change agents from all levels of the organization.
+- Ensure buy-in from executives, management, and teams.
+
+**Step 2: Equip and Train the Crew**
+
+- Conduct training sessions on agile methodologies, lean principles, and other relevant skills.
+- Use the LeanDog Agile Explained Course to establish a common understanding.
+
+**Step 3: Visualize the Current State**
+
+- Set up the Obeya room with large visual displays (information radiators).
+- Map out the current state of people, processes, technology, and demand funnel.
+
+**Step 4: Design the Future State**
+
+- Analyze the current organizational design and identify areas for improvement.
+- Map out the demand funnel and assess technology assets and technical debt.
+
+**Step 5: Create and Implement the Transformation Plan**
+
+- Develop a customized agile transformation plan.
+- Focus on people over processes, servant leadership, and continuous improvement.
+
+**Step 6: Iterate and Scale**
+
+- Regularly review progress and adjust the transformation plan as needed.
+- Scale agile practices across the organization while maintaining alignment with goals.
+
+### Conclusion
+
+The Obeya approach provides a structured framework for organizations to visualize their current state, design an improved future state, and implement changes effectively. By fostering transparency, collaboration, and continuous improvement, the Obeya process helps organizations achieve greater business agility.
+
+### Transcript
 
 Good morning, everyone. Yeah, so a little bit about me, like Charlie said, started lean dog 11 years ago. So I've been doing this a long time started kind of before the manifesto was extreme, extreme programming. I was up in Cleveland, building a couple of agile teams got Nationwide Insurance kind of owned company that we're working for weird child company. And we basically asked, asked at some point, hey, can you come and help us transform nationwide? How many people here from nationwide? Anyway, okay, cool. All right. So most people know about us because lien dogs were on a boat in Cleveland since 1892, steamship, um, if you ever come to Cleveland, you're welcome to stop by we have free parking, we got toys, we got a bar. got creative space. So we're right by the rock'n'roll Hall of Fame tied to World War Two submarine. So that's where we're at. And that's where we do a lot of not only coaching, but in teaching, but also product development. As I said, Before, I started this really with Victoria insurance, title insurance, and then nationwide. And when I was asked by name Srini, but the previous CIO, to actually help transform nationwide wages, I basically said, Well, I don't know how to do that. But I know a lot of awesome people in Columbus are also passionate about business agility, and being agile. So I came down to Columbus, I hung out with all the other my co workers that really passionate about this, and we formed a change agent team. And we came up with a plan on how we're gonna try to transform nationwide. And I spent the next six years doing that I had so much fun doing it that I eventually left and started lean dog 11 years ago, and that's what we kind of do for a living. So this talk is going to really be about, we're not only what worked at Nationwide, but how we, over the last 11 years have continued to hone the practice, around lean and systems thinking to actually transform company. So this is gonna be kind of our recipe for success.
 
@@ -144,17 +453,69 @@ more complicated you are, the more you need all that visualization. Some Some pr
 
 So we'll bring the executives in the room will do show and tell us about our change plan, how we're doing, what business outcomes, we're trying to achieve, what's working, what's not working. Once teams graduate, we push them back out of the treehouse out of the nest or development center, then we'll do gimble walks, which is lean means going to the floor to actually assign a coach or someone to say, hey, you have these 10 teams and 10 buildings and you're gonna visit with them every once in a while. And not only are you gonna understand what's working or not working for them, if we uncover better ways of working, right then Well, I will also share them with them. So we create this kind of these practices of sharing and learning, right? It's just part of the culture and it's healthy. You want people to come gimble walk your place, right because that means if they can help you they will, right? I'm not here to inspect you, I'm here to help you. And if I can rather bring you something or take away something from you, that's awesome. Okay, and that's part of the culture
 
-
 ## Open Space
+
+**Open Space** is a concept focused on creating an open, collaborative workspace, crucial for high-performing agile teams. It involves eliminating cubicles and encouraging communication, collaboration, and teamwork in a shared environment. Here are the key elements to consider when implementing an Open Space:
+
+1. **Space Requirements**:
+
+   - Allocate about 150 square feet per person, which is generally less than the typical corporate cubicle space.
+   - Include at least two breakout rooms for private meetings, brainstorming, or customer interactions.
+
+2. **Personal Space and Equipment**:
+
+   - Provide lockers or cubbies for personal belongings.
+   - Equip the space with pairing monitors, video projectors, whiteboards, art supplies, and good speakerphones for effective communication and creativity.
+
+3. **Comfort and Amenities**:
+
+   - Ensure food and drinks are available in the workspace to foster a comfortable environment.
+   - Incorporate elements of fun and creativity, like toys and games, to allow mental breaks and stimulate innovation.
+
+4. **Furniture and Flexibility**:
+
+   - Use movable furniture to allow teams to reconfigure their workspace as needed without needing permission from facilities.
+
+5. **Maintaining Focus**:
+   - The Scrum Master or servant leader should protect the team's workspace from distractions and provide tours to curious visitors without disrupting the team’s flow.
+
+### Transcript
 
 An open workspace, probably one of the highest value practices and all of Agile. What we're talking about here is actually getting rid of all your cubicles and working in the open environment. We like to call cubicle sensory deprivation chambers, you were born with a lot of senses. And then we'd lock you in a cube and we judge it, whether you're at your laptop or not. high performing teams are always communicating, collaborating, designing, thinking through their problems out loud. That's how they learn. That's how they grow. That's how they support each other. So if you have a work environment without an open workspace, if you are providing a conducive place for people to use their minds, it's not about being introverted extrovert. It's about sharing your knowledge. It's about communicating, listening. And working as a team. A lot of companies make the mistake of just saying, Alright, well, we're gonna go Agile. So let's take a conference room, no windows shut people when they're theirs or open spaces control this experiment. Reality is that, if you're gonna do open to workspace, there's a lot to consider. In our agile discussion guide, we have four or five pages of bullet points. We practiced with a lot of organizations helping them transform the culture. And you have to consider a lot of things a couple key elements usually takes about 150 square foot per person, which is a lot less per person than a cubicle, square footage allowances usually like to 25 to 50 and large corporations, you have to have not only a big open workspace, but you need at least two breakout rooms that your team can jump into and have meetings. So it doesn't mean that everything has to be done public. Sometimes you need to go in a room, brainstorm whiteboard, talk things out work with the customer. So these two meeting rooms though should not be booked. Nobody else can use it except these two teams. We also need some personal space, so lockers, Cubby, someplace to put your personal belongings is always good. We find that most people think they really need them. And over time, they usually carry everything they want their backpack, having course great pairing monitors, video, projectors, whiteboards, lots of art supplies, right so that you can be creative and design things. Good speaker phones, so you can have good conversations, those are all important as well. Expect to have food in your workspace because we all have to eat. And it's an important part of what you do. So food, drink coffee, it's nice to have a corner where you can have that, which also have a sign of fun. So creative people need to have fun. If you don't see a sign of fun in the room, you probably aren't being very creative and innovative. So it's okay to see toys and crazy things around the office. So people can get up and take mental breaks and do things and keep occupied. We'd like to also have a rolling toolboxes with supplies to remove supplies around the room, the furniture needs to be able to be moved around by the team at will. So you don't need to call a facilities person to get permission to do something. The teams are known as you know, they're all adults. And so you just treat them as adults and let them move their furniture around and create the work environment however they choose to fit and as part of being a servant leader. Open Workspaces are also deemed as like sloppy and kind of fun like there. But reality is people are working probably harder than they ever have. Because they're pairing and working transparently the entire day pairing and doing things. Typically the scrum master servant leader needs to protect the open workspace. In other words, as people come in, are curious about what they're doing. Their job is to give tours of it, show the facility, show their work products on the wall, show their product, talk about agile, but prevent distractions from the team. So it's nice to have an open workspace that has some type of a barrier, even if it's some whiteboards along one side or something another side so that it's clear when people are entering into that team's workspace. It's not just hey, I want to take a break. Let me go hang out with the agile teams and eat their food and play with their toys. Because that's that's that's what will happen. So you kind of have to protect it a little bit and ask people Hey, can I help you can I show you around here is about our practice around agile and these guys are working hard and kind of be a protector of that open workspace. At the end of the day. People have a lot of angst about personal belongings, but high performing agile teams it's usually not that big a deal. They get more satisfaction in doing their work. Because we work a sustainable pace. We work so hard for you and go home, that your personal life panic is there. So that's there's a lot a lot to it. Like I said check out our book. There's four or five pages of information about this. A lot of them are a lot of lessons learned over the years of helping people transform their cultures.
 
-
 ## Pair Programming
+
+**Pair Programming** is a critical practice in agile software development, involving two developers working together at one workstation. Here’s why it's beneficial and how it can be effectively implemented:
+
+1. **Increased Productivity and Quality**:
+
+   - Contrary to some beliefs, pair programming is not twice as expensive. It leads to higher quality software with fewer defects as two minds collaborate on problem-solving and design.
+
+2. **Knowledge Sharing**:
+
+   - Frequent pair switches ensure that more people are familiar with the code, spreading knowledge and reducing dependency on individual developers.
+
+3. **Enhanced Problem-Solving**:
+   - The collaborative nature helps break down complex problems and ensures better solutions are found more quickly.
+
+### Transcript
 
 A practice that we feel is very critical or very important for producing high quality software is paired programming. It's also a practice that's somewhat controversial with some customers or some clients. They seem to have this perception that if you have two people working at a single keyboard and a single computer, that you're spending twice as much money to have the same thing produced. But that doesn't jive with our experience at all. What we found is that two people actually will produce more software than one person. But not only will they produce more software, but to produce a higher quality software with less defects. The role of a developer is not a role of typing on a keyboard, if typing on the keyboard, were all there was to software development, then pair programming wouldn't work, it would be twice as expensive. But the fact is, is that building software is all about taking a large problem, breaking it down into a smaller chunk, and then taking that and breaking it into smaller pieces until we get to a point where we've got things that are small enough to be actionable. And then knowing how to take those small pieces and compose them and build them up into larger pieces of software. There's a lot of art to that. Having two minds working on that collaborate on that discussing that constantly, constantly produces a higher quality product that helps us think about those things, introducing more minds to solve a problem and more people to solve a problem. What we find is that the more eyes we get looking at code, the higher quality that code becomes. So more people introduce more ideas. And we've heard the same two minds are better than one. Well, here at lean dog. We switch pairs fairly frequently. And we coach teams, we coach our clients to switch pairs at least once a day, if not more frequently. And when we do this, we get more people looking at the code, more people helping coming up with the ideal solution. As a result we have a higher quality product with far fewer defects. Pair programming is one of the practices that we think is fundamental and essential for developers and testers to follow.
 
 ## Personas
+
+**Personas** are fictional characters created based on user research to represent different user types. They help teams stay focused on user needs throughout the development process. Here’s how to create and use personas effectively:
+
+1. **Research and Interviews**:
+
+   - Conduct interviews and gather data about your users' needs, motivations, and behaviors.
+   - Avoid asking direct questions; instead, understand what drives them and their pain points.
+
+2. **Creating Personas**:
+   - Develop detailed personas with names, pictures, and descriptions that encapsulate the core traits and motivations derived from the research.
+   - Use these personas to guide design and development decisions, ensuring the product meets user needs.
+
+### Transcript
 
 Saunas are helpful for when you start a project to outline who your users are. And you may have multiple user types coming into use your app, your product, your website. If you are not in a digital space, you have users without physical spaces. So it's not just for a technology industry, many people use personas. So personas at the beginning are really ways for you to communicate to the entire team who it is that you are building, whatever for. So this helps keep the whole project team focused on making sure that as you develop and as you build things you're meeting those users needs. Now, you don't just make these up out of thin air. That would be too easy. You base this upon user research. So you go out and you start talking to people, and you interview people and and try to drive out from them what it is that they need, what their motivations are. You don't just ask pointed questions like would you use this? You want to find out what drives them. So something I recently worked on that really personas played a big part in driving out how we structured things was creating a website for 11 year old girls. And after we did our user research on interviewing all these 11 year old girls, a keep a few things emerged from those interviews that were really surprising to me. One of those things was that 11 year olds do not use Facebook. They think of that as like old fogy land, they have their other social networking things that they do. And they use, they use social networking in a totally different way than you or I might. So that as a researcher was really interesting to find out after interviewing these, these young girls. So our sampling of 15 girls that we talked to you who ranged in age of 11, to 15, started to have common themes among them. One of the things they did was they all use Tumblr, they use chat, they never call anybody, they never were on Facebook, they want it to feel smart, but not too smart. So there are lots of interesting psychological things that emerged from talking to these girls. So after those user interviews of those girls, we then went back and crafted personas. And we came up with two personas for this, this particular project just in the essence of time, and you know, amount of people involved, it was sort of a volunteer type of effort. But so we crafted these personas, and they became what helped us create our product. So after interviewing, you then start to form an actual document of your persona. So you create a fictitious person who's based on all these interviews. So after we interviewed all these girls, we created you know, Isabel, we put a picture doesn't have to be any of the girls in the interview. But definitely age specific, and, you know, wrote out what it is that motivated or so is athletic. That's a motivation, loves art. And sharing, so at a high level. That's, that's our Isabel but we can start to drive into what it is that motivates her. So getting good grades.
 
@@ -166,45 +527,135 @@ validated, unfortunately, is the only word that comes to mind validated in her e
 
 maybe there's more, but that alone provided enough guidance for how we structured some of our content and, and define the overall structure and architecture of the site. So you can go super high level, you know, what is it who, you know, if people want to work with us, who want to learn from us, they want to, you know, come work here. That's it, we never went any further, you get into something that starts to get into individuals. And those could be shorter as long as you want. And, and then you can have as many as you want. I would urge you not to go too crazy, you know, restrict them to maybe three to five persona types, unless you're in a really complex system that has multiple user types and then within those user types have even more sub user types
 
-
 ## Planning Poker
+
+**Planning Poker** is an estimation technique used in agile projects to foster consensus among team members. Here’s how it works:
+
+1. **Engagement and Accuracy**:
+
+   - Each team member independently estimates the effort required for a story using a card with a number on it.
+   - After revealing their estimates, the team discusses the differences and re-estimates until a consensus is reached.
+
+2. **Benefits**:
+   - This technique ensures everyone’s input is considered and helps identify potential risks and complexities early.
+
+### Transcript
 
 We have special guests on the boat, James Gurney are the co authors of the Agile Manifesto, and also the brain of the creator behind plenty poker. So I'm intrigued by that and just wanted to kind of get that story. Okay, hear how that came to be?
 
 All right? Well, you know, so it wasn't any great thing designed and as it's been attributed to being a variation of Delphi is completely an accident. Although there are similarities, I can see that but I had a problem I was it was in the early 2000s, I was in Utah working with a company, we were trying to help learn how to do extreme programming, we had a stack of story cards, we were trying to get them estimated, and I was a coach. And with eight people around the table, two architects and the rest of the team, so the two really experienced guys, they were talking about the story, take them an hour, we do another story and take another hour. And it was really getting bogged down. We weren't making anywhere in our in our deck. Plus, six out of the eight people were asleep. And I was having a hard time keeping awake myself. So we took a break. And back then when we did a consulting job for object mentor. Rumor has it is you'd be parachuted in with a stack of note cards and a bowie knife. Okay, so I had the the note cards, I think I left the knife at the hotel. But so I've got the the notecards we took a break and said, How can I get people engaged since? Well, let's have everyone write their estimate on the note card. So here, we're on this table, and he's writing a note and we said, Okay, everybody else wants to know, because I didn't want these two guys that were running the show to be the only ones that talk because other people might have some ideas. Well, they showed their cards, and there was a little bit of difference. So we discussed the difference in voted again. And then we converge pretty quickly, we did a story in five minutes instead of an hour. And we continue, we did all the rest of the stories, you know, maybe in about an hour's time, we're able to quickly get through it. What I was really looking to do is find out where we agreed, so we didn't have to talk about it. Because we didn't really care about how we were going to do it. We just wanted to get an estimate. And if we agreed on a number, then there was no need to discuss in that those could move off the table quite quickly. If we disagreed, you could find out who was in what and why they thought so why do you think it's easy? Why do you think it's hard vote again? We converge. You know, none of the dogma about Fibonacci was there. People wrote the number on the card that they thought if the numbers got bigger, you know, I'd say, you know, let's not argue about 16 versus 20. Let's just pick one, or, you know, because it means we don't know that much about it because it's a big number. So pick one. People were even allowed to play two cards at once, if they didn't want to write a new card and the two cards ended up to the right number, you know, so it was there was none of the rules that we have now. So that's how I got started. I wrote a little paper and then Mike Cohn saw it, and they were getting the scrum training and things started and he was reading one of his books. And he called me and said, Do you mind if I put that in my book? And I said, No problem. Put it in, attributed to me. He made it think
 
-
 ## Product Backlog
+
+The **Product Backlog** is a prioritized list of features and requirements for a project. Here’s how to manage it effectively:
+
+1. **Detail and Prioritization**:
+
+   - Early on, the backlog will have high-level stories and epics. As the project progresses, these should be broken down into detailed user stories.
+   - Continuously refine and reprioritize the backlog based on feedback and changing requirements.
+
+2. **Sizing and Estimation**:
+   - Ensure that user stories are small enough to be completed within a single iteration.
+   - Use techniques like Planning Poker to estimate and size stories accurately.
+
+### Transcript
 
 I'm talking about product backlog. And in some ways, the product backlog is a key part of the whole agile process, that it feeds into a lot of discussion around budgeting timeframes, business value. So there's a lot of it that goes into, this is really the start of a project. For most projects, there's going to be a lot of varying levels of detail. Starting at the beginning, where it's probably just a list of stories and epics and a high level sizing, then that leads into some sort of estimate on timeframes, and budgets, though some of that gives some people grief because there's a lot of unknowns at this point in time. But we have to give some relative guidance on when this stuff could be done and kind of how much it's going to cost us for going through and doing it. When we look at there's different kinds of stories or earlier on user interface stories might have a very rough mock up in terms of paper drawing, or something like that for information. And then as the stories get closer to be actually being worked on, we expect to see more and more detail. So project, it's halfway done, we still might have some very rough ideas of certain stories. And then we have some stories that have a whole lot of detail. Probably the key thing here is sizing. When we start going through and chopping up that backlog in pieces for execution by the agile teams, we want to get to a certain size in some ways. That's the secret sauce of making these breakdowns of work big enough or just big enough that the work can get done. Totally done in the time boxes of our iterations. And I think that's about it for product backlog.
 
-
 ## Product Owner Role
+
+The **Product Owner** is a crucial role in agile teams, responsible for defining and prioritizing the product backlog. Key responsibilities include:
+
+1. **Defining and Prioritizing Work**:
+
+   - Determine what features will be built and in what order, focusing on maximizing business value.
+   - Collaborate with the team to account for technical dependencies and negotiate changes.
+
+2. **Stakeholder Management**:
+
+   - Act as a liaison between the team and stakeholders, ensuring alignment on priorities and managing expectations.
+
+3. **Acceptance and Feedback**:
+   - Review and accept or reject work based on predefined acceptance criteria, providing feedback for continuous improvement.
+
+### Transcript
 
 Talk about product jar. And in some ways, I hesitate to call this as a key role as everybody is important on the team. But when we look at the direction of the team and where we're going, it is a critical part of that. So the product owner is going to decide on what's going to be built and in what order. Now, some of that will still be negotiated with the team, because there might be some technical dependencies and stuff like that. Everybody has a voice. But you can think of the conductor's going to be the product owner for that kind of stuff defines the features of each story, Hey, how are we going to get some business value out of that. And really, the focus is on achieving some sort of business value business outcome with that, they're going to choose the release date and content. Of course, they can't do that on their own without input from the team. But they're going to be deciding, hey, how much of this is going to be my minimum viable product? What can I go through and release. So because they're going to have an idea of a bunch of other things. And in some ways, that opens the door to kind of like the Think of the product owner is a cat herder, where there's all sorts of different stakeholders. So you might have the legal department, marketing, department, sales, training, all sorts of things that need to be coordinated, and the product owner usually owns that part of the job. So it's a pretty significant job. When you look at defining that business value, that's going to be part of mapping the business value is going to be mapping that back to Hey, what was the business case put together for that? So typically, the product owner will have a hand in that, Hey, how did they justify the project? Where did they get their budget from? So that's all in some ways, part of that cat herding job, pretty significant effort, there, they're also going to make the adjustments as required. A lot of times as we go through and execute on a software development project, they're going to start getting some feedback to say, You know what, we did ask you guys to build this. But now that we see it, we need to make some sort of adjustments to actually maximize the business value. So that's going to imply some sort of change, in order for them to live within their budgets and timeframes. They might have to actually take some stuff off the backlog in order to get those changes in. So again, are a pretty significant role there. They're also going to accept or reject the work from the team to say, Did it meet the intent of the request? Did it meet how the feature was defined? Hopefully, there's not going to be no, hopefully, there's not going to be any surprises there. Because the product owner is collaborating daily with these folks. For example, I worked with several teams where the product owner was a Regional Business Manager. So they had very significant business responsibilities, the software application had a significant impact on those responsibilities. So they really cared about the outcome. So that kind of level of engagement and commitment is really important to have this successful. So they're going to facilitate the planning meetings with the iteration manager, as they have a lot of power in terms of how do we coordinate, what's the direction? How do I paint the vision of the future? That's going to be a key part of that. And that's about it for product owner.
 
-
 ## Release Planning
+
+**Release Planning** is an essential event for laying out a high-level plan for the product. Here’s what it involves:
+
+1. **High-Level Estimation**:
+
+   - Estimate features in large buckets (e.g., T-shirt sizes) to get a general sense of the work that can be included in a release.
+
+2. **Regular Reassessment**:
+   - Continuously revisit and update the release plan to ensure it remains aligned with business priorities and project progress.
+
+### Transcript
 
 release planning is an event that takes place prior to any work happening, and then should continue to occur at regular intervals throughout the life of the project. Basically, in a release plan, what we're looking at is the team, the product owner, stakeholders, and ideally, any kind of dependent groups are involved in laying out a very high level plan for the product. This is macro level features, not necessarily a whole lot of detail, small enough that there that the team can estimate them. But the estimations can be in relatively large buckets. In a lot of cases, we recommend the team's estimate, at this point in T shirt sizes, small, medium, large, extra large, and don't concern themselves with fine grained detail. Really, the purpose of release planning meeting is to get a general sense of how much work can we fit into a real art larger release cycle, which may actually be comprised of a number of smaller iterations, we're looking at things like risk, we're making sure that we have a sense that there's enough work for the whole team, the pair's aren't gonna be sticking down, they're going to be stepping on each other. We're making sure that if we have identified risks, we have a mitigation plan that might be that we're actually spiking out concepts and ideas. And those spikes might occur early on in our first or next iterations that we can get better sense of what is this work and actually carry it forward? A release plan really should include what we know to be the entire backlog, and then kind of scheduling for maybe one or two releases. And what we're going to do is we're gonna continue to revisit this plan, every few iterations or, you know, each release to confirm that, yes, these large level features are still the ones that we want next that we're delivering the highest value that we're taking care of our risks and just kind of reassessing. So, if you imagine what a sprint plan or an iteration plan looks like release planning is very similar just at a much more coarse grained level.
 
-
 ## Retrospectives
+
+**Retrospectives** are meetings held at the end of each iteration to reflect on what went well, what could be improved, and what actions to take. Here’s how to conduct effective retrospectives:
+
+1. **Structure**:
+
+   - Follow a structured approach: Set the stage, gather data, generate insights, decide what to do, and close the retrospective.
+
+2. **Actionable Improvements**:
+   - Ensure that the team agrees on specific actions to improve the process and follows up on them in the next iteration.
+
+### Transcript
 
 One aspect of Agile is continual improvement. Teams taking a look at how they're doing, assessing what could be improved, deciding what actions to take, measuring the results of those actions determine if those are a benefit or not. And just constantly seeing if they can hone tune and improve their software delivery process. An important piece of that is retrospectives. A lot of agile teams, especially in their early stages, struggle with retrospectives, some even in the later stages. A lot of times, it's due to lack of follow through. The retrospectives take on sort of a ritualistic feel, but there's no actual action taken for improvement. And so eventually, the ritual feels pretty pointless. Sometimes it's just for facilitation, folks that are running the retros just don't know how to keep people on task and keep it from veering off into the weeds. And sometimes it's at the team doesn't really understand what the purpose of a retro is in the first place. And so they can't direct themselves towards, you know, benefit. There are literally hundreds of ways to do a retrospective, when you get down to fine grained details, whether that be using the starfish or using a timeline or fishbone. There's a number of different practices that are out there. But every retrospective, should effectively follow the same fundamental structure, setting the stage where we are, determining what the purpose of this retro is, you know, why are we here? And what is it that we're seeking to achieve? Gathering data where we're actually getting information from the group, maybe looking at actual measurements and quantifiable things, but also talking about how we felt about things that happened over the course of this last iteration? Right? generating insights. So based on that data, trying to figure out what can we learn from this? And, you know, what does it reveal to us, then deciding what to do? What actions to take? So what are we going to do next to improve our situation or to better what's going on here? And then closing out the retrospective, making sure that there's some kind of way that you know, we're marking the end of it, and we're all sort of creating an agreement on what we're going to do over the course of the next iteration, based on our learnings from this retrospective
 
-
 ## Roadblocks
+
+**Roadblocks** are issues that impede the progress of the team. Here’s how to manage them:
+
+1. **Identification and Escalation**:
+   - Identify roadblocks during daily stand-ups and retrospectives.
+   - The iteration manager or Scrum Master should escalate and resolve these roadblocks promptly.
+
+### Transcripts
 
 We're talking about roadblocks. Now, this is not the stuff you see out in your traffic. But this is stuff you'll see in the activity of your development team, that we've got several kinds of meetings that this would come up in. The first is the daily stand up. So this is one of the three questions, what's the roadblock? So hopefully, when we're going through and talking about what's going on, that the team will say, Hey, I've got this problem, I've got this issue. If you've got a story board wall, that we should highlight the fact that that story, or that defect has a roadblock, a lot of teams would have a separate roadblock list that that would go on. But I like to have it tagged against the story, because we're all about getting a story to done this Roblox blocking that story. And that's going to be the job of the team to go through and remove the roadblock. If the team can do it. This becomes the area the iteration manager, where they're going to take those set of roadblocks and see if they can mow them down through escalation or personal relationships with these probably external teams, and see if they can get that roadblock removed. Another meeting that Roblox will probably come up in is a retrospective, the team should be talking about, hey, we had this roadblock, we got that roadblock. You can think of that as problems in our process. How can we mistake proof our process so that those roadblocks will come up anymore? So that should probably be talked about in the retrospective in the show and TAO to the product owner slash customers? We should probably be talking about roadblocks there because it's interfering with getting product out the door to done. What can we do about it? So we want them to be aware of what's going on? Potentially the impact on our burn downs to say this roadblock was slowing things down reducing our efficiency, or they might even be able to help with the escalation process to say, hey, this team has this problem. What can we do to help Hey, you go talk to this team, talk to this Vice President about getting support because hopefully we're working on important stuff and if it's important, let's move down those roadblocks.
 
-
 ## Scrum Framework
+
+The **Scrum Framework** provides a structured approach to project management. Key components include:
+
+1. **Sprint Planning**:
+
+   - Plan the work for the upcoming sprint, ensuring stories are well-defined and ready for development.
+
+2. **Daily Scrum**:
+
+   - Hold a short daily meeting to discuss progress, plans, and roadblocks.
+
+3. **Sprint Review and Retrospective**:
+   - Review completed work and gather feedback in the sprint review.
+   - Reflect on the process and identify improvements in the retrospective.
+
+### Transcript
 
 All right, the scrum framework is primarily a project management perspective doesn't really cover off engineering practices. So I'm just gonna go through the high level flow, the product owner will go through put together the backlog of stories to find the features. Laying out the business value we want to accomplish, typically will get helped by other people from the team, often business analysts that will provide the basis for some sort of planning effort, then we'll take a look at actually executing on that plan, which is in sprints. So have a sprint planning meeting, the product owner will introduce the stories that have been lined up for discussion at that planning meeting, the team will review the stories decide, hey, here's the ones we're going to go through and take on and volunteer for them and start executing the execution part of Scrum doesn't call out practices like pairing, test driven development. So whatever practices the team is using, they're going to go through and execute does however, call out an idea of definition of done or we get measured by deliver delivering high quality working software. So at the end of our timeframe, Scrum suggests two to four weeks, but we really tend to two weeks or smaller size, from a mean dog perspective. So at the end, we'll have a showing tell, in some ways, this is the proof of the pudding, Hey, did we actually deliver, the product owner is going to take a look at what's delivered. Hopefully, there's some collaboration during the sprint. But the show and tell is the ultimate final point where that kind of determination is going to be made. Does the story pass or not? We might bring up some items that need to be changed, those items will flow back into the backlog. The next step is a retrospective Hey, how well did things go? What was the good things that happened? What were the bad things that happen? And then what kind of changes can we make? Now that timeframe is is quite different than let's say, lessons learned from the waterfall side, we're actually going to take and roll that right into our next meeting, which is the next sprint planning meeting. Now as we're executing every day, we're going to have a team meeting. A lot of teams have it in the morning. And it's a regular time meeting. And it's called the daily scrum. This is going to be something that should not last more than 15 minutes, we'll go through and talk about, Hey, what did I get done so far? What do I plan to get done in the next day? And what roadblocks or issues do I have? shouldn't take very long to go through. The other thing is, this is not a report to the scrum master. It's how the team works together to say hey, what's going on? Or maybe I can help you with that. We don't discuss the details of those kinds of things inside. The daily Scrum is going to be maybe a quick huddle after that meeting. And that goes through pretty well is the process. We do talk about burn downs how we do not progress through that but that's really what the scrum framework is all about.
 
-
 ## Servant Leadership
+
+**Servant Leadership** is a leadership philosophy where the leader’s primary role is to serve the team. Key aspects include:
+
+1. **Empowerment and Support**:
+
+   - Empower the team to make decisions and remove obstacles that hinder their progress.
+
+2. **Encouraging Collaboration**:
+   - Foster a collaborative environment where team members feel valued and supported.
+
+### Transcript
 
 So servant leadership, what is leadership?
 
@@ -216,50 +667,143 @@ important. The part about making mistakes, yeah, you got to be able to encourage
 
 Exactly. So anyway, study it, there's great books on it. and challenge yourself to see if you can actually be a true servant leader your team and support them, remove roadblocks and help them get what they need to do to execute
 
-
 ## Show and Tell
+
+**Show and Tell** sessions, held at the end of each iteration, allow the team to demo their work to stakeholders. Key benefits include:
+
+1. **Feedback and Validation**:
+
+   - Receive immediate feedback from stakeholders, validating the work and identifying any changes needed.
+
+2. **Team Pride and Motivation**:
+   - Give developers the opportunity to showcase their work, fostering a sense of pride and accomplishment.
+
+### Transcript
 
 The show entails usually occur at the end of every iteration, or sprint. If you're doing Scrum, the purpose of a show and tell is to get everybody in the room, the entire team. And actually kind of demo, what you've built for the customers in a way is kind of a mini user acceptance testing, it's very important to have the customer in the room. It's really cool for the developers, everybody involved in the team to get the satisfaction of seeing the customer react to their product and accept the product, or critique the product or add another card about it. It's a positive reinforcement that was customer you're working hard that they actually are appreciating the software and that you've built the software. Well, I typically like to have the developers drive it the demo of each of their story cards that they completed during the show until the reason for that is usually the business analysts or product owners and, and QA they've touched it enough and that they're all developers really get a chance to actually demo the product. So it gives them a chance to get up in front of the room showcase kind of what they've coded and built and or even have the designers do it but Show and Tell is a very key important part of making sure that you feel like you've done good work, and that you're building what the customer wants.
 
 I'd be talking about Shawn tails today. And in Agile, we're really measured by delivering high quality software, we don't get measured on delivering parts of a document or anything like that. And then show and tell is a key milestone in that process where we're actually going to show the software that we've built. So we want to go through and talk about several things. What was done in the iteration, kind of where we stand on our backlog, where do we stand on our budget? And then where, where do we have issues, roadblocks, that kind of stuff. Completed, stories are going to be demoed ideally, by the developers themselves, because they take pride in what they're doing. And it's, in some ways, a bit of celebration, yeah, who we actually did get something done. So that's really good. And we're actually showing this working software. That's how we're measured. So it's one of those key milestones. Now, the other thing is, when the demo is being done by the developers, they're really on the hook to try and make sure things actually work. So there's some pressure on them to make sure, hey, when we're going to deliver this stuff, it's actually going to be the working stuff. Ideally, it's actually demoed out of a test environment. So it survived a couple of deploys, as well. So those are a couple of major milestones on the delivery of high quality software to production. So out of that, there might be some discussion with the end customers, a lot of that depends on how much collaboration there was so far, in the process, with teams that actually have high collaboration with real end users, then we may not even need the show and tell because those folks were signing off on the stories in the process as it went. So that part of the show and tells not really unnecessary part. Another part that that might lead to is the discussion of changes. So if it's minor stuff, that team will say, yeah, we can go ahead and tweak this tweak that if a customer looks at it says, You know what, that's exactly what we asked for. But you know what, it's not what we need, we would go through and write some new requirements, put in some new stories in the backlog to be prioritized, as we all have some constraints to live in. So they can't keep on changing the same thing over and over again, we'd never deliver. So that's another aspect of work that can come out of show and tell. So we've kind of shown that stuff. We might even talk about what did not get done, which might lead to actually discussion on Roblox, hey, this bad thing happened, this bad thing happened, hey, can you help us go through and fix this problem? So as a team kind of highlight some of that stuff, because we've planned to get some stuff done, but it didn't work out for that kind of timeframe. The other thing we're going to talk about is where do we stand on our backlog? So we have a whole list of things done? Are we halfway through? Are we three quarters of the way through? Are we kind of where we thought we would be similar to budget was just recently on a team that was kind of surprised that the person who was running it took the development right to the end of the money. And we didn't have any money left over to do some things like deployment to other environments, performance testing, stuff like that. And they said, hey, if we'd known about the budget, we'd be okay. We wouldn't have gotten as far as we did without it. Let's see. So budget and backlog and that's about it for the show and tell so we know where we stand and we're ready to move on into the next iteration.
 
-
 ## Simple and Evolutionary Design
+
+**Simple and Evolutionary Design** involves keeping the design and architecture as simple as possible and evolving it over time. Key principles include:
+
+1. **Simplicity**:
+
+   - Focus on the simplest design that meets the current business requirements.
+
+2. **Continuous Improvement**:
+   - Use practices like Test-Driven Development (TDD) to continuously evolve and improve the design.
 
 One thing we offer often encounter when working with teams is overly complex designs, architectures that are so complex that the team spends the majority of their time writing code satisfy the architecture as opposed to writing code to satisfy the business requirements and deliver value to our customers. Simple and evolutionary design is a practice of keeping our design and our architecture as simple as we possibly can. At each stage in the application development, we want to make sure that we have a really solid design and a solid architecture to satisfy the current business requirement. And as our application grows, and as we add new requirements, we want to evolve the design in that case as well. This practice works very well with test driven development, in that we can use TDD and the test that it produces to help us continuously evolve the design of the application. So at any point, we strive for having the simplest design we can think of to satisfy the current business requirements. Each time we add new code or add new requirements, that design will evolve a little bit. Initially, that design will get a little messy, and that's part of what writing code is all about. We refactor that code to continuously keep that design really clean, robust, and and malleable and easy to change over time. So both evolutionary design is the practice that helps us do that. We evolve the design, we evolve the architecture, we keep it as simple as we possibly can at each stage. In the end, what we're going to end up with is code that is very focused on delivering value, and that satisfies the most basic requirements of design
 
-
 ## Six Thinking Hats
+
+**Six Thinking Hats**, a decision-making technique developed by Edward de Bono, involves looking at a problem from six different perspectives. Here’s how it works:
+
+1. **The Hats**:
+
+   - Blue Hat: Facilitates the process.
+   - White Hat: Focuses on facts and information.
+   - Red Hat: Considers emotions and feelings.
+   - Yellow Hat: Looks at positive aspects.
+   - Black Hat: Identifies potential risks and problems.
+   - Green Hat: Encourages creativity and new ideas.
+
+2. **Application**:
+   - Use the hats to explore a decision from all angles, ensuring a well-rounded and thorough analysis.
+
+### Transcript
 
 So another great technique that we use Lean dog for decision making and we coach our customers on is pretty old technique is Edward de Bono's six thinking hats. You can Google it, look it up, Wikipedia. But let me tell you a little about how it works. So the concept is that you actually have six different color hats. So the first hat color hat is blue hat. So that's the person who's going to facilitate the decision making process. The blue for the person with the blue hat says, Alright, guys, we're going to try to make a decision about something. Let's start with a white hat. The white hat is the fact hat. So what are all the facts around this decision? So we present the decision, you know, hey, we're trying to decide if we should sponsor a conference. Okay. Well, what are the weight facts? Well, how many people attend the conference? What's the conference focus? That is it recruiting is a selling? So we talked about everything, we know that it's very factual base, and we write this down on a whiteboard or something. The next hat we could put on could be that Red Hat like, Okay, well, if we did this decision, if we decide to sponsor conference, what are your emotions? Like? How does it make you feel? So we all talk about the same frame of reference? The net other hat is yellow hat, where the optimistic or positive things if we did this, if we did sponsor what would be good about us actually carrying out and sponsoring this event? The green is the creative hat. So what are some of the creative things about this idea that we could use it to make it over the top? A black hat is usually the doubter hat. So why should we be cautious? Why should we be conservative about this? Why might this not be a good idea to do this? It's a simple technique. We use it when we get to decisions that are harder and more complex. Sometimes people get moods, and they tend to, hey, I'm in a black hat mood today. So I'm just going to kind of poopoo everything that I hear and be against it. Or I'm gonna think of the one reason it won't work and throw that out and use that as an argument against every other argument. So it's amazing how simple this idea is and how well it works. Edward has a great book out it explains it but there's blogs, there's all kinds of good information, but try and read one of those six thinking hats, and you'll be amazed about how easy it is to come to conclusions with consensus
 
-
 ## Spikes
+
+**Spikes** are time-boxed research efforts to explore a problem and gather the necessary information to make informed decisions. Here’s how to use them:
+
+1. **Purpose and Duration**:
+
+   - Use spikes to investigate unknowns, evaluate technologies, or explore potential solutions.
+   - Keep them short, usually a few hours to a day.
+
+2. **Reporting**:
+   - Share the findings with the team and decide on the best course of action together.
+
+### Transcript
 
 Often a team is not sure exactly how to solve a problem. And as a result, they can't really estimate a story. And what we do is we use a technique called spikes. For those situations, a spike is nothing more than a time box Research or r&d effort to try to understand what's the best solution for solving a problem. If we want to evaluate technologies, we would do that in the spike. And these are typically measured in a few hours up to a day or so. If you find that you're going to need to spend a week on something then there's probably way too much uncertainty to introduce into the team at that time, and we need to get more information about it before we even do a spike. At the end of a spike. I typically like to have the person who performs a spike report back to the team, what they discovered and what they think what direction they believe we should go, but have the whole team discuss that and make the decision together. A spike is nothing more than a time boxed effort to understand something better to bring information back to the team so that the team can make a decision
 
-
 ## Sprint and Iteration Planning
+
+**Sprint and Iteration Planning** involves breaking down the product backlog into manageable chunks for the upcoming sprint. Key steps include:
+
+1. **Story Selection**:
+
+   - The product owner selects and prioritizes stories for the sprint.
+
+2. **Task Breakdown**:
+   - The team breaks down stories into tasks, estimates the effort, and commits to the work.
+
+### Transcript
 
 I'm going to be talking about iteration planning, sometimes called Sprint Planning. iterations are timebox to a certain length of time, we like to look at one or two weeks though scrum says two to four weeks, myself, I think anything longer than two weeks is too long. But that's my opinion. And what we want to do is start to take on our backlog in chunks, get it delivered, and a way that can be demonstrated to the customer. And this is what we're going to use as a planning session to take a certain amount over the backlog, plan it, and then execute on the plan and then see how we do. So the product owner customer is the person who really owns the responsibility for selecting the stories for the iteration plan, often that's going to come from something like a release plan, that we've done some high level laying out of what we're going to accomplish over time. So that comes out is an input into this process. And the product owner can choose to even change that an hour before the meeting. The implication is that we have all the information that we really need to start for each item they want to play in there. So we get this list of stories, we'll probably take a look at say, are they really ready. But one of the things I've seen a lot is just a lot of variation with how people actually run their iterations and plan for them. Some of the better ones, let's say for early adopters, they would go through this list. And then we would identify maybe a ringleader developer to say, hey, you know what we want to take a look at validating our high level estimates. Let's go through and create a task list. So they'll go through, take a look at that maybe talk with a product owner, if they have any questions, and come up with a list of tasks, and estimated time for each one of those tasks. They like to see them do that in parallel. So they're going through and doing this detailed level of planning at the same time, then we're going to get together, have the product owner, review and introduce the story to everybody sort of based on the same page. Hopefully, there's some sort of acceptance criteria or specifications, that could be great examples for us to build off of. And then we'll have the person who is the ringleader for that story, present the estimate. And some ways when you go through and talk about the estimates that this is in some ways, like a mini design review, where they can go through it and say, here's what we're going to do, we might need to add this database, we might have to do this, we might have to do that. And then the other developers can say, hey, you know, what, what about this, you know, we need to do this kind of thing. Maybe it's we got to hook in some instrumentation for performance or something like that. All Yeah, I missed that. So we go through it. So everybody on the team has an idea of what's supposed to be done. And then we'll hit the end of that story. We know how many hours. So this is an example of where we dropped down a level of detail from release planning and story points to maybe iteration plans and hours. So you know how many hours we're looking at going through finishing up that story. And that's going to include things like testing. So we go through and run through each of the stories until we hit the number of hours the whole team has, and that really says okay, we're not so maybe our release plan. So we're going to do 10 stories. But when we look at them in detail, we're actually only going to get eight done. So that's what we're going to go through and commit with the customer will probably have some developers sign up for particular stories. It didn't have to be the people who created the estimates, but they might have been involved. Sometimes people will pick stories to say, hey, that's part of the technology I want to learn, or hey, that's really tricky. I want to be a part of that. And I'll pair with somebody else to go through and work on that story. And then we're pretty well set to go. So we've got our list of stories. We've got our task list and now we go off and do it
 
-
 ## Sprints and Iterations
+
+**Sprints and Iterations** are time-boxed periods for completing a set of work. Here’s how to manage them effectively:
+
+1. **Timeboxing**:
+   - Keep sprints short (1-2 weeks) to enable frequent feedback and adjustments.
+2. **Inspect and Adapt**:
+   - Use retrospectives and show-and-tell sessions to inspect progress and adapt the plan as needed.
+
+### Transcript
 
 So agile people practice the Agile you'll hear the term sprints and iterations on the really the same thing. If we're studying Scrum, they're called sprints. If you're doing something else is usually called iterations. The whole point of sprints and iterations is we timebox our work. If we don't time box, our working can go on forever. So we do is we say, hey, let's actually work in two weeks sprints, or one week sprints. Scrum, initially recommended 30 day, but most of the industry, I'd say over 90% of it is gone at least two weeks sprint, some companies, smaller companies, product companies tend to go down to one week sprints. So the whole one of the key concepts of Agile is inspect and adapt. And so we have to set a timeframe in which we inspect and adapt to everything. So the goal is we open up an iteration or sprint, we do the work that we said we were going to do the promise we try to deliver business value. At the end of the sprint, we're going to do a show and tell retrospective, review the work that we've demonstrated to our customer, and then start the next week. So we need to self examine and inspect and adapt often. So if you set your sprints too long, and you find out 30 days that you're building the wrong thing, or you didn't, you aren't making progress because you have barriers or blocks. That's too much time to go by and inspect and adapt. So we prefer lean docks shorter iterations, two weeks or less. And you know, even in a more of a kanban style if you want to look at a different alternative that makes you see the whole system and kind of get rid of the notions of sprints and iterations and really focus on flow theory of constraints but Sprint's and iterations if you're doing Scrum, keep them short. And make sure that you're following the inspect and adapt processes at the end like show and tell retrospective, etc.
 
-
 ## Story Card Wall
+
+**Story Card Walls** are visual tools for tracking the progress of work items. Here’s how to set up and use them:
+
+1. **Lanes and Cards**:
+
+   - Create lanes representing different stages of work (e.g., To Do, In Progress, Done).
+   - Use story cards to represent individual work items, moving them across the wall as they progress.
+
+2. **Transparency and Collaboration**:
+   - Make the wall accessible to all team members to foster transparency and collaboration.
+
+### Transcript
 
 Story card walls, important tool for any agile team. Typically, it is a physical wall, maybe a dry erase board, maybe a chalkboard, a cork board, whatever. It's actually in the team space. on that board, you're gonna see a series of lanes, each lane represents a phase of work for that team. It could typical wall might contain ready for analysis in analysis ready for dev in dev ready for QA and QA. I'm not prescribing that as a specific set of steps. But that may be something that you would see on that wall in those lanes are cards. Each card is a story card, which basically represents a a feature or a deliverable a unit of work for that team to achieve. The advantage to these is you can take one look at that board. And you can see how much work is in progress for the team. You can see how far along that work is you can also determine things like, is there a lot of work waiting for one group. So maybe we've nothing waiting for dev, and quite a few things that are waiting for requirements gathering. So rather than having the devs sit idle, they may opt to either help with requirements gathering or help with QA. So more about a whole team approach. Any team member can move a card. Ideally, it's the card that they're actually working on, and they know that that card should be moved. Typically, the cards are handwritten, not printed. But part of this is just making sure that it's a lightweight process. And making it really easy to change that wall whenever you want to be able to if they're printed, then automatically there's this barrier to to updates. The team should have a clear definition of Done. So as cards kind of move across the wall. There's a point where we all agree that yes, this card is done. Ideally, I think that's probably in production. But it might be when Deb is completed might be when QA is is complete. But everybody knows what it means to actually have a card finished. And that's the point at which we count those points, or those those estimates and sizes against our velocity or throughput for the team.
 
-
 ## User Story Mapping
+
+**User Story Mapping**, popularized by Jeff Patton, involves organizing user stories in a two-dimensional map. Key benefits include:
+
+1. **Visualizing User Journeys**:
+
+   - Map out user activities over time, helping to understand how users will interact with the system.
+
+2. **Prioritization and Planning**:
+   - Use the map to prioritize stories, identify minimum viable products (MVPs), and plan releases.
+
+### Transcript
 
 I'd like to talk a little bit about story mapping. So at least the term story mapping was kind of coined by Jeff Patton, although he says himself, he wasn't the first person to start doing this. But he certainly popularized the technique. So story mapping is it's sort of a two dimensional product backlog. So it's got a horizontal and a vertical axis. The vertical axis is sort of like your normal backlog where you've got prioritized features, and it helps you do progressive elaboration of your requirements. So towards the top of the thing, we should definitely have our most important user stories that have kind of been broken down to what we think a good story size is. And as you kind of go down, things might be larger features, or epics and maybe a little more nebulous in nature. And, and also, by definition, sort of less important. What story mapping does is we take that kind of vertical stack of work to do, and we spread it out as well. And we spread it out by trying to think about how the user is actually going to use our system. So it's a bit of a design technique or UI X technique. But I think almost anybody can make use of this. And you can actually even use it with with systems type software as well. But kind of, from some beginning state to some end state, or, or any path or flow through the system, what is what actions and activities you're going to are going to happen. So the activities happen over time. And I think part of, at least in my mind, why I think of this as a story map is, as you have the user stories spread out horizontally and break down vertically. As you kind of read the top layer of the user stories, you should almost be able to tell a story about what the user is going to do and what the user is going to experience. So it's, it's kind of nice, you find that story maps can be augmented in certain ways. You can draw different lines. And sometimes the lines can help you identify where you want minimal viable products are minimally marketable feature sets can be paired off, they can help you do release planning with those stratifications. You can inject other design components like personas, and you can have different key personas over different areas of activities. So you can see maybe you've got an administration activity. And that's gonna be done by some type of systems or back end user or you've got, you know, Lucy, the librarian, and she's working on on the basics of getting books or something put into systems so you can have different types of people that focus on different activities across the way. And then of course, you can do your release planning or your minimum viable product identification by releasing what's important. It's a pretty powerful technique. And I think that everybody should at least try it out, especially if it's something on like a Greenfield, user facing application. And that story, man
 
-
 ## Sustainable Pace
+
+**Sustainable Pace** involves working at a rate that can be maintained indefinitely without burnout. Key principles include:
+
+1. **Optimal Throughput**:
+
+   - Identify the optimal level of work that maximizes productivity without sacrificing quality.
+
+2. **Avoiding Overwork**:
+   - Resist the temptation to increase hours to meet deadlines, as this can lead to diminished quality and long-term productivity.
+
+### Transcript
 
 So the notion of sustainable pace is pretty simple. There is a optimal rate of throughput of hours applied of work, basically 14, where for the hours put in, we're going to get the most amount of work out of and the best throughput. If we're lower than that, obviously, we're gonna get lower throughput. But there's some phenomena, if we go higher than that, we'll get a spike in throughput, we'll get more work out of that team. But over a period of time, that will actually diminish. And what ends up happening is, the team now is working additional hours for the same level of throughput that they had back when they were working, let's say 40 hours a week. So as a project managers and iteration manager, as a member of the team, you want to figure out, what is that optimal level for the team, and then plan in accord with that optimization mistake that we often make is a project doesn't look like he's gonna make his deadline. So we asked the team to increase their hours and thereby increase their velocity or, you know, reduce their cycle time. And that temporary phenomena doesn't pay off in the long run. So draw a bit of a graph to kind of show a typical scenario, right. So just here we have time. And there's a couple of different metrics that I'm going to have along the y axis. So this is our iterations. And then here, we're going to have hours.
 
@@ -271,30 +815,83 @@ Quality now is going to continue to diminish. And guess what's gonna happen to o
 
 Until eventually, what's happening is we're working, you know, what is this, maybe it's only 10%. But you know, 20 to 30%. We're working all these additional hours, and we actually returned to our same throughput. But our quality is diminishing. So we made it we decided to make a sacrifice, we got a temporary result. And really, the only way to actually fix this. A lot of teams what they do is then they go to put in more hours, more hours more hours, and then the phenomenon just continues right? Really the only way to fix this is to get this team back to whatever is their optimal sustainable pace, allow them to recover from this and then settle back into what is their standard velocity. There are ways of improving a team's velocity, but increasing the pace is not it
 
-
 ## T-Shaped People
+
+**T-Shaped People** are individuals with deep expertise in one area and broad knowledge in others. Here’s why they are important:
+
+1. **Breaking Down Silos**:
+
+   - T-shaped people help break down organizational silos and promote cross-functional collaboration.
+
+2. **Versatility and Flexibility**:
+   - They can contribute to various aspects of a project, enhancing team adaptability and resilience.
+
+### Transcript
 
 All right, I'd like to talk about T shaped people. Another term for this, that's pretty popular is the generalizing specialists, you hear a lot about this in the athletes face. I guess one really important thing to understand about T shaped people is they're probably the fundamental unit of thing that is required to make stable and hold teams. It's, it's what is required for breaking down the silos too often we take our organizational silos make cross functional teams, and we create little mini silos on the teams, because people still just hand off work, and kind of have this whole mini not my job problem. So the T shaped person, or the generalizing specialist really is required to help break that down and get rid of that dysfunction. So what we mean by generalizing specialists are T shaped person that the T kind of describes the hat of the T is broad, that's the generalization, the body of the T is the depth. And that's the specialty. So you can see that we might have a number of different roles on any given team, you might have a coder, you might have a designer, you might have a tester, you might have an operations guy, DBA, whatever. And kind of you can see there's this progression to be a generalizing specialist, you start with probably the simplest thing is respect, I understand enough about these these people's jobs and respect them as individual contributors. And so we can break down some resistance there. Truly, probably the next step or phase of progression, is that there is a more thorough understanding of what that job entails. And then probably after some point, we want to be able to build knowledge in that other area. So we can be effective pairs, teammates and things like that within other people's specialties. Now, I want to be clear that being a T shaped person or a generalizing specialists does not mean we're trying to make teams full of interchangeable cogs, we don't want to be able to just pick out Bob and shove and Sue. And then it's going to be not noticeable, people should definitely still have their specialties or their crafts. If you're a programmer, you should be proud to be a programmer. But you can't just say I'm just a programmer. So I'm not going to learn anything about testing, because that's not my job. You can't just be a tester or business analyst and say, I'm not gonna learn anything about user design or interaction design. So you have to learn a little bit about each other's jobs. And what we can find a good metric, if we're doing this successfully is we kind of get rid of the state based silos that you tend to see user stories go through, when things get handed off from some type of design or analysis, or these micro waterfall stages. And you actually see that the states have work for a cart, transcend who's working on it, you can see that, you know, two or occasionally three people can pick up a single card, a single user story, and actually see that swim through the entire process from, you know, backlog to done just with those with those two or three people working it through the whole time. So really, I think the the key takeaways for being a T shaped version is respect, understanding and knowledge. It is not to become an interchangeable cod. It's to work with your teammates that have different specialties, to be able to be a useful pair, understanding enough about their craft to be able to give suggestions. Oftentimes, those types of things are a little bit more abstract or meta and their context and really work together to try to optimize optimize flow through the team kind of flow Trump's waste, and that's what it means to be a T shaped version.
 
-
 ## Technical Debt
+
+**Technical Debt** refers to the implied cost of additional work caused by choosing an easy solution now instead of a better one that would take longer. Here’s how to manage it:
+
+1. **Awareness and Planning**:
+
+   - Recognize when you are incurring technical debt and plan to address it in future iterations.
+
+2. **Incremental Refactoring**:
+   - Tackle technical debt in small, manageable chunks to avoid overwhelming the team.
+
+### Transcript
 
 technical debt. The writers of agile books probably have a standardized definition they use for technical debt. And in my work, what I've found, though, what it means is that its code and software architecture or design choices that tend to slow you down over time. Examples may be choosing to not normalize the database in certain cases, or choosing to go with certain technologies or frameworks or approaches, making some sort of compromise in your software design as it evolves. That then later come back to bite you and is it the the way this happens is, it's easy to understand, sometimes you may be facing some tight schedule pressure in your work, you may be trying to work around certain limitations, dependencies on external services are things like that. And you may need to choose to compromise the the code design somewhat to to achieve a different goal. When you do that, though, you need to be aware of what you're doing. And you also, it's very helpful if you have a plan to go back and later, clean things up. I found that the best way to approach during the cleanup phase of technical as it to pay down that technical debt is to work in small chunks, very similar to the way we'd break down a story card, or set of features into story cards and little small bite sized chunks. Take a slice of the technical debt, say choose something you can accomplish today or something you can accomplish this week or this iteration. And work on that. And then let them leave the rest of it alone for now. If you have a bigger team who may be able to take more slices of the technical debt at once, but again, my experience has been it's best to approach that in bite sized chunks. And then eventually you can hear you can work with it where it makes sense. Always be sure you're working with your with your product owners, with your iteration managers and helping them understand why you're doing that refactoring or whatever to pay down that technical debt, how will help the team and let them be involved in the prioritization because it's all about choosing understanding what provides the most value at the time and executing on that
 
-
 ## Test-Driven Development (TDD)
+
+**Test-Driven Development (TDD)** is a practice where tests are written before the code. Key benefits include:
+
+1. **Emergent Design**:
+
+   - TDD helps drive the design of the software, ensuring it meets requirements and is easy to maintain.
+
+2. **Confidence in Code**:
+   - Writing tests first ensures that the code does what it’s supposed to and helps prevent future regressions.
+
+### Transcript
 
 I'd like to talk about test driven development. Test Driven Development, as many of you probably know, is writing tests first, to help drive the development of your software. A lot of the key points that make things very popular for this and very useful really is emergent design really kind of helps, you know, you have a general idea of how something's going to work, you use the test to write the code that you wish you had, you then follow up by actually writing that code. And then you have tests that prove that the code does exactly what it is you are wanting the software to do. Another one of the great points of test driven development is that it helps drive the minimum necessary code that you need to write for your software. A lot of times you have issues where you're writing a lot of code, you have probably maybe actually really more than what you really need test driven development actually helps to cut that down much more to just getting the minimum viable codebase that you need for that and obviously a testable support that lasts I think the the great plus for test driven development is really confirming that the code does what it says it's supposed to do. This really comes in handy for new features and bug fixes. So you're, you're looking at you know, maybe six months down the road, you're gonna have a new revision your your team is working on that. And tester development really helps to give you the confidence that you're not accidentally breaking something that you had written previously. By adding in your new feature or
 
 Test Driven Development is how we write code at lean dog. So in essence, what a developer does is they write a small test to test a very granular piece of functionality of the application. That doesn't exist yet. And once I write that code, the next step is to write the simplest code that they could think of to make that test pass, taking an incredibly small step. And once I get that test to pass, the third leg of test driven development, is to step back now and look at the code that we've written and see, is there any way that we can improve the design? Some of the things we're looking at is, is our method doing too much is our class doing too much? Is Ken is there any way we can simplify it or make it more expressive? The way test driven development works is that it teaches us to become more sensitive to the code that we're writing. For example, let's say that we're building some functionality into a new class. And our next task becomes really difficult to write or it's not intuitive, exactly how to take a small step. That is a trigger to us to not only understand that probably, we might be getting too complex in the production code. If we're having trouble writing the next test, then we want to step back and look at the code itself and say, why is it that we're having trouble writing the next test? Is it because we've got too much complexity? And if that's the case, how do we need to evolve the code to simplify it again, another thing that we run into all the time is that it becomes fairly difficult to set up all of the mocks or to set up all of the fakes that we have to set up to test this method. Again, that's another sensation that we get as the code becoming more cloudy. In other words, when we have way too many dependencies, it's much more difficult for us to write that next test. And writing that next test is a trigger that our code is becoming too complex. If we follow this test driven development technique or practice, what we learned is that it becomes more and more difficult to write really bad code. So test driven development really helps us know and understand as our code is not clean, or as our code is not clean. It gives us some guidance around how do we evolve that. So how do we evolve that we use a technique called refactoring, which basically means changing the outside appearance of the code without changing the behavior. And the only way we can safely do that is by having tests around the code. So with the tests that are there, they're telling us or giving us information that our code isn't really clean yet, because it's becoming more difficult to write. But the tests also provide that safety net as we refactor things as we extract new methods as we produce new classes as we realize that our methods are doing too much. Those tests help us make sure that we make that next change safely.
 
-
 ## The Agile Buffet
 
-So we call this list here, the Agile buffet. The reason we call it a phase is kind of analogous to a food buffet. When you go to a food buffet, you don't eat the entire buffet, you pick and choose which things you want based on what your appetite is or what problem you're trying to solve your film, and how you feel. So we call it a buffet for that reason not to say that you need to do all of these practices. We've organised this buffet in a particular way, we have concepts and processes. We those are practices that we believe everybody involved in Agile, should at least have a basic understanding of including your business partners and customers. The other areas of the buffet, the quarters, the buffet, if you will, are based on your craft. So some of them are duplicated. So for example, we'll cover a lot of basic concepts down the center, but then we have the scrum master iteration management facilitator. They're the person who's responsible for upholding some of those practices. So there's some structure to it. But again, there's many ways to accomplish things. This is just our way of kind of depicting all the things that we cover in a book. It's kind of our outline of what we have in our discussion guide. There's lots more to the discussion guide besides the buffet. But these are the core practices that we're currently practicing and teaching
+The **Agile Buffet** is a collection of practices and concepts from which teams can choose based on their needs and goals. Here’s how to use it:
 
+1. **Tailored Practices**:
+
+   - Select practices that best address your team’s current challenges and context.
+
+2. **Continuous Improvement**:
+   - Regularly revisit and adjust the practices you use to ensure they continue to provide value.
+
+### Transcript
+
+So we call this list here, the Agile buffet. The reason we call it a phase is kind of analogous to a food buffet. When you go to a food buffet, you don't eat the entire buffet, you pick and choose which things you want based on what your appetite is or what problem you're trying to solve your film, and how you feel. So we call it a buffet for that reason not to say that you need to do all of these practices. We've organized this buffet in a particular way, we have concepts and processes. We those are practices that we believe everybody involved in Agile, should at least have a basic understanding of including your business partners and customers. The other areas of the buffet, the quarters, the buffet, if you will, are based on your craft. So some of them are duplicated. So for example, we'll cover a lot of basic concepts down the center, but then we have the scrum master iteration management facilitator. They're the person who's responsible for upholding some of those practices. So there's some structure to it. But again, there's many ways to accomplish things. This is just our way of kind of depicting all the things that we cover in a book. It's kind of our outline of what we have in our discussion guide. There's lots more to the discussion guide besides the buffet. But these are the core practices that we're currently practicing and teaching
 
 ## The Agile Manifesto
+
+The **Agile Manifesto**, created in 2001, is a set of values and principles guiding agile software development. Key components include:
+
+1. **Four Values**:
+
+   - Individuals and interactions over processes and tools.
+   - Working software over comprehensive documentation.
+   - Customer collaboration over contract negotiation.
+   - Responding to change over following a plan.
+
+2. **Twelve Principles**:
+   - Principles that support the values, such as delivering working software frequently and embracing change.
+
+### Transcript
 
 I can't have been exposed to Agile for very long without having heard about the Agile Manifesto. Most people who practice agile are aware of it. Many habits memorized and know each of the four values at least, but not necessarily all 12 principles. The agile manifesto was written in Snowbird, Utah in 2001, by a group of 17 individuals that got together sharing ideas about lightweight methodologies for software development. This was a response to the increasing structure and restrictions around the way that software is being developed in those days, a lot of heavy documentation, a lot of handoffs and siloing. And what these folks found was that by working together in small teams and delivering frequently, they were producing higher quality software and meeting their customers needs better than using the more commonly known techniques. So we got together share their ideas, shared their thoughts, and out of that distill down four values and 12 common principles that are basically the guiding factors for Agile software development. So the four Agile values are pretty commonly known individuals and interactions over processes and tools, working software, over comprehensive documentation, customer collaboration over contract negotiation and responding to change over following the plan. These four values can guide the behaviors of teams that are practicing agile, in addition to those values. There are 12 principles that support them that are more an explanation of the why behind those guys.
 
@@ -328,24 +925,64 @@ Okay, well, thank you for coming to vote and thanks
 
 for having me. I believe dogbone grateful thanks.
 
-
 ## The oath of Non-Allegiance
+
+The **Oath of Non-Allegiance**, written by Alistair Coburn, emphasizes open-mindedness and respect for different practices and methodologies. Key points include:
+
+1. **Consideration of Ideas**:
+
+   - Evaluate ideas based on their merits, not their sources, and be open to diverse approaches.
+
+2. **Continuous Learning**:
+   - Seek to uncover better ways of working by learning from various schools of thought and practices.
+
+### Transcript
 
 So Alistair Coburn wrote the oath of non allegiance and race basically, it's just a statement explaining that we really need to open up our minds in many different ways of working and not be so judgmental of different practices. Respect the way that people are in the way different practices have come to be learn about that and then seek to uncover better ways. So a lot of people get very biased in our craft towards one way of doing things. So, hey, I'm a lean person. I'm a scrum person, extreme programming, Crystal. All these different ways. And really, the spirit of Agile is about respecting understanding all those different ways and seeking out your best way. So don't get too religious about one way. experiment, try, adapt, learn, and support. Anybody who's trying to improve our craft and discover better ways of building and delivering software.
 
 So I'm here to talk about the oath of non allegiance, which Alistair Coburn had written up a while back and says I'm going to cheat and read off his card here. I promise not to exclude from consideration any idea based on its source, but to consider ideas across schools and Heritage's in order to find the ones that best suit the current situation. So I think that's a really important way to think about what we try to do. When we do Agile, especially in organizations. There's a lot of different things that we need to consider. There's different technical communities, there's Ruby, there's dotnet, there's closure, none of these things are better than any other thing. They're just different tools. But you go a little bit broader than that. And there's coders and testers and designers, and operations folks. And we can learn things from each of these specialty practices as well. You go even further out. And you can see there's different methodologies, there's Kanban, there's Scrum, there's XP, there's crystal, all of these things came from really smart people with really different experiences. And there's similarities and differences to understand and study there. If you go out further, you see there's different ideologies like lean, like agile and different philosophical underpinnings of values and principles to these things. And it's really important to see what's driving some of those things as well. On top of that, you can see there's kind of whole other schools of thought that aren't directly related to software development, like systems thinking, complexity, theory, anthropology, economics, statistics, things like that. And they all interweave together. And probably the furthest that you can go is things that are seemingly tangential to what we do in self development, Agile transformation, anything like that. Gardening, writing, spirituality, just any, any other area of study. And I think you'll find that as you get deeper in any one thing that you do, the more things tend to relate. So to simply rule out anything just based on its source or its philosophy is probably kind of silly. So I guess the biggest takeaways for me on the oath is don't be dogmatic. Don't, don't throw the baby out with the bathwater. Actually, consider other thoughts and ideas. Think about them and think about your own context. Keep an open mind. And ultimately, don't be afraid to try new things count on your ability to be able to learn, reflect and adapt to move forward.
 
-
 ## Value Stream Mapping
+
+**Value Stream Mapping** is a technique for visualizing and analyzing the flow of materials and information required to bring a product or service to a consumer. Here’s how to use it:
+
+1. **Mapping the Process**:
+
+   - Create a visual map of the process from customer request to delivery, identifying all steps and participants.
+
+2. **Identifying Waste and Improving Efficiency**:
+   - Use the map to identify inefficiencies and opportunities for improvement, reducing cycle time and increasing value delivery.
+
+### Transcript
 
 value stream maps are a type of flowchart. design that's used to help us see a process from beginning to end. So a product from the moment that customer requests it all the way through to the moment that the customer actually receives it. Value stream mapping can be used in software in a couple of different ways. One common use, you'll see is will actually map out the business needs itself. So a customer has a need, what are we as a business doing to satisfy that need? And how do we get that product to the customers, we actually map that out and look for opportunities there, to drive out ways to increase efficiency, and perhaps to leverage technologies to make the process better. This can also better inform us of how the business works, so that we can better write software to enable the business. Another way that value stream mapping can be used in software development is for us to actually map our own software development process. So from the moment that a feature hits the team, all the way through to the moment that feature actually makes it to production, what are all the varying steps, what are all the varying gates, and who are all the possible contingencies that are involved, so we can see the entire process, consider it, look for opportunities to drive out wastes to move things to the front, move things to the back and just increase efficiencies, and reduce our cycle time increase our ability to deliver value to the customer faster. So Value Stream Mapping again, a simple tool for just mapping out a process from request to delivery can be used to evaluate the business and better educate us on how we can apply software to help the business can also be used to actually look at the process that we use to deliver software and help us to improve our own inner workings on our teams.
 
-
 ## Velocity
+
+**Velocity** is a measure of the amount of work a team can complete in a given iteration. Here’s how to use it effectively:
+
+1. **Consistent Measurement**:
+
+   - Ensure that velocity is measured consistently within the team, with a clear definition of done.
+
+2. **Health Indicator**:
+   - Use velocity as a trailing indicator of team health, not as a target to be manipulated.
+
+### Transcript
 
 velocity itself is a pretty simple measurement. It is effectively work executed over a period of time. So if you estimate your stories and points, and you run two week iterations or two week sprints, it's the number of points that you've completed in a given sprint. It's important to remember that velocity is a trailing indicator is a health indicator, if you will, it tells you how the team did. And it gives you insight into whether the team is having problems or not. Setting goals for velocity will negate its value as a health indicator. So if you have a team that has a velocity of 10, and you'd really like them to have a velocity of 12. And you express this even in a casual fashion, what ends up happening is the team will figure out ways to hit that 12. But the value of the metric as an indicator begins to go away. For measuring velocity, there's there's things that we need to make sure that we're practicing. If a card is not completed, you don't come partial credit for it. Right, it's either done, or it's not done. And this means that the definition of done has to be clear and agreed upon for the team. Done could be when developments finished, although I don't recommend that it could be when QA is finished. It could be when the card is actually in production, which I do recommend. But whatever your definition of done is it has to be universal for that team and well understood. And if it's not done, don't count any of a lot of times when we talk about velocity, we'll talk about the concept of yesterday's weather. So how do you know what the team's velocity is going to be over the course of the next iteration, it is most likely that it will be very similar to if not exactly matching the velocity of this current or your prior iteration. It's the consequent yesterday's weather. If you look at the weather outside, there's something like a 90% probability that it is extremely close to yesterday's weather. Same concept with philosophy. If you have multiple teams, and they're estimating in some kind of an abstraction such as points, it's important to remember that the velocities between those teams can be extremely different. The way that each team estimates is going to be a little bit different. And this has everything to do with with the skill levels personality experience of the individuals on the team. It's not important at all that points and velocity are comparable across teams. It's just very important that they are consistent within teams to the way that a team estimates should remain as consistent as possible throughout the life project.
 
-
 ## Whole Team
+
+A **Whole Team** approach involves having all necessary skills and roles within the team to deliver work from start to finish. Key principles include:
+
+1. **Cross-Functional Teams**:
+
+   - Assemble teams with all the required expertise, avoiding dependencies on external groups.
+
+2. **Stable Teams**:
+   - Keep teams stable over time to allow them to progress through stages of team development and improve their practices continuously.
+
+### Transcript
 
 One key concept to that is that you have to have whole team. So what I mean by that is that the the goal is that get a group of people together in all their different crafts working together and not the dispersed them. A lot of people they work, they deliver project, the projects have great success, and they break everybody up and say, yeah, go off and do something else. We need people to perform, storming, norming, perform, and get through all the stages of team development. And then we need to work on honing our practices as a team. A lot organizations are structured like this. And that's one of the biggest challenges going Agile is that we have to consider give up these kingdoms and silos and say, How can we form Standing Teams, we don't even like teams to have names other than a fun name. So in other words, code monkeys code rats, charging tigers, Incredibles, Blue Fish, Red Fish, come up with just a cool team name, because that's what you are, you're a team, you'll work on any product, because then the day you're a technologist, and that's your passion. But we don't like to have a hey, you're the the web team or the the claims team or you're named after a product or a business function. That's really not what we got degrees to do, we get degrees to match technology to business. So the notion of having Standing Teams or whole teams, and then finally, in the type of work that each team gets based on business value is a really critical component. That also leads us away from a lot of specialization. If you have way too much specialization is very hard to do in your organization. As far as team size goes, that's another interesting topic because scrum will tell you that the team size is seven plus or minus two, not including the scrum master and product owner, our experience in our practice has been that teams need to be a little bit larger than that, we recommend 12 to 20, we have a chart that we use, to help you kind of discuss how that would happen. The reason we believe in larger team teams is it's all about feedback and learning. And you never want to have only one person in one role. If you have one for one person in that role, when they're out, then flow stops and progress stops. You also don't have a feedback loop. If you're pairing with someone, you know how far to go, you know, if you have the right quality, you know, if you're doing the spirit of the work in the right the right way. So we find 1220 person teams are about the right size, we've done studies around this 16 is kind of optimum, but it varies, right. If you have less than 12, you're probably paying too much per unit of software. If you have over 20, there's a diminishing return because the cost communication and keeping a team of that size, cohesive and collaborative is is too great. So that's our recommendation on whole teams. Again, one of the most important practices, if you don't restructure and agree on this concept, it's gonna be very hard for you to kind of embrace a lot of the agile practices, that that requires self organizing teams that don't keep getting ripped and torn apart. Another reason you want to have whole teams, if you study some of Mary Poppins work from Lean thinking, there's been studies that have proven that when you have at the Cross organizational boundaries, you can add up to 25% More work or waste, right, because you're creating additional buffers between teams and handoffs and ball passing, where if you have a self contained team, handing things off pairing, doing things, you don't have that buffer, and that that time of waste. So it's very critical if you another way to think about this is it? If you think about Theory of Constraints, if you only have one thing in one system, and that one thing isn't available, flow is going to stop. So you have to have larger team sizes with two people in roles that if one person is out, flow continues and you mitigate mitigating the risk that you know somebody that knows something that somebody else doesn't we can't get through flow throughout the system.
