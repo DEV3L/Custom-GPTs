@@ -199,13 +199,6 @@ namespace FizzBuzz
 
 ```csharp: FizzBuzzTests.cs
 /*
-# Three Laws of Test Driven Development
-- You are not allowed to write any production code unless it is to make a failing unit test pass.
-- You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
-- You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
-*/
-
-/*
 PROBLEM REQUIREMENTS:
 Write a program that returns a list of strings from 1 to n, where n is the upper bound.
 
@@ -244,13 +237,6 @@ namespace DurationConverter
 
 ```csharp: DurationConverterTests.cs
 /*
-# Three Laws of Test Driven Development
-- You are not allowed to write any production code unless it is to make a failing unit test pass.
-- You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
-- You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
-*/
-
-/*
 PROBLEM REQUIREMENTS:
 Execution times for a program are outputted in a non-standard parseable time format.
 
@@ -285,7 +271,7 @@ namespace DurationConverter
 
 ```
 
-## Bowling
+## Bowling Kata
 
 ```csharp: Bowling.cs
 namespace Bowling
@@ -295,49 +281,6 @@ namespace Bowling
 ```
 
 ```csharp: BowlingTests.cs
-/*
-# Three Laws of Test Driven Development
-- You are not allowed to write any production code unless it is to make a failing unit test pass.
-- You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
-- You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
-*/
-
-/*
-Fake it till you make it
-*/
-
-/*
-# ZOMBIES
-- Z: Zero - What happens if there are zero of a thing?
-- O: One - What happens when there is exactly one of a thing?
-- M: Many - What happens when there are more than one thing?
-- B: Boundaries - Are there special boundary values for the thing?
-- I: Interfaces - Are there common interfaces with expectations?
-- E: Exceptions/Errors - What cases cause errors? Exactly what should they do?
-*/
-
-/*
-S - Single Responsibility Principle
-O - Open / Closed => Open for extension, closed for modification
-L - Liskov Substitution => shape.area :: rectangle.area : square.area : circle.area
-I - Interface Segregation
-D - Dependency Inversion
-*/
-
-/*
-D - Don't
-R - Repeat
-Y - Yourself
-*/
-
-/*
-Y - You
-A - Ain't
-G - Gonna
-N - Need
-I - It
-*/
-
 /*
 PROBLEM REQUIREMENTS:
 Create a program, which, given a valid sequence of rolls for one line of American Ten-Pin Bowling,
@@ -380,6 +323,270 @@ namespace Bowling
         {
             // var Bowling = new Bowling();
             Assert.True(false, "Turn the checked value to true to pass this test");
+        }
+    }
+}
+```
+
+# Roman Numeral Calculator Kata
+
+```csharp: RomanNumeralCalculator.cs
+namespace RomanNumeralCalculator
+{
+    public class RomanNumeralCalculator { }
+}
+```
+
+```csharp: RomanNumeralCalculatorTest.cs
+/*
+PROBLEM REQUIREMENTS:
+“As a Roman Bookkeeper, I want to add Roman numbers because doing it manually is too tedious.” Given the Roman numerals (I, V, X, L, C, D, M which represent one, five, ten, fifty, hundred, five hundred, and a thousand respectively), create two numbers and add them. As we are in Rome, there is no such thing as decimals or integers; we need to do this with strings. An example would be “XIV” + “LX” = “LXXIV”.
+
+**Rules for Roman Numerals:**
+
+- Numerals can be concatenated to form a larger numeral (“XX” + “II” = “XXII”).
+- If a lesser numeral is put before a bigger one, it means subtraction of the lesser from the bigger (“IV” means four, “CM” means nine hundred).
+- If the numeral is I, X, or C, you can’t have more than three in a row (“IIII” is invalid).
+- If the numeral is V, L, or D, you can’t have more than one in a row (“VV” is invalid).
+*/
+
+using Xunit;
+
+namespace RomanNumeralCalculator
+{
+    public class RomanNumeralCalculatorTests
+    {
+        [Fact]
+        public void TestRomanNumeralCalculator()
+        {
+            // var RomanNumeralCalculator = new RomanNumeralCalculator();
+            Assert.True(false, "Turn the checked value to true to pass this test");
+        }
+    }
+}
+```
+
+# Gilded Rose Kata
+
+```csharp: GildedRose.cs
+namespace GildedRose
+{
+    public class GildedRose
+    {
+        IList<Item> Items;
+
+        public GildedRose(IList<Item> Items)
+        {
+            this.Items = Items;
+        }
+
+        public void UpdateQuality()
+        {
+            for (var i = 0; i < Items.Count; i++)
+            {
+                if (
+                    Items[i].Name != "Aged Brie"
+                    && Items[i].Name != "Backstage passes to a TAFKAL80ETC concert"
+                )
+                {
+                    if (Items[i].Quality > 0)
+                    {
+                        if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
+                        {
+                            Items[i].Quality = Items[i].Quality - 1;
+                        }
+                    }
+                }
+                else
+                {
+                    if (Items[i].Quality < 50)
+                    {
+                        Items[i].Quality = Items[i].Quality + 1;
+
+                        if (Items[i].Name == "Backstage passes to a TAFKAL80ETC concert")
+                        {
+                            if (Items[i].SellIn < 11)
+                            {
+                                if (Items[i].Quality < 50)
+                                {
+                                    Items[i].Quality = Items[i].Quality + 1;
+                                }
+                            }
+
+                            if (Items[i].SellIn < 6)
+                            {
+                                if (Items[i].Quality < 50)
+                                {
+                                    Items[i].Quality = Items[i].Quality + 1;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
+                {
+                    Items[i].SellIn = Items[i].SellIn - 1;
+                }
+
+                if (Items[i].SellIn < 0)
+                {
+                    if (Items[i].Name != "Aged Brie")
+                    {
+                        if (Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
+                        {
+                            if (Items[i].Quality > 0)
+                            {
+                                if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
+                                {
+                                    Items[i].Quality = Items[i].Quality - 1;
+                                }
+                            }
+                        }
+                        else
+                        {
+                            Items[i].Quality = Items[i].Quality - Items[i].Quality;
+                        }
+                    }
+                    else
+                    {
+                        if (Items[i].Quality < 50)
+                        {
+                            Items[i].Quality = Items[i].Quality + 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+```csharp: Item.cs
+namespace GildedRose
+{
+    public class Item
+    {
+        public required string Name { get; set; }
+        public int SellIn { get; set; }
+        public int Quality { get; set; }
+
+        public override string ToString()
+        {
+            return this.Name + ", " + this.SellIn + ", " + this.Quality;
+        }
+    }
+}
+```
+
+```csharp: Program.cs
+namespace GildedRose
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("OMGHAI!");
+
+            var Items = new List<Item>
+            {
+                new()
+                {
+                    Name = "+5 Dexterity Vest",
+                    SellIn = 10,
+                    Quality = 20
+                },
+                new()
+                {
+                    Name = "Aged Brie",
+                    SellIn = 2,
+                    Quality = 0
+                },
+                new()
+                {
+                    Name = "Elixir of the Mongoose",
+                    SellIn = 5,
+                    Quality = 7
+                },
+                new()
+                {
+                    Name = "Sulfuras, Hand of Ragnaros",
+                    SellIn = 0,
+                    Quality = 80
+                },
+                new()
+                {
+                    Name = "Sulfuras, Hand of Ragnaros",
+                    SellIn = -1,
+                    Quality = 80
+                },
+                new()
+                {
+                    Name = "Backstage passes to a TAFKAL80ETC concert",
+                    SellIn = 15,
+                    Quality = 20
+                },
+                new()
+                {
+                    Name = "Backstage passes to a TAFKAL80ETC concert",
+                    SellIn = 10,
+                    Quality = 49
+                },
+                new()
+                {
+                    Name = "Backstage passes to a TAFKAL80ETC concert",
+                    SellIn = 5,
+                    Quality = 49
+                },
+                // this conjured item does not work properly yet
+                new()
+                {
+                    Name = "Conjured Mana Cake",
+                    SellIn = 3,
+                    Quality = 6
+                }
+            };
+
+            var app = new GildedRose(Items);
+
+            for (var i = 0; i < 31; i++)
+            {
+                Console.WriteLine("-------- day " + i + " --------");
+                Console.WriteLine("name, sellIn, quality");
+                for (var j = 0; j < Items.Count; j++)
+                {
+                    System.Console.WriteLine(Items[j]);
+                }
+                Console.WriteLine("");
+                app.UpdateQuality();
+            }
+        }
+    }
+}
+```
+
+```csharp: GildedRoseTest.cs
+using Xunit;
+
+namespace GildedRose
+{
+    public class GildedRoseTests
+    {
+        [Fact]
+        public void TestGildedRose()
+        {
+            var Items = new List<Item>
+            {
+                new()
+                {
+                    Name = "foo",
+                    SellIn = 0,
+                    Quality = 0
+                }
+            };
+            GildedRose app = new(Items);
+            app.UpdateQuality();
+            Assert.AreEqual("fixme", Items[0].Name);
         }
     }
 }

@@ -87,7 +87,7 @@ Here is a list of example problems you have in your context. When helping studen
 - FizzBuzz
 - Duration Converter
 - Bowling
-- Roman Numeral
+- Roman Numeral Calculator
 - Gilded Rose
 - Simple API Application
 
