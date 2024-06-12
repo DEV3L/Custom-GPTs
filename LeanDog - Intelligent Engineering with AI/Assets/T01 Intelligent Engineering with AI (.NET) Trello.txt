@@ -240,6 +240,40 @@ Create a series of coding katas tailored for the "Intelligent Engineering with A
 
 ## Title
 
+Epic: Creation of Course Slide Deck for "Intelligent Engineering with AI"
+
+## List Name
+
+Epics
+
+## Labels
+
+- Course Content
+- Course Slide Deck
+
+## Description
+
+###### Business Value
+
+Provide a comprehensive and engaging visual presentation to enhance the learning experience for participants, ensuring all key concepts are clearly communicated.
+
+###### Problem
+
+The course materials need to be structured and presented in a way that maximizes understanding and retention for the participants. This requires a well-organized slide deck that aligns with the course objectives and schedule.
+
+###### Description
+
+Develop a detailed slide deck for each session of the two-day "Intelligent Engineering with AI" course. The slide deck will cover all key topics, exercises, and discussions planned for each part of the course. The slide deck will be divided into four main sections: Day 1 Morning, Day 1 Afternoon, Day 2 Morning, and Day 2 Afternoon.
+
+###### Acceptance Criteria
+
+- Slide deck includes all key topics as outlined in the course materials.
+- Each slide is visually engaging and includes relevant diagrams, examples, and exercises.
+- The slide deck is reviewed and approved by the course instructor.
+- The slide deck is in a format compatible with common presentation software (e.g., PowerPoint, Google Slides).
+
+## Title
+
 Determine Social Media Plan
 
 ## List Name
@@ -448,43 +482,6 @@ Scenario: Send Personal Email to Free Seat Recipients
 
 ## Title
 
-Setup Gilded Rose Kata
-
-## List Name
-
-To Do
-
-## Labels
-
-- Course Content
-- Course Katas
-
-## Description
-
-**Business Value**: Provide a real-world legacy code refactoring challenge for participants to practice TDD and improve code quality.
-
-**Problem**: Participants need to practice refactoring legacy code using TDD to improve code quality and maintainability.
-
-**Description**: As a participant, I want to set up the Gilded Rose Kata so that I can practice writing tests and refactoring legacy code. This will help me understand how to improve code quality and maintainability using TDD techniques.
-
-**Acceptance Criteria**:
-
-```gherkin
-Given a new project setup,
-When I open the Gilded Rose Kata project,
-Then I should see the initial legacy code and corresponding test cases.
-
-Given the initial test cases,
-When I refactor the legacy code,
-Then all tests should pass according to the specified requirements.
-
-Given the refactored code,
-When I run the tests,
-Then I should see improved code quality and maintainability without altering the functionality.
-```
-
-## Title
-
 Setup API Project
 
 ## List Name
@@ -520,7 +517,203 @@ When I run the tests,
 Then I should see correct responses for various API requests as specified in the tests.
 ```
 
+## Title
+
+Day 1 Morning Slide Deck
+
+## List Name
+
+To Do
+
+## Labels
+
+- Course Content
+- Course Slide Deck
+
+## Description
+
+**Business Value:** Ensure participants are introduced to the course objectives and foundational concepts of TDD and AI tools effectively.
+
+**Problem:** Participants need clear, engaging slides to follow along with the initial topics and exercises.
+
+**Description:**
+Develop slides covering the following topics:
+
+- Welcome and Introductions
+- Course Objectives and Structure
+- Introduction to TDD with Fizz Buzz Kata
+- Practical Exercise: Fizz Buzz Kata (Parse String Time) with TDD and AI Tools
+- Software Craftsmanship and Extreme Programming
+- Wrap-Up and Q&A
+
+**Acceptance Criteria:**
+
+```gherkin
+Given the course outline,
+When the slides for Day 1 Morning are created,
+Then they should cover all specified topics and exercises
+And be reviewed and approved by the course instructor.
+```
+
+## Title
+
+Day 1 Afternoon Slide Deck
+
+## List Name
+
+To Do
+
+## Labels
+
+- Course Slide Deck
+- Course Content
+
+## Description
+
+**Business Value:** Provide a comprehensive continuation of the morning session, ensuring participants understand AI tools and refactoring techniques.
+
+**Problem:** Participants need engaging slides to follow along with the AI tools overview and hands-on exercises.
+
+**Description:**
+Develop slides covering the following topics:
+
+- Overview of AI Tools and Current Capabilities
+- Bowling Kata
+- Refactoring Techniques and Clean Code Concepts
+- Introduction to the Roman Numeral Calculator Kata
+- Practical Exercise: Roman Numeral Calculator Kata with TDD and AI Tools
+- Wrap-Up and Q&A
+
+**Acceptance Criteria:**
+
+```gherkin
+Given the course outline,
+When the slides for Day 1 Afternoon are created,
+Then they should cover all specified topics and exercises
+And be reviewed and approved by the course instructor.
+```
+
+## Title
+
+Day 2 Morning Slide Deck
+
+## List Name
+
+To Do
+
+## Labels
+
+- Course Slide Deck
+- Course Content
+
+## Description
+
+**Business Value:** Ensure participants delve deeper into TDD and software craftsmanship using AI tools.
+
+**Problem:** Participants need detailed and clear slides to understand advanced TDD practices and code smells.
+
+**Description:**
+Develop slides covering the following topics:
+
+- Recap and Introduction
+- Gilded Rose Kata with TDD and AI Tools
+- Code Smells and Design Patterns
+- Wrap-Up and Q&A
+
+**Acceptance Criteria:**
+
+```gherkin
+Given the course outline,
+When the slides for Day 2 Morning are created,
+Then they should cover all specified topics and exercises
+And be reviewed and approved by the course instructor.
+```
+
+## Title
+
+Day 2 Afternoon Slide Deck
+
+## List Name
+
+To Do
+
+## Labels
+
+- Course Slide Deck
+- Course Content
+
+## Description
+
+**Business Value:** Conclude the course with practical AI-driven coding exercises and deployment techniques.
+
+**Problem:** Participants need comprehensive slides to understand prompt engineering and build a simple API application.
+
+**Description:**
+Develop slides covering the following topics:
+
+- Introduction to Prompt Engineering
+- Stubs, Mocks, Fakes, and Doubles
+- Building a Simple API Application
+- Deploying the Application using GitHub Actions
+- Wrap-Up and Q&A
+
+**Acceptance Criteria:**
+
+```gherkin
+Given the course outline,
+When the slides for Day 2 Afternoon are created,
+Then they should cover all specified topics and exercises
+And be reviewed and approved by the course instructor.
+```
+
 # DOING
+
+## Title
+
+Setup Gilded Rose Kata
+
+## List Name
+
+Doing
+
+## Labels
+
+- Course Content
+- Course Katas
+
+## Description
+
+**Business Value**: Provide a real-world legacy code refactoring challenge for participants to practice TDD and improve code quality.
+
+**Problem**: Participants need to practice refactoring legacy code using TDD to improve code quality and maintainability.
+
+**Description**: As a participant, I want to set up the Gilded Rose Kata so that I can practice writing tests and refactoring legacy code. This will help me understand how to improve code quality and maintainability using TDD techniques.
+
+**Acceptance Criteria**:
+
+```gherkin
+Given a new project setup,
+When I open the Gilded Rose Kata project,
+Then I should see the initial legacy code and corresponding test cases.
+
+Given the initial test cases,
+When I refactor the legacy code,
+Then all tests should pass according to the specified requirements.
+
+Given the refactored code,
+When I run the tests,
+Then I should see improved code quality and maintainability without altering the functionality.
+```
+
+## Title
+
+Setup Certification Program
+
+## List Name
+
+Doing
+
+# DONE
 
 ## Title
 
@@ -528,7 +721,7 @@ Setup Roman Numeral Calculator Kata
 
 ## List Name
 
-Doing
+Review
 
 ## Labels
 
@@ -558,16 +751,6 @@ Given the completed Roman numeral conversion logic,
 When I run the tests,
 Then I should see correct Roman numeral outputs for various numbers.
 ```
-
-## Title
-
-Setup Certification Program
-
-## List Name
-
-Doing
-
-# DONE
 
 ## Title
 
